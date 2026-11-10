@@ -1,0 +1,745 @@
+{
+  "/": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        }
+      ]
+    }
+  ],
+  "/about-us": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Kalyani",
+          "item": "https://kalyanicasttech.com/about-us"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/about-us",
+      "mainEntity": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      }
+    }
+  ],
+  "/facilities": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Manufacturing",
+          "item": "https://kalyanicasttech.com/manufacturing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Manufacturing Facilities",
+          "item": "https://kalyanicasttech.com/facilities"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ManufacturingPlant",
+      "name": "Rewari Manufacturing Works",
+      "parentOrganization": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Village Mamaria Thethar, Tehsil Khol",
+        "addressLocality": "Rewari",
+        "addressRegion": "Haryana",
+        "postalCode": "123101",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-9650891119",
+      "description": "Principal manufacturing facility of Kalyani Cast Tech Limited housing container fabrication sheds, dual induction furnaces, and structural load testing rigs."
+    }
+  ],
+  "/shivlakha-rail-logistics/gati-shakti-terminal": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shivlakha",
+          "item": "https://kalyanicasttech.com/shivlakha-rail-logistics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gati Shakti Terminal",
+          "item": "https://kalyanicasttech.com/shivlakha-rail-logistics/gati-shakti-terminal"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gati Shakti Terminal (Shivlakha)",
+      "parentOrganization": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Khasra No. 438, Village Shivlakha, Taluka Bhachau",
+        "addressLocality": "Kachchh",
+        "addressRegion": "Gujarat",
+        "postalCode": "370145",
+        "addressCountry": "IN"
+      },
+      "description": "Operational 30-acre rail-linked Gati Shakti Terminal inaugurated on 15 September 2026, handling bulk cargo, general commodities, and industrial container movements."
+    }
+  ],
+  "/shivlakha-rail-logistics/inland-container-terminal": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shivlakha",
+          "item": "https://kalyanicasttech.com/shivlakha-rail-logistics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Inland Container Terminal",
+          "item": "https://kalyanicasttech.com/shivlakha-rail-logistics/inland-container-terminal"
+        }
+      ]
+    }
+  ],
+  "/products-applications": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Manufacturing",
+          "item": "https://kalyanicasttech.com/manufacturing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Products & Applications",
+          "item": "https://kalyanicasttech.com/products-applications"
+        }
+      ]
+    }
+  ],
+  "/investor-relations": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Investor Relations",
+          "item": "https://kalyanicasttech.com/investor-relations"
+        }
+      ]
+    }
+  ],
+  "/contact": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "@id": "https://kalyanicasttech.com/#corporation",
+      "name": "Kalyani Cast Tech Limited",
+      "legalName": "Kalyani Cast Tech Limited",
+      "alternateName": "Kalyani Cast Tech",
+      "url": "https://kalyanicasttech.com/",
+      "logo": "https://kalyanicasttech.com/favicon.png",
+      "description": "Indian manufacturer of freight containers, specialised cargo equipment, and precision castings at Rewari Works, Haryana, with multimodal terminal operations at Shivlakha, Kachchh, Gujarat.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "CIN",
+          "value": "L26990DL2012PLC242760"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "BSE Scrip Code",
+          "value": "544023"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B-144, Second Floor, DDA Shed, Phase-1, Okhla Industrial Area Phase-1",
+        "addressLocality": "New Delhi",
+        "postalCode": "110020",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9650891119",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9711735302",
+          "email": "cs@kalyanicasttech.com",
+          "contactType": "investor relations",
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.bseindia.com/stock-share-price/kalyani-cast-tech-ltd/kct/544023/",
+        "https://www.youtube.com/watch?v=7CTzRhpazSQ"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kalyanicasttech.com/#website",
+      "name": "Kalyani Cast Tech Limited",
+      "url": "https://kalyanicasttech.com/",
+      "publisher": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kalyanicasttech.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://kalyanicasttech.com/contact"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact & Commercial Enquiry",
+      "url": "https://kalyanicasttech.com/contact",
+      "mainEntity": {
+        "@id": "https://kalyanicasttech.com/#corporation"
+      }
+    }
+  ]
+}

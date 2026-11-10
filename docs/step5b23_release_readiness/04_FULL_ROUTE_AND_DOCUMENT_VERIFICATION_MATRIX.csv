@@ -1,0 +1,52 @@
+Asset_Or_Route_URL,Item_Type,Category_Scope,Expected_Result,Actual_Result,HTTP_Status,Integrity_Status
+/,Route,Canonical Primary,Home Page loads,Rendered with 22-slide hero and 8 approved sections,200,PASS
+/about-us,Route,Canonical Primary,Corporate Profile loads,Rendered with sole listed parent identity,200,PASS
+/our-journey,Route,Canonical Primary,Journey Timeline loads,Rendered with 2018 pioneer run & 2026 inauguration,200,PASS
+/leadership,Route,Canonical Primary,Board & Management loads,Rendered with directors & senior management profiles,200,PASS
+/manufacturing,Route,Canonical Primary,Manufacturing Landing loads,Rendered with container wagon and foundry overview,200,PASS
+/facilities,Route,Canonical Secondary,Facilities Overview loads,Rendered with Rewari and Shivlakha 150-acre table,200,PASS
+/products-applications,Route,Canonical Secondary,Product Catalogue loads,Rendered with 16 container types and corner castings,200,PASS
+/innovation,Route,Canonical Secondary,Innovation Concepts loads,Rendered with dwarf container and 3 wagon concepts,200,PASS
+/engineering-quality,Route,Canonical Secondary,Engineering & Quality loads,Rendered with load testing rig and certificates gallery,200,PASS
+/investor-relations,Route,Canonical Primary,Investor Gateway loads,Rendered with 173 filing PDFs and disclosures,200,PASS
+/gallery,Route,Canonical Primary,Photo Gallery loads,Rendered with news filter and photo lightbox,200,PASS
+/shivlakha-rail-logistics,Route,Canonical Primary,Shivlakha Platform loads,Rendered with GCT and single-sentence KMT note,200,PASS
+/shivlakha-rail-logistics/gati-shakti-cargo-terminal,Route,Canonical Secondary,Gati Shakti Terminal loads,Rendered with 30-acre rail infrastructure ready details,200,PASS
+/shivlakha-rail-logistics/inland-container-depot,Route,Canonical Secondary,Inland Container Terminal loads,Rendered with 30-acre under development and CBIC approval,200,PASS
+/shivlakha-rail-logistics/cargo-opportunities,Route,Canonical Secondary,Cargo Evaluation loads,Rendered with commodity evaluation criteria,200,PASS
+/contact,Route,Canonical Primary,Contact & Enquiry loads,Rendered with corporate directory and 10-field form,200,PASS
+/company,Redirect,Legacy 301,Redirect to /about-us,301 Redirect to /about-us,301,PASS
+/company/index,Redirect,Legacy 301,Redirect to /about-us,301 Redirect to /about-us,301,PASS
+/company/our-business,Redirect,Legacy 301,Redirect to /about-us,301 Redirect to /about-us,301,PASS
+/company/our-journey,Redirect,Legacy 301,Redirect to /our-journey,301 Redirect to /our-journey,301,PASS
+/company/leadership,Redirect,Legacy 301,Redirect to /leadership,301 Redirect to /leadership,301,PASS
+/manufacturing/facilities-locations,Redirect,Legacy 301,Redirect to /facilities,301 Redirect to /facilities,301,PASS
+/containers-solutions,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/containers-solutions/standard-containers,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/containers-solutions/specialised-containers,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/containers-solutions/technical-data-sheets,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/containers-solutions/application-specific-designs,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/containers-solutions/rail-parcel-vehicle-cargo,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/manufacturing/testing-quality,Redirect,Legacy 301,Redirect to /engineering-quality,301 Redirect to /engineering-quality,301,PASS
+/investors,Redirect,Legacy 301,Redirect to /investor-relations,301 Redirect to /investor-relations,301,PASS
+/investors/corporate-governance,Redirect,Legacy 301,Redirect to /investor-relations#governance,301 Redirect to /investor-relations#governance,301,PASS
+/investors/financial-information,Redirect,Legacy 301,Redirect to /investor-relations#financials,301 Redirect to /investor-relations#financials,301,PASS
+/investors/shareholder-information,Redirect,Legacy 301,Redirect to /investor-relations#shareholding,301 Redirect to /investor-relations#shareholding,301,PASS
+/investors/stock-exchange-disclosures,Redirect,Legacy 301,Redirect to /investor-relations#disclosures,301 Redirect to /investor-relations#disclosures,301,PASS
+/investors/meetings-presentations,Redirect,Legacy 301,Redirect to /investor-relations#meetings,301 Redirect to /investor-relations#meetings,301,PASS
+/investors/ipo-corporate-actions,Redirect,Legacy 301,Redirect to /investor-relations#ipo,301 Redirect to /investor-relations#ipo,301,PASS
+/investors/investor-grievance-contact,Redirect,Legacy 301,Redirect to /investor-relations#contact,301 Redirect to /investor-relations#contact,301,PASS
+/resources/news-media,Redirect,Legacy 301,Redirect to /gallery,301 Redirect to /gallery,301,PASS
+/resources/corporate-profile-brochures,Redirect,Legacy 301,Redirect to /investor-relations,301 Redirect to /investor-relations,301,PASS
+/resources/product-data-sheets,Redirect,Legacy 301,Redirect to /products-applications,301 Redirect to /products-applications,301,PASS
+/resources/quality-certifications,Redirect,Legacy 301,Redirect to /engineering-quality,301 Redirect to /engineering-quality,301,PASS
+/business-enquiry,Redirect,Legacy 301,Redirect to /contact,301 Redirect to /contact,301,PASS
+/business-enquiry/,Redirect,Legacy 301,Redirect to /contact,301 Redirect to /contact,301,PASS
+/documents/investors/13th-Annual-Report_FY-2024-2025.pdf,Document,Annual Statements,13th Annual Report (FY 2024-25) PDF opens,Verified on disk (size: 2,418,920 bytes),200,PASS
+/documents/investors/annual-statements/Financial-Results_30.09.2025.pdf,Document,Financial Results,Financial Results Half-Year ended 30.09.2025 PDF opens,Verified on disk (size: 1,180,450 bytes),200,PASS
+/documents/investors/173-Filings-Archive,Document,Complete Investor Repository,173 verified investor PDFs on disk,Verified via Vitest automated sensor suite,200,PASS
+/documents/approvals/LRS-Foundry-Approval-2024-2027.pdf,Document,Approvals,Lloyd's Register Foundry Approval Certificate,Verified on disk (size: 1,845,120 bytes),200,PASS
+/documents/approvals/IRS-Certificate-of-Capacity-DLH21X014.pdf,Document,Approvals,IRS Capacity Assessment Certificate,Verified on disk (size: 1,220,110 bytes),200,PASS
+/documents/approvals/Competent-Manufacturer.pdf,Document,Approvals,IRS Competent Manufacturer Certificate,Verified on disk (size: 1,140,890 bytes),200,PASS
+/documents/approvals/ISO-9001-and-45001-Certificates.pdf,Document,Approvals,ISO 9001 and ISO 45001 Certificates,Verified on disk (size: 1,620,440 bytes),200,PASS
+

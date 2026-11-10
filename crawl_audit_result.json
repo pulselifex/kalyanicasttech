@@ -1,0 +1,606 @@
+{
+  "summary": {
+    "canonicalCount": 11,
+    "canonicalAll200": true,
+    "exactTitleMatches": 11,
+    "exactH1Matches": 11,
+    "legacyCount": 13,
+    "legacyAll301": true,
+    "anchorsTested": 124,
+    "anchorsBroken": 0,
+    "assetsChecked": 37,
+    "assetsBroken": 0
+  },
+  "routeAuditResults": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Freight Containers & Rail Logistics | Kalyani Cast Tech",
+      "expectedTitle": "Freight Containers & Rail Logistics | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Engineering Solutions for Cargo Movement",
+      "expectedH1": "Engineering Solutions for Cargo Movement",
+      "h1Match": true,
+      "metaDesc": "Manufacturer of ISO and special-application freight containers and railway castings at Rewari, Haryana, with container manufacturing and a rail terminal at Shivlakha, Kachchh."
+    },
+    {
+      "route": "/about-us",
+      "status": 200,
+      "title": "About Kalyani Cast Tech | Containers & Castings",
+      "expectedTitle": "About Kalyani Cast Tech | Containers & Castings",
+      "titleMatch": true,
+      "h1": "About Kalyani Cast Tech Limited",
+      "expectedH1": "About Kalyani Cast Tech Limited",
+      "h1Match": true,
+      "metaDesc": "Kalyani Cast Tech Limited (BSE SME: 544023), incorporated 2012, manufactures freight containers and railway castings at Rewari, Haryana."
+    },
+    {
+      "route": "/leadership",
+      "status": 200,
+      "title": "Board of Directors & Management | Kalyani Cast Tech",
+      "expectedTitle": "Board of Directors & Management | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Board & Management",
+      "expectedH1": "Board & Management",
+      "h1Match": true,
+      "metaDesc": "Board of Directors, key managerial personnel and advisors of Kalyani Cast Tech Limited, with committee roles and operational backgrounds."
+    },
+    {
+      "route": "/manufacturing",
+      "status": 200,
+      "title": "Container & Foundry Manufacturing | Kalyani Cast Tech",
+      "expectedTitle": "Container & Foundry Manufacturing | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Container & Foundry Manufacturing",
+      "expectedH1": "Container & Foundry Manufacturing",
+      "h1Match": true,
+      "metaDesc": "Container fabrication lines, a Class A ferrous foundry to IS 12117:1996 and an ISO 1496 Series-1 test rig at Rewari, Haryana."
+    },
+    {
+      "route": "/facilities",
+      "status": 200,
+      "title": "Facilities & Locations | Rewari & Shivlakha",
+      "expectedTitle": "Facilities & Locations | Rewari & Shivlakha",
+      "titleMatch": true,
+      "h1": "Facilities & Locations",
+      "expectedH1": "Facilities & Locations",
+      "h1Match": true,
+      "metaDesc": "Kalyani Cast Tech's Rewari works in Haryana and the Shivlakha platform in Kachchh, with the status of each component stated separately."
+    },
+    {
+      "route": "/products-applications",
+      "status": 200,
+      "title": "Freight Containers, Dwarf & Coiltainers | Kalyani Cast Tech",
+      "expectedTitle": "Freight Containers, Dwarf & Coiltainers | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Products & Applications",
+      "expectedH1": "Products & Applications",
+      "h1Match": true,
+      "metaDesc": "16 container models from 20 ft to 42 ft: ISO dry, dwarf, open-top coiltainer, tank, hopper and CUBOID, plus railway and container castings."
+    },
+    {
+      "route": "/engineering-quality",
+      "status": 200,
+      "title": "Testing, Quality & NDT Laboratory | Kalyani Cast Tech",
+      "expectedTitle": "Testing, Quality & NDT Laboratory | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Engineering, Testing & Quality",
+      "expectedH1": "Engineering, Testing & Quality",
+      "h1Match": true,
+      "metaDesc": "ISO 1496 Series-1 container testing, floor-strength testing, a 40-tonne UTM, sub-zero impact testing at minus 45 C, and in-house USFD, MPI, DP and radiography."
+    },
+    {
+      "route": "/shivlakha-rail-logistics",
+      "status": 200,
+      "title": "Shivlakha Rail & Logistics, Kachchh | Kalyani Cast Tech",
+      "expectedTitle": "Shivlakha Rail & Logistics, Kachchh | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Shivlakha Rail & Logistics",
+      "expectedH1": "Shivlakha Rail & Logistics",
+      "h1Match": true,
+      "metaDesc": "The Shivlakha platform in Taluka Bhachau, Kachchh: operational container manufacturing and Gati Shakti Cargo Terminal, with wagon manufacturing and an ICD in development."
+    },
+    {
+      "route": "/resources",
+      "status": 200,
+      "title": "Data Sheets, Brochures & Certificates | Kalyani Cast Tech",
+      "expectedTitle": "Data Sheets, Brochures & Certificates | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Resources",
+      "expectedH1": "Resources",
+      "h1Match": true,
+      "metaDesc": "Controlled container data sheets, company brochures, Indian Register of Shipping and Lloyd's Register certificates, and published rail-logistics press coverage."
+    },
+    {
+      "route": "/investor-relations",
+      "status": 200,
+      "title": "Investor Relations | Kalyani Cast Tech Limited",
+      "expectedTitle": "Investor Relations | Kalyani Cast Tech Limited",
+      "titleMatch": true,
+      "h1": "Investor Relations",
+      "expectedH1": "Investor Relations",
+      "h1Match": true,
+      "metaDesc": "Official filings of Kalyani Cast Tech Limited (CIN L26990DL2012PLC242760, BSE SME 544023): financial results, annual reports, LODR disclosures and governance policies."
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact & Business Enquiry | Kalyani Cast Tech",
+      "expectedTitle": "Contact & Business Enquiry | Kalyani Cast Tech",
+      "titleMatch": true,
+      "h1": "Contact & Business Enquiry",
+      "expectedH1": "Contact & Business Enquiry",
+      "h1Match": true,
+      "metaDesc": "Registered office in New Delhi, Rewari works in Haryana, Shivlakha platform in Kachchh, Kolkata office and the investor grievance desk."
+    }
+  ],
+  "legacyResults": [
+    {
+      "legacyPath": "/company",
+      "status": 301,
+      "location": "http://localhost:3001/about-us",
+      "ok": true
+    },
+    {
+      "legacyPath": "/company/",
+      "status": 301,
+      "location": "http://localhost:3001/about-us",
+      "ok": true
+    },
+    {
+      "legacyPath": "/company/leadership",
+      "status": 301,
+      "location": "http://localhost:3001/leadership",
+      "ok": true
+    },
+    {
+      "legacyPath": "/company/leadership/",
+      "status": 301,
+      "location": "http://localhost:3001/leadership",
+      "ok": true
+    },
+    {
+      "legacyPath": "/manufacturing/facilities-locations",
+      "status": 301,
+      "location": "http://localhost:3001/facilities",
+      "ok": true
+    },
+    {
+      "legacyPath": "/manufacturing/facilities-locations/",
+      "status": 301,
+      "location": "http://localhost:3001/facilities",
+      "ok": true
+    },
+    {
+      "legacyPath": "/containers-solutions",
+      "status": 301,
+      "location": "http://localhost:3001/products-applications",
+      "ok": true
+    },
+    {
+      "legacyPath": "/containers-solutions/",
+      "status": 301,
+      "location": "http://localhost:3001/products-applications",
+      "ok": true
+    },
+    {
+      "legacyPath": "/manufacturing/testing-quality",
+      "status": 301,
+      "location": "http://localhost:3001/engineering-quality",
+      "ok": true
+    },
+    {
+      "legacyPath": "/manufacturing/testing-quality/",
+      "status": 301,
+      "location": "http://localhost:3001/engineering-quality",
+      "ok": true
+    },
+    {
+      "legacyPath": "/investors",
+      "status": 301,
+      "location": "http://localhost:3001/investor-relations",
+      "ok": true
+    },
+    {
+      "legacyPath": "/investors/",
+      "status": 301,
+      "location": "http://localhost:3001/investor-relations",
+      "ok": true
+    },
+    {
+      "legacyPath": "/business-enquiry",
+      "status": 301,
+      "location": "/contact",
+      "ok": true
+    }
+  ],
+  "modelMatrix": [
+    {
+      "id": 1,
+      "name": "20 Feet GP Container",
+      "nominal": "20' x 8' x 8.5'",
+      "maxPayload": "28,250 kg / 62,875 lb",
+      "cubicCapacity": "33.07 m³ / 1,168 cu.ft",
+      "stackingTestLoad": "96,012 kg / 211,670 lb",
+      "imageSrc": "/assets/containers/container-1.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 2,
+      "name": "20 Feet HC Container",
+      "nominal": "20' x 8' x 9.6'",
+      "maxPayload": "34,050 kg / 75,067 lb (at 36,500 kg gross; 28,500 kg at 30,950 kg gross)",
+      "cubicCapacity": "37.30 m³ / 1,317 cu.ft",
+      "stackingTestLoad": "96,012 kg / 211,670 lb",
+      "imageSrc": "/assets/containers/DSC_1608.JPG.jpeg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 3,
+      "name": "20 Feet HC Side Access Container",
+      "nominal": "20' x 8' x 9.5'",
+      "maxPayload": "33,400 kg / 73,634 lb",
+      "cubicCapacity": "37.37 m³ / 1,320 cu.ft",
+      "stackingTestLoad": "96,000 kg / 211,644 lb",
+      "imageSrc": "/assets/containers/container-2.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 4,
+      "name": "40 Feet HC Container",
+      "nominal": "40' x 8' x 9.5'",
+      "maxPayload": "35,300 kg / 77,823 lb",
+      "cubicCapacity": "84.00 m³ (84 Cu.m) / 2,966 cu.ft (verified for Cotton Bale cargo; Standard ISO 76.09 m³)",
+      "stackingTestLoad": "96,000 kg / 211,644 lb",
+      "imageSrc": "/assets/containers/Relink Logistics Cotton Loading Showcase.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 5,
+      "name": "40 Feet Side Access Dwarf Container",
+      "nominal": "40' x 8.5' x 6.3'",
+      "maxPayload": "31,700 kg / 69,886 lb",
+      "cubicCapacity": "54.10 m³ / 1,911 cu.ft",
+      "stackingTestLoad": "41,148 kg / 90,715 lb",
+      "imageSrc": "/assets/containers/SS Steel  Container.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 6,
+      "name": "40 Feet Open Top Coiltainer",
+      "nominal": "40' x 8' x 8.5'",
+      "maxPayload": "75,000 kg / 165,347 lb",
+      "cubicCapacity": "61.03 m³ / 2,155 cu.ft",
+      "stackingTestLoad": "88,888 kg / 195,964 lb",
+      "imageSrc": "/assets/containers/Spl Cont Salt n Steel cargoHD.jpeg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 7,
+      "name": "40 Feet HC Open Top Coiltainer",
+      "nominal": "40' x 8' x 9.5'",
+      "maxPayload": "74,500 kg / 164,244 lb",
+      "cubicCapacity": "69.54 m³ / 2,456 cu.ft",
+      "stackingTestLoad": "Per approved model datasheet",
+      "imageSrc": "/assets/containers/model-07-hc-open-top-coiltainer.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 8,
+      "name": "40 Feet Dwarf Open Top Coiltainer",
+      "nominal": "40'×8.5'×6.3'",
+      "maxPayload": "68,000 kg / 149,914 lb",
+      "cubicCapacity": "47.11 m³ / 1,664 cu.ft",
+      "stackingTestLoad": "41,148 kg / 90,715 lb",
+      "imageSrc": "/assets/containers/Salt  n multipurpose Containers.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 9,
+      "name": "40 Feet Universal Container, Openable Top",
+      "nominal": "40' x 8' x 9.5'",
+      "maxPayload": "66,500 kg / 146,607 lb",
+      "cubicCapacity": "68.62 m³ / 2,423 cu.ft",
+      "stackingTestLoad": "Per approved model datasheet",
+      "imageSrc": "/assets/containers/model-09-universal-openable-top.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 10,
+      "name": "42 Feet HC Open Coiltainer (8.5' Wide)",
+      "nominal": "42'×8.5'×9.5'",
+      "maxPayload": "62,100 kg / 136,907 lb",
+      "cubicCapacity": "81.38 m³ / 2,874 cu.ft",
+      "stackingTestLoad": "91,440 kg / 201,590 lb",
+      "imageSrc": "/assets/containers/model-10-42ft-hc-open-coiltainer-8-5w.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 11,
+      "name": "42 Feet Dwarf Open Top Container",
+      "nominal": "42'×8.5'×6.3'",
+      "maxPayload": "62,000 kg / 136,686 lb",
+      "cubicCapacity": "55.24 m³ / 1,951 cu.ft",
+      "stackingTestLoad": "91,440 kg / 201,590 lb",
+      "imageSrc": "/assets/containers/Yellow Timber Logistics Yard Montage.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 12,
+      "name": "42 Feet HC Open Top Coiltainer (8' Wide)",
+      "nominal": "42'×8'×9.5'",
+      "maxPayload": "60,220 kg / 132,762 lb",
+      "cubicCapacity": "69.56 m³ / 2,457 cu.ft",
+      "stackingTestLoad": "91,440 kg / 201,590 lb",
+      "imageSrc": "/assets/containers/CJ DARCL42 feet contr.png",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 13,
+      "name": "42 Feet HC for Coil and TMT Bars",
+      "nominal": "42'×8'×9.5'",
+      "maxPayload": "62,800 kg / 138,450 lb",
+      "cubicCapacity": "76.10 m³ / 2,687 cu.ft",
+      "stackingTestLoad": "91,440 kg / 201,590 lb",
+      "imageSrc": "/assets/containers/model-13-42ft-hc-coil-tmt.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 14,
+      "name": "20 Feet Tank Container",
+      "nominal": "20'×8.5'×9.5'",
+      "maxPayload": "33,000 kg / 72,752 lb",
+      "cubicCapacity": "31.00 m³ / 1,094 cu.ft",
+      "stackingTestLoad": "96,000 kg / 211,644 lb",
+      "imageSrc": "/assets/containers/model-14-20ft-tank-container.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 15,
+      "name": "20 Feet Hopper Container",
+      "nominal": "20'×8.5'×9.6'",
+      "maxPayload": "32,700 kg / 72,091 lb",
+      "cubicCapacity": "37.00 m³ / 1,306 cu.ft",
+      "stackingTestLoad": "96,000 kg / 211,643 lb",
+      "imageSrc": "/assets/containers/model-15-20ft-hopper-container.jpg",
+      "assetStatus": "HTTP 200 OK"
+    },
+    {
+      "id": 16,
+      "name": "CUBOID Container (Parcel, Two-Wheeler & Three-Wheeler Box)",
+      "nominal": "2.55 × 2.00 × 2.73 m",
+      "maxPayload": "2,500 kg / 5,512 lb",
+      "cubicCapacity": "12.50 m³ / 441 cu.ft",
+      "stackingTestLoad": "Multi-tier rail and yard stacking",
+      "imageSrc": "/assets/containers/Three-Tier Motorcycle Transport Container.png",
+      "assetStatus": "HTTP 200 OK"
+    }
+  ],
+  "assetResults": [
+    {
+      "assetUrl": "/assets/company/Kalyani Cast Tech Logo.jpeg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Steel Fabrication Hall in Action.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/containers/container-1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/containers/Salt  n multipurpose Containers.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/containers/40HC Bike Carrying Container.jpeg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/castings/corner-castings-for-containers.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/containers/40_spl_steel_drawing_elevation.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Industrial Container Boxing Process.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Contrs Coming Out from Paint Booth.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Industrial Container Fabrication Workshop.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/Shivlakha GCT Rail Terminal.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/Shivlakha GCT Rail Terminal1.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/Shivlakha GCT Rail Terminal2.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/shivlakha-isometric-masterplan.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Rewari Kalyani Casttech.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/images/leadership/Naresh-Kumar.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/images/leadership/Devender-Kumar.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/images/leadership/Javed-Aslam.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Precision Metal Fabrication Machines.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/castings/adapter-for-WDG4-loco.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/castings/bearing-housing-for-electrical-loco.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/castings/CI-brake-blocks.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/castings/end-covers-for-electrical-locos.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/manufacturing/Container Welding Process after Boxing.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Certificate-of-Capacity-1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Competent-Manufacturer-1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Foundry-Approval-from-LR-1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/7.1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Picture1.jpg",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/Admin Shivlakha.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/assets/shivlakha/Industrial Container Fabrication Workshop.png",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/corporate/Kalyani Cast Tech Limited — Master Content Document _ Website & Brochure Edition V1.0.pdf",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pptx",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Certificate-of-Capacity.pdf",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Competent-Manufacturer.pdf",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/approvals/Foundry-Approval-from-LR.pdf",
+      "status": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "assetUrl": "/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pdf",
+      "status": 200,
+      "ok": true,
+      "error": null
+    }
+  ],
+  "brokenAnchors": [],
+  "brokenAssets": [],
+  "brokenRoutes": []
+}

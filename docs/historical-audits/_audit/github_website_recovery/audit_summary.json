@@ -1,0 +1,53 @@
+{
+  "repository": {
+    "name": "pixel-perfect-painter-750",
+    "remoteUrl": "https://github.com/pulselifex/pixel-perfect-painter-750.git",
+    "branch": "main",
+    "currentCommit": "14b45910e56e303100039a6e2e70be6cc22b4960",
+    "commitCount": 28,
+    "trackedFilesCount": 125,
+    "directoriesCount": 12,
+    "workingTreeStatusBefore": "clean",
+    "identityConfirmed": true,
+    "client": "Kalyani Cast Tech Limited"
+  },
+  "architecture": {
+    "framework": "TanStack Start + React 19 + Vite 8",
+    "css": "Tailwind CSS v4 (@theme inline with oklch tokens)",
+    "componentLibrary": "shadcn/ui (Radix UI primitives)",
+    "totalPages": 34,
+    "totalRoutes": 34,
+    "routeMappingIntegrity": "100% (34 routes match 34 pages.json entries)",
+    "brokenImports": 0
+  },
+  "components": {
+    "totalUiPrimitives": 46,
+    "usedUiPrimitives": 20,
+    "unusedUiPrimitives": 26,
+    "siteComponents": [
+      "SiteHeader.tsx",
+      "SiteFooter.tsx",
+      "ContentPage.tsx",
+      "HomePage.tsx",
+      "EnquiryForm.tsx",
+      "ImageSlot.tsx",
+      "ShivlakhaStatus.tsx",
+      "SiteSearch.tsx",
+      "SiteLink.tsx"
+    ]
+  },
+  "assets": {
+    "physicalRasterImagesInGit": 1,
+    "assetPointersInGit": 1,
+    "remoteImagesPreserved": 1,
+    "missingPhotographsCount": 34,
+    "briefsDocumented": 34
+  },
+  "contentSummary": {
+    "totalExtractedContentItems": 669,
+    "statutoryPlaceholdersCount": 2,
+    "formValidationOnly": true,
+    "newsArticlesPublished": 0,
+    "documentsUploaded": 0
+  }
+}

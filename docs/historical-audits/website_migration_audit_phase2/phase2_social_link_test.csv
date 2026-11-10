@@ -1,0 +1,7 @@
+Test_ID,Channel_Description,URL,HTTP_Status,Verification_Status,UI_Placement,Notes
+"SOC-001","YouTube Video Demonstration — Dwarf Container Trial Run","https://www.youtube.com/watch?v=7CTzRhpazSQ",200,"VERIFIED (ACTIVE)","Footer YouTube icon & /resources/news-media","Demonstrates double stack dwarf container rail trials on electrified route"
+"SOC-002","YouTube Video Demonstration — Automated Corner Casting Line","https://www.youtube.com/watch?v=wnYvf_5fSiw",200,"VERIFIED (ACTIVE)","/resources/news-media","Demonstrates Rewari foundry automated casting line for ISO corner fittings"
+"SOC-003","YouTube Video Demonstration — Rewari Manufacturing Plant Overview","https://www.youtube.com/watch?v=XhjUVgQlKps",200,"VERIFIED (ACTIVE)","/resources/news-media","Demonstrates fabrication bays, welding jigs, and overhead crane bays"
+"SOC-004","YouTube Video Demonstration — Container Structural Testing","https://www.youtube.com/watch?v=3vDrnZM6LTs",200,"VERIFIED (ACTIVE)","/resources/news-media","Demonstrates prototype load and impact testing"
+"SOC-005","YouTube Channel Handle @kalyanicasttech","https://www.youtube.com/@kalyanicasttech",404,"FAILED (HANDLE UNCLAIMED)","Not rendered in UI (safely avoided)","Prior report claimed handle was verified; website correctly routes to video URL"
+"SOC-006","LinkedIn Corporate Page","https://www.linkedin.com/company/kalyani-cast-tech",null,"PENDING MANAGEMENT CREATION","Renders accessible disabled icon with tooltip","Corporate LinkedIn page not yet registered; zero broken links rendered"

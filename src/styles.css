@@ -1,0 +1,298 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-primary-deep: var(--primary-deep);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-overlay: var(--overlay);
+  /* Step 3 Reference Typography Stack with Sensible Fallbacks */
+  --font-display: "Archivo", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Step 3 Reference Core Industrial Palette */
+  --color-industrial-navy: #0e2a55;
+  --color-safety-orange: #e65100;
+  --color-foundry-surface: #f8fafc;
+  --color-iron-charcoal: #101820;
+  --color-steel-cobalt: #1b4b96;
+  --color-machined-slate: #556579;
+  --color-white: #ffffff;
+  --color-structural-border: #e2e8f0;
+
+  /* Backward-compatible semantic bindings */
+  --color-kct-navy-deep: #0e2a55;
+  --color-kct-navy-medium: #143a75;
+  --color-kct-blue-primary: #1b4b96;
+  --color-kct-orange: #e65100;
+  --color-kct-bg-soft: #f1f4f8;
+  --color-kct-border: #e2e8f0;
+  --color-kct-text-primary: #101820;
+  --color-kct-text-secondary: #556579;
+  --color-kct-amber-text: #8a4b00;
+  --color-kct-amber-bg: #fcf3e6;
+}
+
+:root {
+  --radius: 0.125rem;
+  --background: oklch(0.985 0.003 250);
+  --foreground: oklch(0.23 0.008 258);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.03 258);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.03 258);
+  --primary: oklch(0.45 0.14 260);
+  --primary-foreground: oklch(0.99 0 0);
+  --primary-deep: oklch(0.27 0.09 260);
+  --secondary: oklch(0.94 0.008 250);
+  --secondary-foreground: oklch(0.2 0.03 258);
+  --muted: oklch(0.955 0.005 250);
+  --muted-foreground: oklch(0.45 0.012 258);
+  --accent: oklch(0.93 0.03 255);
+  --accent-foreground: oklch(0.3 0.1 260);
+  --signal: oklch(0.78 0.15 75);
+  --signal-foreground: oklch(0.25 0.05 60);
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.89 0.008 255);
+  --input: oklch(0.86 0.01 255);
+  --ring: oklch(0.45 0.14 260);
+  --grid-line: oklch(1 0 0 / 7%);
+  --overlay: oklch(0.18 0.008 258 / 70%);
+  --chart-1: oklch(0.45 0.14 260);
+  --chart-2: oklch(0.6 0.1 220);
+  --chart-3: oklch(0.78 0.15 75);
+  --chart-4: oklch(0.5 0.02 258);
+  --chart-5: oklch(0.3 0.05 258);
+  --sidebar: oklch(0.985 0.003 250);
+  --sidebar-foreground: oklch(0.2 0.03 258);
+  --sidebar-primary: oklch(0.45 0.14 260);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.94 0.008 250);
+  --sidebar-accent-foreground: oklch(0.2 0.03 258);
+  --sidebar-border: oklch(0.89 0.008 255);
+  --sidebar-ring: oklch(0.45 0.14 260);
+}
+
+.dark {
+  --background: oklch(0.14 0.015 258);
+  --foreground: oklch(0.96 0.005 250);
+  --card: oklch(0.18 0.018 258);
+  --card-foreground: oklch(0.96 0.005 250);
+  --popover: oklch(0.18 0.018 258);
+  --popover-foreground: oklch(0.96 0.005 250);
+  --primary: oklch(0.62 0.16 260);
+  --primary-foreground: oklch(0.99 0 0);
+  --primary-deep: oklch(0.12 0.02 260);
+  --secondary: oklch(0.24 0.02 258);
+  --secondary-foreground: oklch(0.96 0.005 250);
+  --muted: oklch(0.22 0.015 258);
+  --muted-foreground: oklch(0.72 0.012 258);
+  --accent: oklch(0.26 0.03 255);
+  --accent-foreground: oklch(0.95 0.02 255);
+  --signal: oklch(0.78 0.15 75);
+  --signal-foreground: oklch(0.25 0.05 60);
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.28 0.015 258);
+  --input: oklch(0.28 0.015 258);
+  --ring: oklch(0.62 0.16 260);
+  --sidebar: oklch(0.16 0.015 258);
+  --sidebar-foreground: oklch(0.96 0.005 250);
+  --sidebar-primary: oklch(0.62 0.16 260);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.24 0.02 258);
+  --sidebar-accent-foreground: oklch(0.96 0.005 250);
+  --sidebar-border: oklch(0.28 0.015 258);
+  --sidebar-ring: oklch(0.62 0.16 260);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+    text-wrap: balance;
+  }
+  h2 {
+    font-size: clamp(1.85rem, 3vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: max(1.25rem, 20px);
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  p,
+  li {
+    font-size: max(1rem, 16px);
+    line-height: 1.65;
+    max-width: 65ch;
+    text-wrap: pretty;
+  }
+  td,
+  th {
+    font-size: max(0.875rem, 14px);
+    line-height: 1.5;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-industrial-navy, #0e2a55);
+    outline-offset: 2px;
+  }
+  .dark :focus-visible,
+  [data-theme="dark"] :focus-visible,
+  .hero-industrial :focus-visible {
+    outline: 2px solid var(--color-safety-orange, #e65100);
+    outline-offset: 2px;
+  }
+}
+
+/* Enforce minimum spec / badge / pill font size */
+@layer base {
+  .badge,
+  [data-slot="badge"],
+  [class*="pill"],
+  [class*="spec-"] {
+    font-size: max(0.875rem, 14px);
+    line-height: 1.5;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+@utility blueprint {
+  background-color: var(--primary-deep);
+}
+
+@utility hatch {
+  background-color: var(--muted);
+}
+
+@utility hero-industrial {
+  background-color: var(--color-kct-navy-deep);
+  color: #ffffff;
+}
+
+@utility section-soft {
+  background-color: var(--color-kct-bg-soft);
+}
+
+@utility card-industrial {
+  background-color: #ffffff;
+  border: 1px solid var(--color-kct-border);
+  border-radius: 0.5rem;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+@utility badge-amber {
+  background-color: var(--color-kct-amber-bg);
+  color: var(--color-kct-amber-text);
+  border: 1px solid rgba(138, 75, 0, 0.2);
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+  }
+  @media print {
+    header {
+      position: static !important;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

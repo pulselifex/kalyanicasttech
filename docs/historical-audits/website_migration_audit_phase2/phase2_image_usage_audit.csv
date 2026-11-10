@@ -1,0 +1,13 @@
+Asset_ID,Filename,Dimensions,File_Size_Bytes,Format,Quality_Rating,Intended_Page,Actual_Usage,Aspect_Ratio,Verification_Status
+"IMG-P2-001","Main-slider-1920x1100-1.jpg","1920x1100",300033,"JPEG","High Definition","Homepage Hero","Archived in public/images/legacy-site/ (Homepage uses crisp authentic Rewari Factory photo)","16:9","VERIFIED ARCHIVE"
+"IMG-P2-002","our-manufacturing-facilities.jpg","1920x1100",252558,"JPEG","High Definition","/manufacturing","Archived in public/images/legacy-site/","16:9","VERIFIED ARCHIVE"
+"IMG-P2-003","kalyan-cast-tech-building.jpg","1920x1100",198716,"JPEG","High Definition","/company","Archived in public/images/legacy-site/","4:3","VERIFIED ARCHIVE"
+"IMG-P2-004","about-r.jpg","1920x1100",592033,"JPEG","High Definition","/company/leadership","Active hero banner on /company/leadership","16:9","ACTIVE IN ROUTE_ASSETS"
+"IMG-P2-005","Containers-dwarf.jpg","1076x824",197335,"JPEG","High Resolution","/containers-solutions","Archived in public/images/legacy-site/","16:9","VERIFIED ARCHIVE"
+"IMG-P2-006","corner-castings-for-containers.png","250x170",89841,"PNG","Thumbnail (Low-Res)","/manufacturing","Product card thumbnail","1:1","VERIFIED ARCHIVE"
+"IMG-P2-007","CI-brake-blocks.png","250x170",82890,"PNG","Thumbnail (Low-Res)","/containers-solutions","Product card thumbnail","1:1","VERIFIED ARCHIVE"
+"IMG-P2-008","bearing-housing-for-electrical-loco-DIN17182-material-1.png","250x170",85607,"PNG","Thumbnail (Low-Res)","/manufacturing","Product card thumbnail","1:1","VERIFIED ARCHIVE"
+"IMG-P2-009","motor-hub-traction-motors.png","250x170",80899,"PNG","Thumbnail (Low-Res)","/manufacturing","Product card thumbnail","1:1","VERIFIED ARCHIVE"
+"IMG-P2-010","adapter-for-WDG4-loco.png","250x170",85008,"PNG","Thumbnail (Low-Res)","/manufacturing","Product card thumbnail","1:1","VERIFIED ARCHIVE"
+"IMG-P2-011","IMG_3574.jpg","640x480",113512,"JPEG","Standard Resolution","/manufacturing/facilities-locations","Archived in public/images/legacy-site/","4:3","VERIFIED ARCHIVE"
+"IMG-P2-012","IMG_4707.jpg","640x480",61499,"JPEG","Standard Resolution","/manufacturing/facilities-locations","Archived in public/images/legacy-site/","4:3","VERIFIED ARCHIVE"

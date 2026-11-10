@@ -1,0 +1,8 @@
+Test ID,Scenario / Workflow,Expected HTTP Status,Actual HTTP Status,Reference ID,Feedback Message,Security Controls Verified,Finding
+"ENQ-E2E-01","Kind A (Container Specification) - Valid Submission",200,200,"KCT-MVB75C2K","Server validation successful. (Preview Mode: Live transmission paused awaiting official corporate email gateway authorization).","Server validation, sanitization, preview mode logging active","PASS"
+"ENQ-E2E-02","Kind B (Logistics Movement) - Valid Submission",200,200,"KCT-MVB75C2M","Server validation successful. (Preview Mode: Live transmission paused awaiting official corporate email gateway authorization).","Server validation, sanitization, preview mode logging active","PASS"
+"ENQ-E2E-03","Kind A - Missing Mandatory Field (Contact Person)",422,422,"-","Validation failed on one or more required fields.","Server validation, sanitization, preview mode logging active","PASS"
+"ENQ-E2E-04","Kind B - Missing Consent Checkbox",422,422,"-","Validation failed on one or more required fields.","Server validation, sanitization, preview mode logging active","PASS"
+"ENQ-E2E-05","Security - Payload Size Limit Exceeded (>50KB)",413,413,"-","Payload size exceeds maximum permitted limit (50 KB).","Server validation, sanitization, preview mode logging active","PASS"
+"ENQ-E2E-06","Security - Rate Limiting Enforcement (Sliding Window)",429,429,"-","Too many submission attempts. Please wait a minute before retrying.","5 req/min rate limit, Retry-After header: 60","PASS"
+"ENQ-E2E-07","Security - HTTP Method Enforcement (GET /api/enquiries)",405,405,"-","Method Not Allowed. Only POST requests are accepted.","Method enforcement active, Allow: POST header verified","PASS"

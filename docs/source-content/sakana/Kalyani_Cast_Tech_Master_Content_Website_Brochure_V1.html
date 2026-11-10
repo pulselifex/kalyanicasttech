@@ -1,0 +1,3253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Kalyani Cast Tech Limited — Master Content Document | Website &amp; Brochure Edition V1.0
+    </title>
+    <meta
+      name="description"
+      content="Consolidated master content for Kalyani Cast Tech Limited: single source of truth for website copy, brochure copy, controlled facts, duplication and conflict register."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f1f3f2;
+        --surface: #ffffff;
+        --surface-2: #e6ebe9;
+        --ink: #14211f;
+        --ink-soft: #384744;
+        --muted: #5a6967;
+        --steel: #23414f;
+        --steel-2: #3c6273;
+        --steel-tint: #dde6ea;
+        --accent: #a34a08;
+        --accent-tint: #fbeede;
+        --flag: #8f2d2d;
+        --flag-tint: #fbeceb;
+        --ok: #1c6140;
+        --ok-tint: #e6f1ea;
+        --line: color-mix(in oklab, var(--ink) 13%, transparent);
+        --line-strong: color-mix(in oklab, var(--ink) 26%, transparent);
+        --step--1: clamp(0.74rem, 0.72rem + 0.1vw, 0.8rem);
+        --step-0: clamp(0.97rem, 0.94rem + 0.18vw, 1.06rem);
+        --step-1: clamp(1.1rem, 1.02rem + 0.4vw, 1.28rem);
+        --step-2: clamp(1.34rem, 1.18rem + 0.8vw, 1.8rem);
+        --step-3: clamp(1.8rem, 1.4rem + 1.9vw, 2.9rem);
+        --step-4: clamp(2.3rem, 1.6rem + 3.2vw, 4.1rem);
+        --space: clamp(1rem, 0.85rem + 0.8vw, 1.6rem);
+        --gap: clamp(1.4rem, 1rem + 2vw, 3rem);
+        --radius: 3px;
+        --shadow: 0 1px 1px rgba(20, 33, 31, 0.05), 0 10px 26px -18px rgba(20, 33, 31, 0.35);
+        --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+        --disp:
+          "IBM Plex Sans Condensed", "Hiragino Sans", "Yu Gothic", "Noto Sans JP", system-ui,
+          sans-serif;
+        --body:
+          "IBM Plex Serif", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--body);
+        font-size: var(--step-0);
+        line-height: 1.62;
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: var(--disp);
+        font-weight: 600;
+        line-height: 1.12;
+        letter-spacing: -0.012em;
+        margin: 0;
+      }
+      h1 {
+        font-size: var(--step-4);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+      h2 {
+        font-size: var(--step-3);
+      }
+      h3 {
+        font-size: var(--step-2);
+      }
+      h4 {
+        font-size: var(--step-1);
+        letter-spacing: 0;
+      }
+      h5 {
+        font-size: var(--step-0);
+        font-family: var(--disp);
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 0 0 0.85em;
+        max-width: 74ch;
+      }
+      a {
+        color: var(--steel);
+        text-decoration: none;
+        border-bottom: 1px solid color-mix(in oklab, var(--steel) 35%, transparent);
+      }
+      a:hover {
+        border-bottom-color: var(--steel);
+      }
+      :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      strong {
+        font-weight: 600;
+      }
+      em {
+        font-style: italic;
+      }
+      .mono {
+        font-family: var(--mono);
+        font-size: 0.9em;
+        font-feature-settings: "zero" 1;
+      }
+      .wrap {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 clamp(1rem, 3vw, 2.6rem);
+      }
+      .rule {
+        border: 0;
+        border-top: 1px solid var(--line);
+        margin: 0;
+      }
+
+      /* ---------- cover ---------- */
+      .cover {
+        background: var(--steel);
+        color: #eef3f4;
+        padding: clamp(2.4rem, 6vw, 5rem) 0 clamp(1.6rem, 4vw, 2.6rem);
+        position: relative;
+        overflow: hidden;
+      }
+      .cover:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.05) 0 1px,
+          transparent 1px 64px
+        );
+        pointer-events: none;
+      }
+      .cover .wrap {
+        position: relative;
+        z-index: 1;
+      }
+      .cover-top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.6rem;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #9fbccb;
+      }
+      .cover h1 {
+        color: #fff;
+        margin: 1.6rem 0 0.5rem;
+        max-width: 26ch;
+      }
+      .cover .sub {
+        font-family: var(--disp);
+        font-size: var(--step-1);
+        color: #c6d8e0;
+        font-weight: 500;
+        max-width: 52ch;
+        margin-bottom: 1.8rem;
+      }
+      .cover-note {
+        max-width: 64ch;
+        color: #c6d8e0;
+        font-size: var(--step-0);
+      }
+      .factstrip {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1px;
+        background: rgba(255, 255, 255, 0.16);
+        margin-top: clamp(1.6rem, 4vw, 2.8rem);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+      }
+      .factstrip div {
+        background: var(--steel);
+        padding: 0.85rem 1rem;
+      }
+      .factstrip .k {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #8fb0c0;
+        display: block;
+        margin-bottom: 0.35rem;
+      }
+      .factstrip .v {
+        font-family: var(--disp);
+        font-size: var(--step-1);
+        font-weight: 600;
+        color: #fff;
+        display: block;
+        line-height: 1.15;
+      }
+      .factstrip .s {
+        font-family: var(--mono);
+        font-size: 0.68rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #e0b27c;
+        display: block;
+        margin-top: 0.3rem;
+      }
+
+      /* ---------- nav ---------- */
+      .toc {
+        background: var(--surface);
+        border-bottom: 1px solid var(--line);
+      }
+      .toc ol {
+        list-style: none;
+        margin: 0;
+        padding: clamp(1.1rem, 3vw, 1.8rem) 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 0.15rem 1.6rem;
+      }
+      .toc li {
+        display: flex;
+        gap: 0.7rem;
+        align-items: baseline;
+        padding: 0.28rem 0;
+        border-bottom: 1px dotted var(--line);
+      }
+      .toc .n {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        color: var(--accent);
+        min-width: 2.1rem;
+      }
+      .toc a {
+        border: 0;
+        color: var(--ink);
+        font-family: var(--disp);
+        font-weight: 500;
+        font-size: var(--step-0);
+      }
+      .toc a:hover {
+        color: var(--steel);
+      }
+
+      /* ---------- sections ---------- */
+      main {
+        padding-bottom: clamp(3rem, 8vw, 6rem);
+      }
+      .sec {
+        padding: clamp(2.2rem, 6vw, 4rem) 0 0;
+      }
+      .sec > .wrap {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--gap);
+      }
+      .sec-head {
+        border-top: 2px solid var(--steel);
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1.2rem;
+        align-items: baseline;
+      }
+      .sec-num {
+        font-family: var(--mono);
+        font-size: var(--step-1);
+        color: var(--steel);
+        font-weight: 500;
+        letter-spacing: 0.02em;
+      }
+      .sec-head .eyebrow {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        display: block;
+        margin-bottom: 0.4rem;
+      }
+      .sec-head h2 {
+        max-width: 30ch;
+      }
+      .sec-lede {
+        font-size: var(--step-1);
+        color: var(--ink-soft);
+        max-width: 68ch;
+        font-family: var(--body);
+        line-height: 1.55;
+      }
+      .body-col {
+        max-width: none;
+      }
+      .body-col > * + * {
+        margin-top: 1rem;
+      }
+
+      /* ---------- blocks ---------- */
+      .grid2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--gap);
+      }
+      .grid3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.1rem;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 1.15rem 1.25rem;
+        box-shadow: var(--shadow);
+      }
+      .card h4 {
+        margin-bottom: 0.45rem;
+      }
+      .card p:last-child {
+        margin-bottom: 0;
+      }
+      .card.accent {
+        border-left: 3px solid var(--accent);
+      }
+      .card.flag {
+        border-left: 3px solid var(--flag);
+      }
+      .card.ok {
+        border-left: 3px solid var(--ok);
+      }
+      .card.steel {
+        border-left: 3px solid var(--steel);
+      }
+      .card .meta {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 0.5rem;
+      }
+
+      .callout {
+        background: var(--steel-tint);
+        border-left: 3px solid var(--steel);
+        padding: 1rem 1.2rem;
+        border-radius: var(--radius);
+      }
+      .callout p:last-child {
+        margin-bottom: 0;
+      }
+      .callout.warn {
+        background: var(--flag-tint);
+        border-left-color: var(--flag);
+      }
+      .callout.good {
+        background: var(--ok-tint);
+        border-left-color: var(--ok);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--surface);
+        font-size: 0.94em;
+        border: 1px solid var(--line);
+      }
+      caption {
+        caption-side: top;
+        text-align: left;
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--muted);
+        padding: 0.5rem 0 0.6rem;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 0.62rem 0.7rem;
+        border-bottom: 1px solid var(--line);
+      }
+      thead th {
+        background: var(--surface-2);
+        font-family: var(--disp);
+        font-size: 0.86em;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--steel);
+        border-bottom: 1px solid var(--line-strong);
+        position: sticky;
+        top: 0;
+      }
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+      tbody tr:nth-child(even) {
+        background: color-mix(in oklab, var(--surface-2) 42%, var(--surface));
+      }
+      td.n {
+        font-family: var(--mono);
+        font-size: 0.86em;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .tbl-scroll {
+        overflow-x: auto;
+        border-radius: var(--radius);
+      }
+      .tbl-scroll table {
+        min-width: 640px;
+      }
+
+      /* fact chips — signature element */
+      .chip {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 0.68rem;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        padding: 0.16rem 0.42rem;
+        border-radius: 2px;
+        border: 1px solid;
+        white-space: nowrap;
+        line-height: 1.35;
+      }
+      .c-ver {
+        color: var(--ok);
+        background: var(--ok-tint);
+        border-color: color-mix(in oklab, var(--ok) 35%, transparent);
+      }
+      .c-src {
+        color: var(--steel);
+        background: var(--steel-tint);
+        border-color: color-mix(in oklab, var(--steel) 35%, transparent);
+      }
+      .c-mgmt {
+        color: var(--accent);
+        background: var(--accent-tint);
+        border-color: color-mix(in oklab, var(--accent) 35%, transparent);
+      }
+      .c-verify {
+        color: var(--flag);
+        background: var(--flag-tint);
+        border-color: color-mix(in oklab, var(--flag) 35%, transparent);
+      }
+      .c-nogo {
+        color: #4a4a4a;
+        background: #ececec;
+        border-color: #c8c8c8;
+      }
+      .doc {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        padding: 0.08rem 0.32rem;
+        border: 1px solid var(--line-strong);
+        border-radius: 2px;
+        color: var(--ink-soft);
+        background: var(--surface-2);
+        white-space: nowrap;
+      }
+      .doc.keep {
+        color: var(--ok);
+        border-color: color-mix(in oklab, var(--ok) 45%, transparent);
+        background: var(--ok-tint);
+      }
+      .doc.cut {
+        color: var(--flag);
+        border-color: color-mix(in oklab, var(--flag) 40%, transparent);
+        background: var(--flag-tint);
+        text-decoration: line-through;
+      }
+      .dupe {
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        color: var(--flag);
+      }
+
+      /* page copy preview */
+      .copy {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-top: 3px solid var(--accent);
+        border-radius: var(--radius);
+        padding: 1.3rem 1.4rem 1.5rem;
+        box-shadow: var(--shadow);
+      }
+      .copy .kicker {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 0.7rem;
+      }
+      .copy h3 {
+        margin: 0.2rem 0 0.7rem;
+      }
+      .copy h4 {
+        margin: 1.3rem 0 0.35rem;
+        color: var(--steel);
+      }
+      .copy h5 {
+        margin: 1.1rem 0 0.3rem;
+        color: var(--muted);
+      }
+      .copy p {
+        max-width: 70ch;
+      }
+      .copy ul,
+      .copy ol {
+        max-width: 70ch;
+        padding-left: 1.15rem;
+      }
+      .copy li {
+        margin-bottom: 0.3rem;
+      }
+      .meta-block {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        color: var(--ink-soft);
+        background: var(--surface-2);
+        border-left: 3px solid var(--steel);
+        padding: 0.7rem 0.9rem;
+        margin-bottom: 1rem;
+        border-radius: var(--radius);
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+      }
+      .cta {
+        font-family: var(--disp);
+        font-weight: 600;
+        color: var(--accent);
+        font-size: 0.96em;
+      }
+
+      /* brochure spread */
+      .spread {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 1.1rem 1.2rem;
+        box-shadow: var(--shadow);
+      }
+      .spread .pg {
+        font-family: var(--mono);
+        font-size: var(--step-1);
+        color: var(--accent);
+        font-weight: 500;
+      }
+      .spread h4 {
+        margin-bottom: 0.4rem;
+      }
+      .spread .job {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 0.6rem;
+      }
+      .spread p:last-child {
+        margin-bottom: 0;
+      }
+
+      ol.steps {
+        counter-reset: s;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      ol.steps li {
+        counter-increment: s;
+        position: relative;
+        padding-left: 2.5rem;
+        margin-bottom: 0.65rem;
+      }
+      ol.steps li:before {
+        content: counter(s, decimal-leading-zero);
+        position: absolute;
+        left: 0;
+        top: 0.05em;
+        font-family: var(--mono);
+        font-size: 0.8rem;
+        color: var(--accent);
+        border: 1px solid var(--line-strong);
+        padding: 0.05rem 0.3rem;
+        border-radius: 2px;
+      }
+
+      .kv {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.4rem 1.2rem;
+        margin: 0;
+      }
+      .kv dt {
+        font-family: var(--mono);
+        font-size: var(--step--1);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .kv dd {
+        margin: 0;
+      }
+
+      footer {
+        background: var(--steel);
+        color: #c6d8e0;
+        padding: clamp(2rem, 5vw, 3rem) 0;
+        margin-top: clamp(2.5rem, 7vw, 5rem);
+      }
+      footer h4 {
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
+      footer p {
+        color: #a9c1cd;
+        font-size: 0.94em;
+      }
+      footer .mono {
+        color: #8fb0c0;
+      }
+
+      @media (max-width: 720px) {
+        .sec-head {
+          grid-template-columns: 1fr;
+          gap: 0.5rem;
+        }
+        .spread {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .cover h1,
+        .cover .sub,
+        .factstrip {
+          animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+        }
+        .cover .sub {
+          animation-delay: 0.08s;
+        }
+        .factstrip {
+          animation-delay: 0.16s;
+        }
+        @keyframes rise {
+          from {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          to {
+            opacity: 1;
+            transform: none;
+          }
+        }
+      }
+      @media print {
+        body {
+          background: #fff;
+          font-size: 10.5pt;
+        }
+        .toc,
+        .no-print {
+          display: none;
+        }
+        .cover {
+          background: #fff;
+          color: #14211f;
+          border-bottom: 2px solid #23414f;
+        }
+        .cover h1,
+        .cover .sub,
+        .cover-note,
+        .cover-top {
+          color: #14211f;
+        }
+        .factstrip {
+          background: none;
+          border-color: #c9d2d4;
+        }
+        .factstrip div {
+          background: none;
+        }
+        .factstrip .v {
+          color: #14211f;
+        }
+        .factstrip .k,
+        .factstrip .s {
+          color: #5a6967;
+        }
+        .sec {
+          page-break-inside: avoid;
+          padding-top: 1.6rem;
+        }
+        .card,
+        .copy,
+        .spread,
+        table {
+          box-shadow: none;
+        }
+        a {
+          color: #14211f;
+          border: 0;
+        }
+        footer {
+          background: #fff;
+          color: #14211f;
+        }
+        footer h4,
+        footer p,
+        footer .mono {
+          color: #14211f;
+        }
+      }
+      @page {
+        size: A4;
+        margin: 16mm;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cover">
+      <div class="wrap">
+        <div class="cover-top">
+          <span>Kalyani Cast Tech Limited</span>
+          <span>Master Content Document</span>
+          <span>Website &amp; Brochure Edition &middot; V1.0</span>
+          <span>September 2026</span>
+        </div>
+        <h1>One company. One factual narrative. Different versions for different audiences.</h1>
+        <p class="sub">
+          Consolidated master content for website and brochure production &mdash; extracted from ten
+          source documents, de-duplicated, conflict-checked and controlled by fact status.
+        </p>
+        <p class="cover-note">
+          This is the working master. It is not a statutory filing and not a substitute for current
+          management, legal or regulatory approval. Every figure below carries a status label: what
+          is verified, what is source-reported, what is a management target, and what must be
+          verified before it reaches a customer.
+        </p>
+
+        <div class="factstrip">
+          <div>
+            <span class="k">Corporate entity</span><span class="v">Kalyani Cast Tech Limited</span
+            ><span class="s">BSE 544023</span>
+          </div>
+          <div>
+            <span class="k">Operating SPV</span><span class="v">KMT Engineering Pvt Ltd</span
+            ><span class="s">51% subsidiary</span>
+          </div>
+          <div>
+            <span class="k">Shivlakha platform</span><span class="v">~150 acres</span
+            ><span class="s">Kachchh, Gujarat</span>
+          </div>
+          <div>
+            <span class="k">GCT</span><span class="v">Commissioned Aug 2026</span
+            ><span class="s">2&ndash;3 rakes/day today</span>
+          </div>
+          <div>
+            <span class="k">ICD</span><span class="v">30 acres</span
+            ><span class="s">Under development</span>
+          </div>
+          <div>
+            <span class="k">Rail / wharf</span><span class="v">720 m &times; 30 m</span
+            ><span class="s">Controlled figure</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Contents">
+      <div class="wrap">
+        <ol>
+          <li><span class="n">00</span><a href="#s00">How to use this master</a></li>
+          <li>
+            <span class="n">01</span><a href="#s01">Source inventory &amp; consolidation map</a>
+          </li>
+          <li><span class="n">02</span><a href="#s02">Duplication register</a></li>
+          <li><span class="n">03</span><a href="#s03">Controlled fact register</a></li>
+          <li><span class="n">04</span><a href="#s04">Conflict register &amp; resolution</a></li>
+          <li><span class="n">05</span><a href="#s05">Master corporate narrative</a></li>
+          <li>
+            <span class="n">06</span><a href="#s06">Website content master &mdash; copy-ready</a>
+          </li>
+          <li><span class="n">07</span><a href="#s07">Brochure content master</a></li>
+          <li><span class="n">08</span><a href="#s08">Cross-channel consistency rules</a></li>
+          <li><span class="n">09</span><a href="#s09">Terminology control</a></li>
+          <li><span class="n">10</span><a href="#s10">Publication gate checklist</a></li>
+          <li><span class="n">11</span><a href="#s11">Open verification register</a></li>
+          <li>
+            <span class="n">12</span
+            ><a href="#s12">Phasing &mdash; marketing &amp; investor next</a>
+          </li>
+        </ol>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ============ 00 ============ -->
+      <section class="sec" id="s00">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">00</span>
+            <div>
+              <span class="eyebrow">Purpose and method</span>
+              <h2>How to use this master</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              Ten documents describe this company in ten different ways. This master reduces them to
+              one controlled narrative, one fact register and one set of channel-ready copy blocks.
+            </p>
+
+            <div class="grid3">
+              <div class="card steel">
+                <div class="meta">Priority 1</div>
+                <h4>Website copy</h4>
+                <p>
+                  Six priority pages, production-ready. Metadata, direct-answer blocks, body copy,
+                  calls to action and the schema facts that must match the visible page. Section 06.
+                </p>
+              </div>
+              <div class="card accent">
+                <div class="meta">Priority 2</div>
+                <h4>Brochure copy</h4>
+                <p>
+                  Corporate, Shivlakha, GCT, container and wagon brochures built as spreads &mdash;
+                  not website text dropped into PDF. Section 07.
+                </p>
+              </div>
+              <div class="card">
+                <div class="meta">Phase 3 &mdash; held back</div>
+                <h4>Marketing &amp; investor</h4>
+                <p>
+                  LinkedIn, campaign and investor presentation content is deliberately not drafted
+                  yet. It depends on the fact register and the narrative being frozen first. Section
+                  12.
+                </p>
+              </div>
+            </div>
+
+            <h3>The order of work</h3>
+            <ol class="steps">
+              <li>
+                Freeze the controlled fact register (Section 03) and settle the conflicts (Section
+                04). Nothing downstream is safe until this is signed off.
+              </li>
+              <li>Approve the master corporate narrative and the boilerplates (Section 05).</li>
+              <li>
+                Build the website from the copy in Section 06, using only facts that carry a
+                publishable status.
+              </li>
+              <li>
+                Build the brochures from Section 07, keeping the same figures, dates and status
+                language.
+              </li>
+              <li>
+                Only then write marketing and investor content &mdash; with the investor layer
+                strictly separated from customer-facing claims.
+              </li>
+            </ol>
+
+            <div class="callout warn">
+              <p>
+                <strong>The one rule that matters most.</strong> Never convert a target into an
+                achieved result, capacity into production, a Letter of Intent into an operating
+                approval, or Stage-1 clearance into final approval. The status chips used throughout
+                this document exist to make that mistake visible before it reaches print.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 01 ============ -->
+      <section class="sec" id="s01">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">01</span>
+            <div>
+              <span class="eyebrow">Consolidation</span>
+              <h2>Source inventory &amp; consolidation map</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              Ten files were reviewed. Only three of them are content documents. The rest are either
+              the legacy baseline they replace, or governance layers that must not be re-published
+              as company copy.
+            </p>
+
+            <div class="tbl-scroll">
+              <table>
+                <caption>
+                  What each source document is, and what this master takes from it
+                </caption>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Source document</th>
+                    <th>What it actually is</th>
+                    <th>Role in this master</th>
+                    <th>Disposition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="n">01</td>
+                    <td><strong>Business Content Writer</strong> (role brief)</td>
+                    <td>
+                      Writer instructions, humanizer protocol, banned-filler list,
+                      fact-classification rules, controlled fact list
+                    </td>
+                    <td>
+                      Governance. Supplies the writing standard and the fact-status vocabulary used
+                      in Section 03.
+                    </td>
+                    <td><span class="doc">Keep internal</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">02</td>
+                    <td><strong>Website Content current 260926</strong></td>
+                    <td>
+                      Extraction of the live website: navigation, nine pages, product tables, client
+                      references, contact directory
+                    </td>
+                    <td>
+                      Legacy baseline. Source of every conflict in Section 04 and of the technical
+                      product material awaiting validation.
+                    </td>
+                    <td><span class="doc cut">Superseded</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">03</td>
+                    <td><strong>Website Content &amp; Architecture Master Plan V1</strong></td>
+                    <td>
+                      Target site architecture, page-by-page planning fields, content status system,
+                      production sequence
+                    </td>
+                    <td>
+                      Architecture. Section 06 keeps the six-page launch set and the status system.
+                    </td>
+                    <td><span class="doc keep">Absorbed</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">04</td>
+                    <td><strong>Master Company Content Document V1</strong></td>
+                    <td>
+                      Corporate narrative, corporate fact base, business architecture, audience
+                      message matrix, boilerplates, governance rules
+                    </td>
+                    <td>Backbone. Sections 03, 05 and 08 are built on this document.</td>
+                    <td><span class="doc keep">Absorbed</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">05</td>
+                    <td>
+                      <strong>Current vs Proposed Content Master V2 (Gemini Reviewed)</strong>
+                    </td>
+                    <td>
+                      Change map plus an external review register: what was adopted, adopted with
+                      qualification, or gated
+                    </td>
+                    <td>
+                      Decision record. The review register in Section 04 closes the items it left
+                      open.
+                    </td>
+                    <td><span class="doc">Decision log</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">06</td>
+                    <td><strong>Website Management Review V2 COMPLETE</strong></td>
+                    <td>
+                      Management-facing change map: old content, changes, new content, approval
+                      gates, publication gates
+                    </td>
+                    <td>
+                      Approval record. Section 10 reproduces the gate list in a signable form.
+                    </td>
+                    <td><span class="doc">Decision log</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">07</td>
+                    <td><strong>Website Full Content Master V1</strong></td>
+                    <td>First full draft of the six pages plus an AIEO/LLM layer</td>
+                    <td>
+                      Draft. Superseded by the production revision, but retains the discovery layer
+                      used in Section 06.
+                    </td>
+                    <td><span class="doc cut">Superseded</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">08</td>
+                    <td><strong>Website MASTER Final V2 Complete</strong></td>
+                    <td>
+                      Production-grade six pages with interactive utility specifications and first
+                      schema build
+                    </td>
+                    <td>Draft. Superseded by 09, which corrects its schema errors.</td>
+                    <td><span class="doc cut">Superseded</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">09</td>
+                    <td><strong>Final Production Revision V2 &mdash; SCHEMA CORRECTED</strong></td>
+                    <td>
+                      The controlled production copy for all six pages, with corrected schema and
+                      utility scoring
+                    </td>
+                    <td>
+                      <strong>Source of truth for website copy.</strong> Section 06 is drawn
+                      directly from this.
+                    </td>
+                    <td><span class="doc keep">Source of truth</span></td>
+                  </tr>
+                  <tr>
+                    <td class="n">10</td>
+                    <td><strong>Final Closure Points</strong></td>
+                    <td>
+                      Subsidiary control appendix: Product/Offer rules, wagon RDSO wording,
+                      Shivlakha schema correction, publication gate
+                    </td>
+                    <td>Control appendix. Sections 03, 09 and 10 apply it.</td>
+                    <td><span class="doc keep">Control appendix</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="callout">
+              <p>
+                <strong>Net effect.</strong> Four documents (02, 07, 08 and the copy sections of 05
+                and 06) describe the same six website pages. This master keeps one version of that
+                copy &mdash; from document 09 &mdash; and turns everything else into either a
+                decision record or a control list.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 02 ============ -->
+      <section class="sec" id="s02">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">02</span>
+            <div>
+              <span class="eyebrow">De-duplication</span>
+              <h2>Duplication register</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              The same content appears in up to five files, sometimes word-for-word. These are the
+              substantive repeats, and what happens to each.
+            </p>
+
+            <div class="tbl-scroll">
+              <table>
+                <caption>
+                  Content that exists in more than one document
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Repeated content</th>
+                    <th>Appears in</th>
+                    <th>Times</th>
+                    <th>Resolution in this master</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>Six-page website copy</strong> (Home, About, Shivlakha, GCT, Container
+                      &amp; Cargo Solutions, Business Enquiry)
+                    </td>
+                    <td class="n">07, 08, 09, and quoted inside 05 &amp; 06</td>
+                    <td class="n dupe">5</td>
+                    <td>Keep the version in 09 only. Section 06 is the single copy source.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Direct-answer blocks</strong> (40&ndash;50 words per page)</td>
+                    <td class="n">06, 07, 08, 09</td>
+                    <td class="n dupe">4</td>
+                    <td>Keep one block per page, word-count checked. Section 06.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Controlled fact table</strong> (720&times;30, 132 km, 86 km, 2&ndash;3
+                      rakes/day)
+                    </td>
+                    <td class="n">03, 04, 05, 06, 08, 09, 10</td>
+                    <td class="n dupe">7</td>
+                    <td>One register, Section 03. Every other mention references it.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Current vs proposed change map</strong></td>
+                    <td class="n">05, 06</td>
+                    <td class="n dupe">2</td>
+                    <td>Merged into one decision log; not re-published as content.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Interactive utility specifications</strong> (route qualification, rake
+                      planner, container configurator)
+                    </td>
+                    <td class="n">06, 07, 08, 09</td>
+                    <td class="n dupe">4</td>
+                    <td>One specification per tool, held in Section 06, released in phases.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Schema.org JSON-LD graph</strong> per page</td>
+                    <td class="n">07, 08, 09, 10</td>
+                    <td class="n dupe">4</td>
+                    <td>
+                      Implement from 09 as corrected by 10. Only the corrections are printed here
+                      (Section 06).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Terminology control table</strong> (commissioned / target / under
+                      development / LoI)
+                    </td>
+                    <td class="n">04, 06, 07, 09</td>
+                    <td class="n dupe">4</td>
+                    <td>Single table, Section 09.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Publication gate checklist</strong></td>
+                    <td class="n">06, 09, 10</td>
+                    <td class="n dupe">3</td>
+                    <td>Consolidated and made signable, Section 10.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Corporate boilerplates</strong> (25-word, 50-word, website version)
+                    </td>
+                    <td class="n">04, 09</td>
+                    <td class="n dupe">2</td>
+                    <td>One set of three, Section 05.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Legacy container specification table</strong> (20 products)</td>
+                    <td class="n">02, and partially in 08, 09</td>
+                    <td class="n dupe">3</td>
+                    <td>Not re-published. Held for product-master validation, Section 11.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="callout warn">
+              <p>
+                <strong>Why this matters commercially, not just editorially.</strong> A customer
+                comparing a brochure, a website page and a presentation that quote different Rewari
+                acreage, different Mundra distances and different wagon status will discount all
+                three. The register in Section 03 is the fix.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 03 ============ -->
+      <section class="sec" id="s03">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">03</span>
+            <div>
+              <span class="eyebrow">Single source of truth</span>
+              <h2>Controlled fact register</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              Every figure that may appear on the website, in a brochure or in a presentation is
+              listed once, with the exact wording permitted and the status that governs it. If a
+              fact is not in this table, it does not go into customer-facing material.
+            </p>
+
+            <div class="callout">
+              <p>
+                <strong>Status key.</strong> <span class="chip c-ver">Verified</span> safe to state
+                directly. <span class="chip c-src">Source info</span> stated in an approved project
+                source, use with that context.
+                <span class="chip c-mgmt">Mgmt target</span> management guidance or a stated target,
+                must be labelled. <span class="chip c-verify">To verify</span> do not publish as
+                fact until evidenced. <span class="chip c-nogo">Do not publish</span> removed from
+                public material.
+              </p>
+            </div>
+
+            <h3>Corporate identity</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Controlled wording</th>
+                    <th>Status</th>
+                    <th>Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Legal name</td>
+                    <td>Kalyani Cast Tech Limited</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>Use the full legal name. Retire "Private Limited".</td>
+                  </tr>
+                  <tr>
+                    <td>Listed status</td>
+                    <td>BSE: 544023</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>BSE SME platform, listed 17 Nov 2023.</td>
+                  </tr>
+                  <tr>
+                    <td>CIN</td>
+                    <td>L26990DL2012PLC242760</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>Verify against the current MCA record before each print run.</td>
+                  </tr>
+                  <tr>
+                    <td>Operating SPV</td>
+                    <td>
+                      KMT Engineering Private Limited &mdash; 51% subsidiary and operating SPV for
+                      the Shivlakha rail terminal and ICD project
+                    </td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>
+                      CIN U29202HR2024PTC119036. Never present the SPV and the listed parent as
+                      interchangeable.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Registered office</td>
+                    <td>
+                      B-144, 2nd Floor, DDA Shed, Phase-1, Okhla Industrial Area, New Delhi 110020
+                    </td>
+                    <td><span class="chip c-verify">To verify</span></td>
+                    <td>
+                      Legacy site shows two different registered addresses. Confirm before
+                      publishing either.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Regional offices</td>
+                    <td>Kolkata; overseas liaison, Canada</td>
+                    <td><span class="chip c-verify">To verify</span></td>
+                    <td>
+                      Confirm current status and whether the Canadian liaison is still active.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Rewari &mdash; established manufacturing base</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Controlled wording</th>
+                    <th>Status</th>
+                    <th>Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Location</td>
+                    <td>Mamaria Thethar, District Rewari, Haryana</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>PIN 123101 appears in the legacy site; confirm before print.</td>
+                  </tr>
+                  <tr>
+                    <td>Footprint</td>
+                    <td>More than 5 acres; more than 10,000 sq. m covered area</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>
+                      The legacy site says 3.5 acres and 6,000 sq. m. The current facility figure
+                      supersedes it.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Stated container capacity</td>
+                    <td>6,000&ndash;7,000 TEUs per year, stated</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Capacity is not production and not utilisation. Say "stated capacity".</td>
+                  </tr>
+                  <tr>
+                    <td>Capability</td>
+                    <td>Design, development, fabrication, testing and corner-casting production</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Corner-casting production is the differentiator worth naming.</td>
+                  </tr>
+                  <tr>
+                    <td>Foundry standing</td>
+                    <td>
+                      Class-A foundry position under IS 12117:1996, as stated in company materials
+                    </td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>
+                      Attribute it to company materials. Do not state "reaffirmed 2007" without the
+                      certificate.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Approvals</td>
+                    <td>Indian Register of Shipping; Lloyd's Register (corner castings)</td>
+                    <td><span class="chip c-verify">To verify</span></td>
+                    <td>Check current certificate number, scope and validity before printing.</td>
+                  </tr>
+                  <tr>
+                    <td>Test infrastructure</td>
+                    <td>
+                      ISO 1496 Series-1 prototype test rig; hydrostatic leak testing; 40-tonne UTM;
+                      Charpy V-notch to &minus;45&nbsp;&deg;C; NDT (USFD, MPI, DP, radiography)
+                    </td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>
+                      Strongest technical evidence in the legacy material. Use it as proof, not as
+                      the headline.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Shivlakha &mdash; rail and logistics platform</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Controlled wording</th>
+                    <th>Status</th>
+                    <th>Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Location</td>
+                    <td>Village Shivlakha, Taluka Bachau, District Kachchh, Gujarat</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>
+                      Standardise the spelling of Shivlakha and Bachau after address verification.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Land</td>
+                    <td>Approximately 150 acres</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Use "approximately" unless a legal land statement is required.</td>
+                  </tr>
+                  <tr>
+                    <td>Rail / paved wharf</td>
+                    <td>720 m &times; 30 m</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td><strong>Controlled figure.</strong> Retire every 700 m reference.</td>
+                  </tr>
+                  <tr>
+                    <td>Container manufacturing</td>
+                    <td>Started May 2026; 10,000 TEUs per year stated capacity</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Capacity wording only. Do not imply output or utilisation.</td>
+                  </tr>
+                  <tr>
+                    <td>Combined stated capacity</td>
+                    <td>16,000&ndash;17,000 TEUs per year, stated</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Rewari plus Shivlakha. Always say "stated".</td>
+                  </tr>
+                  <tr>
+                    <td>GCT</td>
+                    <td>Commissioned August 2026; inaugural commercial activity September 2026</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>"Commissioned" is the correct word. Not "fully operational".</td>
+                  </tr>
+                  <tr>
+                    <td>GCT identifiers</td>
+                    <td>
+                      Station code KEGS; numerical 08524078; Western Railway ARN No. 72 (Goods) of
+                      2026; track CC+8
+                    </td>
+                    <td><span class="chip c-verify">To verify</span></td>
+                    <td>
+                      Use exact documentary nomenclature. Do not broaden ARN into a certification
+                      claim.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>GCT current capability</td>
+                    <td>Approximately 2&ndash;3 rakes per day</td>
+                    <td><span class="chip c-mgmt">Mgmt target</span></td>
+                    <td>
+                      Source-reported practical capability. Not a guaranteed service commitment.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>GCT future target</td>
+                    <td>
+                      Approximately 4&ndash;5 rakes per day, subject to signalling/EOL upgrade
+                    </td>
+                    <td><span class="chip c-mgmt">Mgmt target</span></td>
+                    <td>The condition must always travel with the number.</td>
+                  </tr>
+                  <tr>
+                    <td>Wagon facility</td>
+                    <td>
+                      Phase-1 capacity 2,400 wagons per year; operations targeted January 2027
+                    </td>
+                    <td><span class="chip c-mgmt">Mgmt target</span></td>
+                    <td>Facility described as near completion. Never as current production.</td>
+                  </tr>
+                  <tr>
+                    <td>Wagon engineering</td>
+                    <td>
+                      49-wagon configuration, 11 &times; 3 + 4 &times; 4 units; 42-ft compatibility;
+                      100 km/h design speed; 83 / 74.6 MT loadability; guard container and 10-ft
+                      container provision
+                    </td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Use only where relevant, and only with the engineering context.</td>
+                  </tr>
+                  <tr>
+                    <td>Wagon approval</td>
+                    <td>RDSO Stage-1 approval only</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td><strong>Never</strong> describe Stage-1 as final approval.</td>
+                  </tr>
+                  <tr>
+                    <td>ICD</td>
+                    <td>30 acres; CBIC Letter of Intent obtained; under development</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>A Letter of Intent is not a commissioning.</td>
+                  </tr>
+                  <tr>
+                    <td>ICD timing</td>
+                    <td>Management target 1 April 2027; statutory backstop 10 September 2027</td>
+                    <td><span class="chip c-mgmt">Mgmt target</span></td>
+                    <td>Keep the target and the statutory deadline in separate words, always.</td>
+                  </tr>
+                  <tr>
+                    <td>DPD/DPE</td>
+                    <td>Provision for DPD/DPE-enabled EXIM cargo flows</td>
+                    <td><span class="chip c-verify">To verify</span></td>
+                    <td>No formal approval claim without documentary evidence.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Gateway references and capital</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Controlled wording</th>
+                    <th>Status</th>
+                    <th>Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mundra Port</td>
+                    <td>132 km by road and rail</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>Controlled. The legacy 850 km figure is wrong and must not survive.</td>
+                  </tr>
+                  <tr>
+                    <td>Tuna Port</td>
+                    <td>86 km</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>Controlled reference.</td>
+                  </tr>
+                  <tr>
+                    <td>Kandla / Deendayal Port</td>
+                    <td>81 km</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>
+                      Keep the legacy 80 km and the project 81 km from becoming two public figures.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Palanpur WDFC feeder junction</td>
+                    <td>231 rail km</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Rail distance, not road. State the method.</td>
+                  </tr>
+                  <tr>
+                    <td>Morbi ceramic belt</td>
+                    <td>75 km</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>The 96 km figure in older material is not promoted. One number only.</td>
+                  </tr>
+                  <tr>
+                    <td>Phase-1 GCT/PFT infrastructure</td>
+                    <td>&#8377;110 crore, stated in project material</td>
+                    <td><span class="chip c-src">Source info</span></td>
+                    <td>Phase-1 figure. Never merged with the long-term programme.</td>
+                  </tr>
+                  <tr>
+                    <td>Long-term capital programme</td>
+                    <td>
+                      &#8377;450&ndash;500 crore across multiple phases, stated in project material
+                    </td>
+                    <td><span class="chip c-mgmt">Mgmt target</span></td>
+                    <td>A phased plan, not deployed capital and not Phase-1 capex.</td>
+                  </tr>
+                  <tr>
+                    <td>Brand line</td>
+                    <td>Manufacture for India and World.</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                    <td>
+                      Existing approved corporate line in the September 2026 facility material.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Investor fact layer &mdash; held for the later phase</h3>
+            <div class="tbl-scroll">
+              <table>
+                <caption>
+                  Locked FY26 figures. Not for website or brochure use; the investor layer is
+                  written separately.
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Figure</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Revenue</td>
+                    <td>&#8377;149.99 Cr</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Operating EBITDA / margin</td>
+                    <td>&#8377;21.82 Cr / 14.55%</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>PAT / margin</td>
+                    <td>&#8377;17.05 Cr / 11.37%</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Operating cash flow</td>
+                    <td>&#8377;19.38 Cr</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Net worth / debt / cash</td>
+                    <td>&#8377;82.37 Cr / &#8377;1.87 Cr / &#8377;4.50 Cr</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Promoter holding / pledge</td>
+                    <td>59.48% / 0%</td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Share capital</td>
+                    <td>
+                      71,80,500 equity shares; 3,23,123 warrants outstanding; fully diluted
+                      75,03,623
+                    </td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                  <tr>
+                    <td>Warrant issue</td>
+                    <td>
+                      &#8377;582 per warrant; approximately &#8377;18.81 Cr; 25% upfront / 75% on
+                      exercise; allotted 23 September 2026; zero converted as at 25 September 2026
+                    </td>
+                    <td><span class="chip c-ver">Verified</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 04 ============ -->
+      <section class="sec" id="s04">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">04</span>
+            <div>
+              <span class="eyebrow">Conflicts</span>
+              <h2>Conflict register &amp; resolution</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              The source documents contradict each other in eight places. Conflicts are resolved by
+              the source hierarchy &mdash; latest verified management input first, then official
+              company source, then statutory record, then earlier project documents, then external
+              research. Nothing is silently reconciled.
+            </p>
+
+            <div class="tbl-scroll">
+              <table>
+                <caption>
+                  Where the documents disagree, and which figure wins
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Conflict</th>
+                    <th>Competing values</th>
+                    <th>Resolution</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Mundra Port distance</strong></td>
+                    <td>850 km (legacy site) vs 132 km (project sources)</td>
+                    <td>
+                      132 km by road and rail. The 850 km figure appears to be a road distance to a
+                      different reference point and is not supported.
+                    </td>
+                    <td><span class="chip c-nogo">Remove 850 km</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Rail / paved wharf length</strong></td>
+                    <td>700 m vs 720 m &times; 30 m</td>
+                    <td>
+                      720 m &times; 30 m is the controlled public figure across every channel and
+                      graphic.
+                    </td>
+                    <td><span class="chip c-nogo">Remove 700 m</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Rewari footprint</strong></td>
+                    <td>
+                      3.5 acres / 6,000 sq. m (legacy site) vs more than 5 acres / more than 10,000
+                      sq. m (current brochure)
+                    </td>
+                    <td>
+                      The current facility figure wins. The legacy figure is a pre-expansion
+                      position.
+                    </td>
+                    <td><span class="chip c-nogo">Remove legacy figures</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Kandla / Deendayal distance</strong></td>
+                    <td>80 km (legacy site) vs 81 km (project material)</td>
+                    <td>81 km, with the route method stated. One public number only.</td>
+                    <td><span class="chip c-verify">State the method</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Morbi distance</strong></td>
+                    <td>75 km vs 96 km in project material</td>
+                    <td>
+                      75 km is retained as the controlled reference. The 96 km figure is not
+                      promoted until the methodology is fixed.
+                    </td>
+                    <td><span class="chip c-verify">One number only</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>ICD operational target</strong></td>
+                    <td>Different target dates across earlier project intelligence</td>
+                    <td>
+                      Management target 1 April 2027 and statutory backstop 10 September 2027,
+                      stated as two separate things in that order.
+                    </td>
+                    <td><span class="chip c-mgmt">Label both</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Wagon approval status</strong></td>
+                    <td>
+                      Implied final approval in legacy material vs RDSO Stage-1 in current material
+                    </td>
+                    <td>
+                      Stage-1 approval only. Final approvals, production deployment and operating
+                      use remain subject to applicable railway and engineering requirements.
+                    </td>
+                    <td><span class="chip c-nogo">Remove final-approval implication</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Registered office address</strong></td>
+                    <td>
+                      Two different addresses in the legacy site (Okhla, New Delhi vs Kalkaji
+                      Extension, New Delhi)
+                    </td>
+                    <td>
+                      Unresolved. Confirm against the current MCA and BSE record before publishing
+                      either.
+                    </td>
+                    <td><span class="chip c-verify">Verify first</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Legacy certifications</strong></td>
+                    <td>"ISO 001:2001:2008" and similar wording on the old site</td>
+                    <td>
+                      Malformed and unusable. Replace only with the exact current certificate
+                      wording.
+                    </td>
+                    <td><span class="chip c-nogo">Remove</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Lloyd's Register / corner-casting approval</strong></td>
+                    <td>An old brochure statement without a certificate reference</td>
+                    <td>
+                      Do not rely on the brochure alone. Verify certificate number, scope and
+                      validity.
+                    </td>
+                    <td><span class="chip c-verify">Verify first</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="callout good">
+              <p>
+                <strong>Already settled &mdash; do not reopen.</strong> The 720 m &times; 30 m
+                configuration, Mundra at 132 km by road and rail, Tuna at 86 km, and the separation
+                of current GCT capability (2&ndash;3 rakes/day) from the future target (4&ndash;5
+                rakes/day) are closed decisions. They should not drift back into debate during
+                brochure production.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 05 ============ -->
+      <section class="sec" id="s05">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">05</span>
+            <div>
+              <span class="eyebrow">Company story</span>
+              <h2>Master corporate narrative</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              The story is not “a manufacturer becomes a logistics company.” It is an engineering
+              and freight-equipment business extending into rail-linked cargo infrastructure. Keep
+              the transition clear; keep the operating status of each asset separate.
+            </p>
+
+            <div class="copy">
+              <div class="kicker">Master narrative &middot; 101 words</div>
+              <p>
+                Kalyani Cast Tech Limited is an engineering and manufacturing company with
+                capabilities in freight containers, specialised cargo equipment and railway-related
+                products. Its established manufacturing base at Rewari, Haryana, provides the
+                foundation for a broader development at Shivlakha, Kachchh.
+              </p>
+              <p>
+                At Shivlakha, the company is bringing together container manufacturing, railway
+                wagon manufacturing, a Gati Shakti Cargo Terminal and an ICD under development. The
+                aim is to connect engineering and manufacturing with rail-linked cargo movement and,
+                as the required infrastructure and approvals are completed, an inland EXIM
+                interface.
+              </p>
+              <p>
+                The customer question stays practical: what is moving, between which locations, in
+                what volume, and how does it move today? Only then can the right equipment, route
+                and handling model be assessed.
+              </p>
+            </div>
+
+            <div class="grid3">
+              <div class="card steel">
+                <div class="meta">One sentence</div>
+                <p>
+                  Kalyani Cast Tech combines engineering, manufacturing and railway-domain
+                  experience to develop practical cargo solutions, with Shivlakha extending that
+                  base into a rail-linked logistics platform.
+                </p>
+              </div>
+              <div class="card">
+                <div class="meta">25-word boilerplate</div>
+                <p>
+                  Kalyani Cast Tech is an engineering and manufacturing company developing
+                  container, wagon and rail-linked cargo capabilities, with an integrated platform
+                  taking shape at Shivlakha, Kachchh.
+                </p>
+              </div>
+              <div class="card">
+                <div class="meta">Brand line</div>
+                <p><strong>Manufacture for India and World.</strong></p>
+                <p>
+                  Use only where a brand line is useful. It is not a substitute for a description of
+                  what the company makes.
+                </p>
+              </div>
+            </div>
+
+            <h3>Positioning architecture</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Layer</th>
+                    <th>Message</th>
+                    <th>Proof / boundary</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Company</td>
+                    <td>
+                      Engineering and manufacturing company serving freight and railway-related
+                      applications.
+                    </td>
+                    <td>Do not describe the company solely as an ICD operator.</td>
+                  </tr>
+                  <tr>
+                    <td>Established base</td>
+                    <td>
+                      Rewari: established container manufacturing, design, development, testing and
+                      corner-casting capability.
+                    </td>
+                    <td>Use current footprint and stated capacity only.</td>
+                  </tr>
+                  <tr>
+                    <td>Expansion</td>
+                    <td>Shivlakha: rail-linked manufacturing and logistics platform in Kachchh.</td>
+                    <td>Platform components have different operating statuses.</td>
+                  </tr>
+                  <tr>
+                    <td>Infrastructure</td>
+                    <td>Gati Shakti Cargo Terminal: rail access and cargo-handling layer.</td>
+                    <td>
+                      Commissioning milestone is future-dated relative to 24 March 2026; hold until
+                      verified.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Future logistics layer</td>
+                    <td>ICD / EXIM interface under development.</td>
+                    <td>CBIC LoI is not the same as operational readiness.</td>
+                  </tr>
+                  <tr>
+                    <td>Customer outcome</td>
+                    <td>
+                      Practical cargo solutions shaped around cargo, route, mode, handling and total
+                      logistics cost.
+                    </td>
+                    <td>No blanket savings or service promise.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Audience messages</h3>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Audience</th>
+                    <th>What they need to know</th>
+                    <th>Emphasis</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cargo owner / manufacturer</td>
+                    <td>Can this move my cargo reliably and economically?</td>
+                    <td>Suitability, route, handling, road/rail mix and trial process.</td>
+                  </tr>
+                  <tr>
+                    <td>Logistics / supply-chain head</td>
+                    <td>Will the operating model work?</td>
+                    <td>Flow, terminal interface, first/last mile, service scope and readiness.</td>
+                  </tr>
+                  <tr>
+                    <td>CFO / commercial head</td>
+                    <td>Does the total landed logistics cost make sense?</td>
+                    <td>Full-chain cost, assumptions, comparison method and sensitivities.</td>
+                  </tr>
+                  <tr>
+                    <td>3PL / freight forwarder</td>
+                    <td>Can this facility fit my customer's movement?</td>
+                    <td>Service catalogue, documents, handling and operating status.</td>
+                  </tr>
+                  <tr>
+                    <td>Investor</td>
+                    <td>What is established, what is being built, and what remains to execute?</td>
+                    <td>
+                      Historical performance, project status, capex, governance and evidence. Draft
+                      separately.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Government / institution</td>
+                    <td>What is being developed and under which approvals?</td>
+                    <td>Scope, regulatory status, infrastructure and milestone evidence.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 06 ============ -->
+      <section class="sec" id="s06">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">06</span>
+            <div>
+              <span class="eyebrow">Priority 1 &middot; website source of truth</span>
+              <h2>Website content master &mdash; copy-ready</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              The six pages below are the launch set: Home, About, Shivlakha, GCT, Container &amp;
+              Cargo Solutions, and Business Enquiry. This is the only section that should feed live
+              page copy. Metadata and schema must stay synchronized with what the visitor can see.
+            </p>
+
+            <div class="callout warn">
+              <p>
+                <strong>Publication hold on 2026 milestones.</strong> This master was prepared
+                against source documents that label themselves September 2026, while the present
+                date is 24 March 2026. Milestones stated as having occurred in May&ndash;September
+                2026 are still in the future as of this master date. Copy containing past-tense
+                claims below is proposed post-milestone wording only. Do not publish as achieved
+                until the dates and evidence are checked against the actual publication date.
+              </p>
+            </div>
+
+            <article class="copy" id="web-home">
+              <div class="kicker">Page 1 &middot; Home &middot; /</div>
+              <div class="meta-block">
+                Meta title: Kalyani Cast Tech | Rail &amp; Cargo Solutions Meta description: Kalyani
+                Cast Tech combines container manufacturing, rail-linked infrastructure and cargo
+                solutions across Rewari and Shivlakha, Kachchh. Open Graph title: Kalyani Cast Tech
+                | Manufacturing for Cargo. Rail for Movement. Open Graph description: Container
+                manufacturing, railway wagons and rail-linked cargo infrastructure across Rewari and
+                Shivlakha, Kachchh. Primary intent: Commercial investigation / informational
+              </div>
+              <h3>Manufacturing for Cargo. Rail for Movement. Infrastructure for the Journey.</h3>
+              <p>
+                Kalyani Cast Tech Limited builds freight equipment and rail-linked infrastructure
+                around one practical question: how does the customer's cargo need to move?
+              </p>
+              <p>
+                Our business combines an established manufacturing base at Rewari, Haryana with a
+                rail and logistics platform at Shivlakha, Kachchh, Gujarat. Shivlakha brings
+                container manufacturing, a Gati Shakti Cargo Terminal, Phase-1 wagon manufacturing
+                and an ICD under development onto one industrial platform.
+              </p>
+              <p class="cta">
+                Discuss Your Cargo &nbsp;|&nbsp; Explore Shivlakha &nbsp;|&nbsp; Explore Container
+                &amp; Cargo Solutions
+              </p>
+              <h4>From manufacturing capability to cargo movement</h4>
+              <p>
+                A container is useful only when it fits the cargo. A rail terminal is useful only
+                when the route works. A wagon matters only when it supports the cargo, loading
+                pattern and operating requirements.
+              </p>
+              <p>
+                Kalyani is building capabilities across the movement chain: cargo equipment, railway
+                wagons, rail access, terminal handling and an inland EXIM interface under
+                development. We start with the cargo, map the current route and understand the
+                operating constraints before deciding which capability should be evaluated.
+              </p>
+              <h4>Two locations. One cargo-oriented business.</h4>
+              <p>
+                <strong>Rewari, Haryana.</strong> An established manufacturing base at Mamaria
+                Thethar, with design, development, testing and corner-casting capabilities. Stated
+                container capacity: 6,000&ndash;7,000 TEUs per year.
+              </p>
+              <p>
+                <strong>Shivlakha, Kachchh.</strong> A rail-linked manufacturing and logistics
+                platform with 10,000 TEUs per year stated container capacity, a Gati Shakti Cargo
+                Terminal, Phase-1 wagon manufacturing and a 30-acre ICD under development.
+              </p>
+              <h4>Shivlakha at a glance</h4>
+              <ul>
+                <li>150-acre platform; rail / paved wharf 720 m &times; 30 m.</li>
+                <li>
+                  Container manufacturing: started May 2026; 10,000 TEUs/year stated capacity.
+                  <span class="chip c-mgmt">Date hold</span>
+                </li>
+                <li>
+                  GCT: source documents state commissioned August 2026; inaugural commercial
+                  activity September 2026. <span class="chip c-mgmt">Date hold</span>
+                </li>
+                <li>
+                  GCT current practical capability: approximately 2&ndash;3 rakes/day. Future
+                  target: 4&ndash;5, subject to signalling/EOL upgrade.
+                </li>
+                <li>
+                  Wagon facility: Phase-1 capacity 2,400/year; operations target January 2027. RDSO
+                  Stage-1 approval only.
+                </li>
+                <li>
+                  ICD: 30 acres, CBIC Letter of Intent, under development. Management target 1 April
+                  2027; statutory backstop 10 September 2027.
+                </li>
+                <li>Gateway references: Mundra 132 km by road and rail; Tuna 86 km.</li>
+              </ul>
+              <h4>The customer problem comes first</h4>
+              <p>
+                Customers may be dealing with high inland transport costs, multiple handling points,
+                empty repositioning, equipment availability issues, heavy or high-volume cargo,
+                difficult first/last mile, road dependence or EXIM cargo that needs a controlled
+                inland container and port interface.
+              </p>
+              <p>
+                Rail is not automatically cheaper. We evaluate the cargo, route, volume, equipment
+                and handling requirements to determine whether a workable commercial case exists.
+              </p>
+              <h4>Engineering supports the commercial solution</h4>
+              <p>
+                Kalyani's manufacturing base includes design, development, fabrication and testing.
+                It supports standard and specialised freight containers and provides the engineering
+                foundation for cargo-specific equipment.
+              </p>
+              <h4>Start with your route</h4>
+              <p>
+                Tell us where the cargo starts, where it needs to go, what you move, how much you
+                move and how it moves today. Our commercial team can then determine which Kalyani
+                capability deserves evaluation.
+              </p>
+              <p class="cta">Tell Us About Your Cargo</p>
+            </article>
+
+            <article class="copy" id="web-about">
+              <div class="kicker">Page 2 &middot; About &middot; /about-kalyani-cast-tech/</div>
+              <div class="meta-block">
+                Meta title: About Kalyani Cast Tech | Engineering &amp; Rail Logistics Meta
+                description: Learn about Kalyani Cast Tech's engineering base, Rewari manufacturing
+                facility and expansion into rail-linked cargo infrastructure at Shivlakha. Search
+                intent: Informational / commercial investigation
+              </div>
+              <h3>Engineering Built Around Freight</h3>
+              <p>
+                Kalyani Cast Tech Limited has built its business around engineering, manufacturing
+                and freight equipment. The company is extending that foundation into rail-linked
+                cargo infrastructure at Shivlakha, Kachchh.
+              </p>
+              <h4>Our manufacturing foundation</h4>
+              <p>
+                Kalyani's established Rewari facility at Mamaria Thethar, Haryana, covers more than
+                5 acres with more than 10,000 sq. m of covered area. Its current stated container
+                capacity is 6,000&ndash;7,000 TEUs annually.
+              </p>
+              <p>
+                The manufacturing base includes design, development, fabrication and testing
+                capabilities. Company materials also identify a Class-A foundry position under IS
+                12117:1996; the exact current certificate wording should be confirmed before
+                publication.
+              </p>
+              <h4>From freight equipment to a rail-linked platform</h4>
+              <p>
+                Shivlakha brings containers, rail infrastructure, a Gati Shakti Cargo Terminal,
+                wagon manufacturing and an ICD under development into one industrial location. Each
+                capability has a different operating status; the platform should not be presented as
+                if every component is already live.
+              </p>
+              <h4>Shivlakha development milestones</h4>
+              <ul>
+                <li>
+                  Container manufacturing: source documents state started May 2026; 10,000 TEUs/year
+                  stated capacity. <span class="chip c-mgmt">Verify date</span>
+                </li>
+                <li>
+                  GCT: source documents state commissioned August 2026; inaugural activity September
+                  2026. <span class="chip c-mgmt">Verify date</span>
+                </li>
+                <li>
+                  Wagon manufacturing: operations targeted January 2027; 2,400 wagons/year Phase-1.
+                </li>
+                <li>
+                  ICD: 30 acres, CBIC Letter of Intent, under development. Management target 1 April
+                  2027; statutory backstop 10 September 2027.
+                </li>
+              </ul>
+              <h4>Corporate structure</h4>
+              <p>
+                Kalyani Cast Tech Limited is the listed parent. KMT Engineering Private Limited is a
+                51% subsidiary and the operating SPV for the Shivlakha rail terminal and ICD
+                project. Keep the legal entities distinct in customer, investor and structured-data
+                content.
+              </p>
+              <h4>Our commercial principle</h4>
+              <p>
+                Infrastructure alone does not create cargo. A rail-connected facility becomes
+                commercially useful when cargo volume, origin, destination, handling requirements,
+                service pattern and total logistics cost make the movement workable. Commercial
+                development therefore starts with the cargo and the current route.
+              </p>
+              <p class="cta">Discuss Your Cargo</p>
+            </article>
+
+            <article class="copy" id="web-shivlakha">
+              <div class="kicker">
+                Page 3 &middot; Shivlakha &middot; /shivlakha-rail-logistics/
+              </div>
+              <div class="meta-block">
+                Meta title: Shivlakha Rail &amp; Logistics | Kachchh, Gujarat Meta description:
+                Explore Kalyani's Shivlakha platform: container manufacturing, rail infrastructure,
+                GCT, wagon manufacturing and a 30-acre ICD under development. Search intent:
+                Commercial investigation
+              </div>
+              <h3>Shivlakha Rail &amp; Logistics Platform</h3>
+              <p class="cta">A rail-linked manufacturing and cargo platform in Kachchh, Gujarat.</p>
+              <p>
+                Shivlakha brings container manufacturing, rail infrastructure, a Gati Shakti Cargo
+                Terminal, Phase-1 wagon manufacturing and an ICD under development onto one
+                industrial platform.
+              </p>
+              <h4>Shivlakha at a glance</h4>
+              <ul>
+                <li>Location: Village Shivlakha, Taluka Bachau, District Kachchh, Gujarat.</li>
+                <li>Total platform: approximately 150 acres.</li>
+                <li>Rail / paved wharf: 720 m &times; 30 m.</li>
+                <li>
+                  Container manufacturing: 10,000 TEUs/year stated capacity; May 2026 start date in
+                  source documents (future-dated; verify).
+                </li>
+                <li>
+                  GCT: KEGS; numerical code 08524078; ARN No. 72 (Goods) of 2026; CC+8. Identifiers
+                  require documentary validation.
+                </li>
+                <li>
+                  GCT: source documents state commissioned August 2026 and inaugural activity
+                  September 2026; future-dated relative to this master.
+                </li>
+                <li>
+                  GCT current practical capability: approximately 2&ndash;3 rakes/day. Future
+                  target: 4&ndash;5, subject to signalling/EOL upgrade.
+                </li>
+                <li>
+                  Wagon manufacturing: 2,400 wagons/year Phase-1; operations targeted January 2027.
+                </li>
+                <li>ICD: 30 acres; CBIC LoI; under development.</li>
+              </ul>
+              <h4>Rail infrastructure</h4>
+              <p>
+                The controlled public communication figure for the operational rail and paved-wharf
+                configuration is 720 m &times; 30 m. The terminal is associated with Western Railway
+                station code KEGS and Western Railway ARN No. 72 (Goods) of 2026; exact identifiers
+                and wording require source validation before publication.
+              </p>
+              <p>
+                The platform is designed around full-rake freight handling. Operating capability,
+                train composition and throughput remain subject to applicable railway operating
+                conditions.
+              </p>
+              <h4>GCT, wagons and ICD: three different statuses</h4>
+              <p>
+                <strong>GCT:</strong> source documents state commissioned August 2026, with
+                inaugural commercial activity in September 2026. Current practical capability is
+                stated at approximately 2&ndash;3 rakes per day; the 4&ndash;5 rake figure is a
+                future target subject to a signalling/EOL upgrade.
+              </p>
+              <p>
+                <strong>Wagon plant:</strong> Phase-1 capacity 2,400 per year; operations targeted
+                January 2027. RDSO Stage-1 approval only.
+              </p>
+              <p>
+                <strong>ICD:</strong> 30 acres, CBIC Letter of Intent, under development. It must
+                not be described as an operational customs facility before the applicable
+                milestones.
+              </p>
+              <h4>The route is the product</h4>
+              <p>
+                A cargo owner does not use a siding just because it exists. The route has to work
+                from factory to terminal, terminal to rail destination, and from there to the final
+                receiver or port. We evaluate origin, destination, cargo type, volume, current mode,
+                handling constraints, first/last mile, equipment, service frequency and total
+                logistics cost.
+              </p>
+              <h4>Gateway references</h4>
+              <p>
+                Mundra Port: 132 km by road and rail. Tuna Port: 86 km. Kandla/Deendayal Port: 81
+                km. Palanpur WDFC feeder junction: 231 rail km. Morbi Ceramic Belt: 75 km. These are
+                controlled route references; customer economics must use the exact route selected.
+              </p>
+              <h4>Why the integrated platform matters</h4>
+              <p>
+                Container manufacturing can support equipment availability. The GCT provides a rail
+                interface. Wagon manufacturing adds rolling-stock capability. The planned ICD
+                creates an inland EXIM pathway. The commercial benefit must be established route by
+                route, not assumed from the presence of the assets.
+              </p>
+              <p class="cta">Submit Your Route for Qualification</p>
+            </article>
+
+            <article class="copy" id="web-gct">
+              <div class="kicker">Page 4 &middot; GCT &middot; /shivlakha-gct/</div>
+              <div class="meta-block">
+                Meta title: Gati Shakti Cargo Terminal | Shivlakha GCT Meta description: Shivlakha's
+                Gati Shakti Cargo Terminal is described in project materials as commissioned in
+                August 2026; current practical capability is stated at approximately 2&ndash;3 rakes
+                per day. Search intent: Commercial investigation
+              </div>
+              <h3>Gati Shakti Cargo Terminal at Shivlakha</h3>
+              <p class="cta">
+                A rail-linked cargo handling facility within the Shivlakha manufacturing and
+                logistics platform.
+              </p>
+              <p>
+                <strong>Publication hold:</strong> the source documents state commissioning in
+                August 2026 and inaugural commercial activity in September 2026. Both dates are in
+                the future relative to this master date, 24 March 2026. Keep this page unpublished
+                until the timeline and evidence are confirmed.
+              </p>
+              <h4>GCT status and operating reference</h4>
+              <ul>
+                <li>Station code: KEGS; numerical code: 08524078.</li>
+                <li>Western Railway reference: ARN No. 72 (Goods) of 2026.</li>
+                <li>Commissioned: August 2026 (source claim; future-dated).</li>
+                <li>Inaugural commercial activity: September 2026 (source claim; future-dated).</li>
+                <li>Current practical capability: approximately 2&ndash;3 rakes/day.</li>
+                <li>
+                  Future target: approximately 4&ndash;5 rakes/day, subject to required
+                  signalling/EOL upgrade.
+                </li>
+                <li>Rail / paved wharf: 720 m &times; 30 m; track capability CC+8.</li>
+              </ul>
+              <h4>What the terminal does</h4>
+              <p>
+                The terminal connects cargo arriving from the industrial catchment to the railway
+                network. It is where a logistics plan becomes a train movement: cargo is received,
+                handled, assembled into the required train formation and dispatched, subject to
+                railway operating conditions.
+              </p>
+              <h4>How a customer should evaluate rail</h4>
+              <p>
+                Start with the current movement. Identify origin and destination, quantify volume,
+                confirm cargo density and loading method, measure first/last-mile requirements,
+                determine equipment and terminal-handling needs, establish the applicable rail route
+                and service frequency, compare complete route economics and run a controlled trial
+                where appropriate.
+              </p>
+              <h4>The GCT within the Shivlakha platform</h4>
+              <p>
+                The GCT is one component of a wider platform that includes container manufacturing,
+                wagon manufacturing and a planned ICD. Any combination of services, commercial terms
+                and operating availability must be confirmed for each movement.
+              </p>
+              <p class="cta">Qualify My Route</p>
+            </article>
+
+            <article class="copy" id="web-containers">
+              <div class="kicker">
+                Page 5 &middot; Container &amp; Cargo Solutions &middot; /container-cargo-solutions/
+              </div>
+              <div class="meta-block">
+                Meta title: Container &amp; Cargo Solutions | Kalyani Cast Tech Meta description:
+                Explore standard and specialised freight containers engineered around cargo type,
+                payload, access, loading method and route requirements. Search intent: Commercial
+                investigation / product discovery
+              </div>
+              <h3>The Container Should Fit the Cargo &mdash; Not the Other Way Around.</h3>
+              <p>
+                Kalyani Cast Tech manufactures standard and specialised freight containers for
+                cargoes where payload, volume, access, loading method, floor design or environmental
+                conditions require more than a standard box.
+              </p>
+              <p>
+                The right equipment starts with the cargo profile. We look at weight, dimensions,
+                density, loading and discharge method, route restrictions and handling requirements
+                before recommending a configuration.
+              </p>
+              <h4>Standard freight containers</h4>
+              <p>
+                The portfolio includes standard general-purpose and high-cube formats. Detailed
+                dimensions, tare weights, gross ratings and payloads should appear on product pages
+                only after validation against the current approved product master.
+              </p>
+              <h4>Specialised cargo containers</h4>
+              <p>
+                Specialised cargo can require a different internal volume, height, access
+                arrangement, discharge method, floor construction or material selection. Kalyani's
+                engineering portfolio includes dwarf containers, open-top configurations,
+                coiltainers, hopper containers and Cuboid configurations.
+              </p>
+              <h4>40-foot side-access dwarf container</h4>
+              <p>
+                A controlled engineering example is a 40-foot side-access dwarf configuration,
+                approximately 40 ft &times; 8.5 ft &times; 6.3 ft, with a stated 32.5 MT payload
+                example. The lower profile may be relevant where route clearance and railway
+                operating conditions permit. The actual configuration must be validated for the
+                route and equipment used.
+              </p>
+              <h4>Lightweight FRP flooring</h4>
+              <p>
+                Company engineering material describes composite FRP flooring as a lightweight floor
+                solution and cites an approximately 400 kg deadweight reduction in one example. Use
+                the final figure only from the approved specification for the exact model.
+              </p>
+              <h4>Grade 304 stainless-steel bulk salt container</h4>
+              <p>
+                Kalyani's specialised-container development includes Grade 304 stainless-steel
+                equipment for salt and corrosive bulk cargo applications. Final material grade,
+                payload, discharge arrangement, tare and operating approvals must be confirmed
+                against the current product and engineering record.
+              </p>
+              <h4>Cuboid and small-unit cargo applications</h4>
+              <p>
+                Cuboid configurations are relevant to modular parcel and small-unit cargo
+                applications, including two- and three-wheeler transport concepts. The right
+                configuration depends on dimensions, securing method, loading pattern and rail
+                operating requirements.
+              </p>
+              <h4>Engineering and testing</h4>
+              <p>
+                Manufacturing material documents automated seam-welding systems, structural jigs,
+                shot blasting, paint booths, hydrostatic testing and ISO 1496 Series-1 prototype
+                testing, as well as metallurgical analysis, UTM, impact, hardness and NDT
+                capabilities. Technical specifications and certification references should remain
+                linked to current approved product and quality records.
+              </p>
+              <p class="cta">Tell Us What You Need to Move</p>
+            </article>
+
+            <article class="copy" id="web-enquiry">
+              <div class="kicker">Page 6 &middot; Business Enquiry &middot; /business-enquiry/</div>
+              <div class="meta-block">
+                Meta title: Business Enquiry | Cargo, Rail &amp; Container Solutions Meta
+                description: Submit your cargo, route and equipment requirement to start a
+                structured commercial discussion with Kalyani Cast Tech. Search intent:
+                Transactional / commercial qualification
+              </div>
+              <h3>Let's Start With the Cargo.</h3>
+              <p>
+                If you are evaluating a container, rail, wagon or logistics requirement, give us the
+                basic facts. The more specific the route information, the more useful the first
+                commercial conversation can be.
+              </p>
+              <h4>What are you looking for?</h4>
+              <p>
+                Cargo / rail movement &middot; Standard or specialised container &middot; Railway
+                wagon &middot; Shivlakha site visit &middot; ICD / EXIM &middot; Logistics
+                partnership &middot; Transport / first-mile partnership &middot; General business
+                enquiry.
+              </p>
+              <h4>Minimum information we need</h4>
+              <p>
+                <strong>Required:</strong> name, company, designation, business email, mobile,
+                enquiry type, commodity/cargo, origin, destination and current logistics problem.
+              </p>
+              <p>
+                <strong>Preferred:</strong> monthly or annual volume, current mode, current route,
+                equipment requirement and expected start date.
+              </p>
+              <h4>Why we ask</h4>
+              <p>
+                A logistics solution cannot be evaluated from a commodity name alone. The same cargo
+                can need a different solution depending on where it is produced, where it is going,
+                how much moves, what equipment is available, how it is loaded and how the current
+                route performs.
+              </p>
+              <h4>What happens after you submit</h4>
+              <ol>
+                <li>Enquiry received and cargo/route information captured.</li>
+                <li>Relevant business stream and missing data identified.</li>
+                <li>Commercial discovery discussion.</li>
+                <li>Equipment, rail and terminal options evaluated.</li>
+                <li>Rates and operating assumptions established.</li>
+                <li>A controlled trial may be proposed where appropriate.</li>
+                <li>A successful trial may move toward regular business.</li>
+              </ol>
+              <h4>Site visits and partnerships</h4>
+              <p>
+                For a Shivlakha site visit, provide your company, purpose, preferred date, number of
+                visitors and areas of interest. Visits remain subject to site conditions and
+                approval. Partnership enquiries should describe geography, cargo or customer
+                segment, operating capability and the role proposed.
+              </p>
+              <p class="cta">Submit Your Cargo Requirement</p>
+              <p class="meta">
+                Implementation note: publish privacy notice, consent wording and retention policy
+                beside the form. Test CRM routing and human override before launch.
+              </p>
+            </article>
+
+            <h3>Website technical controls</h3>
+            <div class="grid2">
+              <div class="card steel">
+                <h4>Page structure &amp; discovery</h4>
+                <p>
+                  One H1 per page; logical H2/H3 hierarchy; canonical URLs; XML sitemap; robots.txt;
+                  page metadata; Open Graph/Twitter cards; descriptive image alt text; internal
+                  links; JSON-LD only for visible, supportable content.
+                </p>
+              </div>
+              <div class="card accent">
+                <h4>Schema corrections from the closure appendix</h4>
+                <p>
+                  Use Schema.org <code>Service</code>, not a non-standard LogisticsService type. Do
+                  not use <code>containedInPlace</code> to connect Shivlakha to the company: a place
+                  cannot contain an organisation in that way. Validate proposed coordinates 23.38 /
+                  70.36 before use.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Product and Offer schema</h4>
+                <p>
+                  Use Product/Offer only where the page visibly represents an enquiry-ready product
+                  and approved product data exists. Never invent price, stock, availability or
+                  delivery. Do not assert InStock unless operations has confirmed it. Enquiry URL
+                  may be used without an availability claim.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Commercial utilities</h4>
+                <p>
+                  Route economics, rake planning and container fit tools are specifications, not
+                  launch blockers. Build after route rates, approved product data, CRM routing and
+                  operating assumptions are controlled. Results must be labelled indicative and must
+                  not promise savings or operational feasibility.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 07 ============ -->
+      <section class="sec" id="s07">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">07</span>
+            <div>
+              <span class="eyebrow">Priority 2 &middot; brochure master</span>
+              <h2>Brochure content master</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              A brochure is not a website printed to PDF. A website page can afford three paragraphs
+              before the point; a brochure spread gets one idea, one number and one visual. These
+              are the spreads, in order, with the job each one does.
+            </p>
+
+            <div class="callout">
+              <p>
+                <strong>Design constraint that governs the copy.</strong> Nothing in a printed
+                brochure can be corrected after it goes to press, and a brochure usually outlives
+                the project status it describes. Every status word in print must carry its own date
+                or condition. Prefer figures with a shelf life over claims that expire.
+              </p>
+            </div>
+
+            <h3>Corporate brochure &mdash; 12-page structure</h3>
+
+            <div class="spread">
+              <span class="pg">P1</span>
+              <div>
+                <h4>Cover</h4>
+                <div class="job">Job: say what the company is, in seven words</div>
+                <p><strong>Manufacture for India and World.</strong></p>
+                <p>
+                  Kalyani Cast Tech Limited &middot; Freight containers &middot; Railway wagons
+                  &middot; Rail-linked cargo infrastructure &middot; Rewari and Shivlakha.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P2</span>
+              <div>
+                <h4>Who we are</h4>
+                <div class="job">Job: establish the business in one spread</div>
+                <p>
+                  Engineering and manufacturing company with capabilities in freight containers,
+                  specialised cargo equipment and railway-related products. Established
+                  manufacturing base at Rewari, Haryana. Rail-linked platform under development at
+                  Shivlakha, Kachchh. Listed on BSE (544023).
+                </p>
+                <p><em>Visual:</em> one map, two locations marked, nothing else on the spread.</p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P3</span>
+              <div>
+                <h4>What we make</h4>
+                <div class="job">Job: define the product families without a specification dump</div>
+                <p>
+                  Standard ISO containers &middot; high-cube and high-volume formats &middot; dwarf
+                  and rail-optimised containers &middot; open-top and coiltainer formats &middot;
+                  side-access formats &middot; hopper and tank formats &middot; modular and compact
+                  units &middot; railway and industrial cast components.
+                </p>
+                <p>
+                  <em>Rule:</em> family names and applications only. Dimensions, tare and payload go
+                  in the product data sheets, after validation.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P4</span>
+              <div>
+                <h4>Engineering capability</h4>
+                <div class="job">Job: prove the engineering, do not claim it</div>
+                <p>
+                  In-house design, development and testing. Prototype testing under ISO 1496
+                  Series-1. Hydrostatic leak testing. 40-tonne UTM, Charpy V-notch impact testing to
+                  &minus;45&nbsp;&deg;C, hardness testing, and an NDT laboratory covering
+                  ultrasonic, magnetic particle, dye penetrant and radiographic methods.
+                  Corner-casting production at Rewari.
+                </p>
+                <p>
+                  <em>Why this spread earns its place:</em> it is the only page a technical buyer
+                  will read closely.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P5</span>
+              <div>
+                <h4>Rewari</h4>
+                <div class="job">Job: describe the operating base, with figures</div>
+                <p>
+                  Mamaria Thethar, District Rewari, Haryana. More than 5 acres; more than 10,000 sq.
+                  m covered area. Stated container capacity 6,000&ndash;7,000 TEUs per year. Design,
+                  development, testing and corner-casting production on one site.
+                </p>
+                <p><em>Number to feature:</em> the stated capacity, labelled as stated capacity.</p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P6&ndash;P7</span>
+              <div>
+                <h4>Shivlakha</h4>
+                <div class="job">
+                  Job: the central project spread &mdash; the reason the brochure exists
+                </div>
+                <p>
+                  Approximately 150 acres at Village Shivlakha, Taluka Bachau, District Kachchh,
+                  Gujarat. Container manufacturing, a Gati Shakti Cargo Terminal, Phase-1 railway
+                  wagon manufacturing and a 30-acre ICD under development on one platform.
+                </p>
+                <p>
+                  Rail and paved wharf: 720 m &times; 30 m. Gateway references: Mundra 132 km by
+                  road and rail; Tuna 86 km; Kandla/Deendayal 81 km; Palanpur WDFC feeder junction
+                  231 rail km; Morbi ceramic belt 75 km.
+                </p>
+                <p>
+                  <em>Visual:</em> the platform diagram, with the four components drawn at their
+                  real operating status &mdash; commissioned, targeted, under development.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P8</span>
+              <div>
+                <h4>Gati Shakti Cargo Terminal</h4>
+                <div class="job">
+                  Job: explain what a rail-linked terminal does for a cargo owner
+                </div>
+                <p>
+                  Commissioned August 2026; inaugural commercial activity September 2026. Current
+                  practical capability approximately 2&ndash;3 rakes per day, with a future target
+                  of 4&ndash;5 subject to the required signalling/EOL upgrade. Station code KEGS.
+                  Rail and paved wharf 720 m &times; 30 m.
+                </p>
+                <p>
+                  <em>Rule:</em> the future figure never appears without the condition beside it.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P9</span>
+              <div>
+                <h4>Wagons and rolling stock</h4>
+                <div class="job">Job: present a new capability as a target, not as output</div>
+                <p>
+                  Phase-1 capacity of 2,400 wagons per year, with operations targeted for January
+                  2027. Current project reference: 49-wagon configuration, 11 &times; 3 + 4 &times;
+                  4 units, 42-ft compatibility, 100 km/h design speed. RDSO Stage-1 approval; final
+                  approvals and commercial deployment remain subject to applicable requirements.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P10</span>
+              <div>
+                <h4>ICD and EXIM</h4>
+                <div class="job">Job: describe the inland customs interface honestly</div>
+                <p>
+                  A 30-acre ICD under development. CBIC Letter of Intent obtained. Management target
+                  1 April 2027; statutory backstop 10 September 2027. The intended flow: gate &rarr;
+                  weighment &rarr; yard &rarr; customs &rarr; stuffing or destuffing &rarr; rail or
+                  road &rarr; port.
+                </p>
+                <p>
+                  <em>Rule:</em> the flow is an intended process illustration. It is not a statement
+                  that the facility is operational.
+                </p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P11</span>
+              <div>
+                <h4>Cargo we are built to serve</h4>
+                <div class="job">Job: let the reader find themselves</div>
+                <p>
+                  Bulk and minerals &middot; salt &middot; steel and metals &middot; ceramics
+                  &middot; industrial cargo &middot; EXIM cargo. For each, the questions that
+                  determine equipment: payload, density, loading and discharge method, route and
+                  handling constraints.
+                </p>
+                <p><em>CTA:</em> Start with your route.</p>
+              </div>
+            </div>
+            <div class="spread">
+              <span class="pg">P12</span>
+              <div>
+                <h4>Contact and enquiry</h4>
+                <div class="job">Job: make the next step specific</div>
+                <p>
+                  Tell us what you move, where it starts, where it needs to go and how it moves
+                  today. Commercial contact details, registered office and site details, verified
+                  before print.
+                </p>
+                <p>
+                  <em>Rule:</em> no tariffs, no guaranteed savings, no delivery commitments in a
+                  brochure.
+                </p>
+              </div>
+            </div>
+
+            <h3>Derivative brochures</h3>
+            <p>
+              Once the corporate brochure is frozen, the project and product brochures are assembled
+              from the same blocks rather than rewritten. That keeps a single fact set across
+              everything printed.
+            </p>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Brochure</th>
+                    <th>Source blocks</th>
+                    <th>What changes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Shivlakha project brochure</td>
+                    <td>P6&ndash;P10</td>
+                    <td>Expanded platform diagram, project timeline, site layout.</td>
+                  </tr>
+                  <tr>
+                    <td>GCT brochure</td>
+                    <td>P8 plus enquiry block</td>
+                    <td>Terminal operating detail and route qualification flow.</td>
+                  </tr>
+                  <tr>
+                    <td>Container / specialised-container brochure</td>
+                    <td>P3&ndash;P4</td>
+                    <td>
+                      Per-family pages, each with validated specification once the product master is
+                      signed off.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wagon brochure</td>
+                    <td>P9</td>
+                    <td>Engineering configuration detail and approval-status wording.</td>
+                  </tr>
+                  <tr>
+                    <td>Customer-specific capability statement</td>
+                    <td>P11 plus customer data</td>
+                    <td>Cargo, route and volume from the customer; no new company claims.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 08 ============ -->
+      <section class="sec" id="s08">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">08</span>
+            <div>
+              <span class="eyebrow">Control</span>
+              <h2>Cross-channel consistency rules</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              The same fact must read identically on a web page, a brochure spread, a presentation
+              slide and a proposal. Consistency is not a style preference here; it is what makes the
+              figures believable.
+            </p>
+            <div class="grid2">
+              <div class="card steel">
+                <h4>One fact, one wording</h4>
+                <p>
+                  Numbers, dates, place names and status words come from Section 03 verbatim. No
+                  channel gets a "rounder" number or a shorter date.
+                </p>
+              </div>
+              <div class="card steel">
+                <h4>Status travels with the fact</h4>
+                <p>
+                  Capacity is never written as production. A target is never written as a result. A
+                  Letter of Intent is never written as approval. A future rakes/day figure never
+                  appears without its condition.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Technical depth follows the reader</h4>
+                <p>
+                  Website leads with the commercial problem; brochures lead with capability; product
+                  data sheets carry the validated specifications. None of them leads with the same
+                  opening sentence.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Change one, review all</h4>
+                <p>
+                  When a controlled fact changes, the website page, metadata, schema, brochure,
+                  presentation and any downloaded PDF are reviewed together. A stale PDF is the most
+                  common source of a contradiction.
+                </p>
+              </div>
+              <div class="card accent">
+                <h4>Calls to action match the channel</h4>
+                <p>
+                  Website: start a route conversation. Brochure: request the technical specification
+                  or arrange a site visit. Proposal: agree a trial movement. Never the same generic
+                  "contact us" everywhere.
+                </p>
+              </div>
+              <div class="card flag">
+                <h4>Nothing invented, ever</h4>
+                <p>
+                  No customers, contracts, volumes, savings, tariffs, utilisation, revenue, order
+                  book or approvals that are not in an approved source. When information is missing,
+                  the material says so or omits the claim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 09 ============ -->
+      <section class="sec" id="s09">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">09</span>
+            <div>
+              <span class="eyebrow">Language</span>
+              <h2>Terminology control</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              Most factual errors in this material will come from a status word, not a number. These
+              are the words that must not be interchanged.
+            </p>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Use this</th>
+                    <th>Not this</th>
+                    <th>Why it matters</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Shivlakha Rail &amp; Logistics platform</td>
+                    <td>Calling the whole site "the ICD"</td>
+                    <td>The platform has four components at four different statuses.</td>
+                  </tr>
+                  <tr>
+                    <td>Gati Shakti Cargo Terminal (GCT)</td>
+                    <td>Calling the GCT an ICD</td>
+                    <td>Different facility, different approval regime, different customer use.</td>
+                  </tr>
+                  <tr>
+                    <td>ICD under development</td>
+                    <td>ICD operational</td>
+                    <td>A Letter of Intent is not a commissioning.</td>
+                  </tr>
+                  <tr>
+                    <td>Management target 1 April 2027</td>
+                    <td>Confirmed date</td>
+                    <td>The target and the statutory backstop are different things.</td>
+                  </tr>
+                  <tr>
+                    <td>Stated capacity</td>
+                    <td>Production, output, utilisation</td>
+                    <td>Capacity is a nameplate number, not a result.</td>
+                  </tr>
+                  <tr>
+                    <td>Current practical capability, approximately 2&ndash;3 rakes/day</td>
+                    <td>4&ndash;5 rakes/day as current</td>
+                    <td>The higher figure is a target conditioned on an upgrade.</td>
+                  </tr>
+                  <tr>
+                    <td>RDSO Stage-1 approval</td>
+                    <td>RDSO approval, final approval</td>
+                    <td>Stage-1 is a stage, not a clearance to operate commercially.</td>
+                  </tr>
+                  <tr>
+                    <td>Commissioned</td>
+                    <td>Fully operational</td>
+                    <td>Commissioning and commercial throughput are separate milestones.</td>
+                  </tr>
+                  <tr>
+                    <td>Provision for DPD/DPE-enabled flows</td>
+                    <td>DPD/DPE approved</td>
+                    <td>Provision is a design intent, not a regulatory status.</td>
+                  </tr>
+                  <tr>
+                    <td>Approximately 150 acres</td>
+                    <td>Exactly 150 acres</td>
+                    <td>Unless a legal land statement is required.</td>
+                  </tr>
+                  <tr>
+                    <td>Rail-linked</td>
+                    <td>End-to-end rail for every customer</td>
+                    <td>Most movements will combine road and rail.</td>
+                  </tr>
+                  <tr>
+                    <td>Potential / intended / designed to</td>
+                    <td>Guaranteed savings, assured outcome</td>
+                    <td>Economics are established route by route.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Writing standard</h3>
+            <div class="grid3">
+              <div class="card">
+                <h4>Specific over abstract</h4>
+                <p>
+                  Dates, locations, dimensions, capacities, cargo types and routes. Not
+                  "innovation", "excellence" or "commitment".
+                </p>
+              </div>
+              <div class="card">
+                <h4>Human rhythm</h4>
+                <p>
+                  Vary sentence length. Avoid the mechanical "X enables Y. X supports Y." pattern.
+                  Let a short sentence follow a long one.
+                </p>
+              </div>
+              <div class="card">
+                <h4>No filler vocabulary</h4>
+                <p>
+                  Avoid world-class, seamless, transformative, robust, unlock, game-changer,
+                  cutting-edge, best-in-class and their relatives unless genuinely the right word.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Active voice, plain English</h4>
+                <p>
+                  Write as an experienced professional explaining something to another professional.
+                  Contractions are acceptable where the audience allows.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Compress</h4>
+                <p>
+                  If 100 words carry the meaning, do not use 300. After drafting, remove the
+                  sentence that exists only to sound impressive.
+                </p>
+              </div>
+              <div class="card">
+                <h4>Stop when the point is made</h4>
+                <p>
+                  No automatic "in conclusion" paragraph. If a closing line is useful, make it
+                  specific.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 10 ============ -->
+      <section class="sec" id="s10">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">10</span>
+            <div>
+              <span class="eyebrow">Before anything goes public</span>
+              <h2>Publication gate checklist</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              This is the sign-off list that has to close before the website goes live and before
+              any brochure goes to press. It is grouped so that the right person can own each block.
+            </p>
+
+            <div class="grid2">
+              <div class="card steel">
+                <h4>A. Corporate and legal</h4>
+                <p>
+                  Legal name, BSE 544023 and CIN verified. Registered office address resolved (two
+                  conflicting addresses exist). KMT Engineering Private Limited name and CIN
+                  verified. The 51% subsidiary / operating SPV relationship confirmed against the
+                  current corporate record.
+                </p>
+              </div>
+              <div class="card steel">
+                <h4>B. Shivlakha project</h4>
+                <p>
+                  Approximately 150 acres confirmed. 720 m &times; 30 m confirmed across every
+                  graphic and document; no 700 m reference remains. 10,000 TEUs/year stated capacity
+                  wording confirmed. May 2026 container manufacturing milestone confirmed.
+                </p>
+              </div>
+              <div class="card accent">
+                <h4>C. GCT</h4>
+                <p>
+                  August 2026 commissioning and September 2026 inaugural activity confirmed. KEGS,
+                  08524078, ARN No. 72 (Goods) of 2026 and CC+8 validated against the railway
+                  source. Current 2&ndash;3 rakes/day separated from the 4&ndash;5 future target,
+                  and the signalling/EOL condition stated wherever the higher figure appears.
+                </p>
+              </div>
+              <div class="card accent">
+                <h4>D. Wagon</h4>
+                <p>
+                  2,400/year Phase-1 confirmed. January 2027 retained as a target. RDSO wording
+                  checked: Stage-1 only, with no sentence implying final approval or current
+                  commercial operation.
+                </p>
+              </div>
+              <div class="card flag">
+                <h4>E. ICD</h4>
+                <p>
+                  30 acres confirmed. CBIC Letter of Intent dated 10 September 2026 verified. 1
+                  April 2027 retained as a management target and 10 September 2027 as the statutory
+                  backstop. The ICD is never described as currently operational. DPD/DPE capability
+                  is not represented as formally approved.
+                </p>
+              </div>
+              <div class="card flag">
+                <h4>F. Route references</h4>
+                <p>
+                  Mundra 132 km by road and rail, Tuna 86 km, Kandla/Deendayal 81 km, Palanpur 231
+                  rail km, Morbi 75 km. Distance method and context stated. No conflicting legacy
+                  distances remain anywhere.
+                </p>
+              </div>
+              <div class="card">
+                <h4>G. Product data</h4>
+                <p>
+                  Dwarf-container, salt-container and standard-container specifications validated
+                  against the current approved product master. Historical specifications not
+                  presented as current. Product schema synchronized with that master. Offer schema
+                  used only where commercially supportable.
+                </p>
+              </div>
+              <div class="card">
+                <h4>H. Schema, SEO and AIEO</h4>
+                <p>
+                  One canonical URL and one H1 per page. H2/H3 hierarchy checked. Metadata, Open
+                  Graph and Twitter cards checked. Alt text checked. Breadcrumb, WebSite, WebPage,
+                  Corporation, Service and ContactPage nodes checked. Schema corrected per the
+                  closure appendix. No hidden unsupported facts; schema matches visible content.
+                </p>
+              </div>
+              <div class="card ok">
+                <h4>I. Commercial conversion</h4>
+                <p>
+                  Enquiry form tested, required fields and validation flags tested, routing tested
+                  for Bulk Minerals, EXIM/ICD, Rolling Stock, Siding Placement and Container
+                  Engineering, human override available, CRM handoff and acknowledgement tested.
+                </p>
+              </div>
+              <div class="card ok">
+                <h4>J. Analytics</h4>
+                <p>
+                  Track business enquiries, qualification completeness, route-analysis requests,
+                  container, wagon and GCT enquiries, site-visit requests, partnership enquiries,
+                  trials and conversion to regular business. No confidential customer data exposed
+                  through analytics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 11 ============ -->
+      <section class="sec" id="s11">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">11</span>
+            <div>
+              <span class="eyebrow">Open items</span>
+              <h2>Open verification register</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              These items block or qualify publication. Each needs an owner, a source and a date.
+              Until they close, the related copy stays out of print.
+            </p>
+            <div class="tbl-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Priority</th>
+                    <th>Item to verify</th>
+                    <th>Why it is open</th>
+                    <th>Owner</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>Registered office and all public addresses</td>
+                    <td>The legacy site shows conflicting addresses.</td>
+                    <td>Company Secretary</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>Current Shivlakha container capacity and production status</td>
+                    <td>Documents use capacity and operational wording interchangeably.</td>
+                    <td>Operations</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>ICD status, management target and statutory position</td>
+                    <td>Earlier project documents used different target descriptions.</td>
+                    <td>Project / Regulatory</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>GCT operating capability after the last milestone</td>
+                    <td>Throughput changes with signalling and infrastructure.</td>
+                    <td>Operations</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>Wagon commissioning and production status</td>
+                    <td>January 2027 is a target, not a result.</td>
+                    <td>Project</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>Every product specification before it appears live</td>
+                    <td>The legacy site carries inconsistent technical entries.</td>
+                    <td>Engineering</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P0</td>
+                    <td>
+                      Class-A foundry, Lloyd's Register and corner-casting certificate wording
+                    </td>
+                    <td>Only a brochure statement exists; no certificate reference.</td>
+                    <td>Quality</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P1</td>
+                    <td>Customer and reference permissions</td>
+                    <td>Historic client references require current consent before reuse.</td>
+                    <td>Commercial</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P1</td>
+                    <td>Port and rail distances with a stated measurement method</td>
+                    <td>Sources mix geodesic, road and commercial distance concepts.</td>
+                    <td>Commercial</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P1</td>
+                    <td>Leadership designations and credentials</td>
+                    <td>Verify against the latest statutory and company record.</td>
+                    <td>Company Secretary</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P1</td>
+                    <td>Service catalogue and commercial terms</td>
+                    <td>Do not publish unsupported rates or service promises.</td>
+                    <td>Commercial</td>
+                  </tr>
+                  <tr>
+                    <td class="n">P1</td>
+                    <td>Phase-1 and long-term capital figures for investor use</td>
+                    <td>Phase-1 capex must not be merged with the phased programme.</td>
+                    <td>Finance</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 12 ============ -->
+      <section class="sec" id="s12">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num">12</span>
+            <div>
+              <span class="eyebrow">Next phase</span>
+              <h2>Phasing &mdash; marketing and investor come after this</h2>
+            </div>
+          </div>
+          <div class="body-col">
+            <p class="sec-lede">
+              Marketing and investor content are not harder to write than the website; they are less
+              forgiving. Both quote the same figures, and investor content additionally carries
+              regulatory exposure. They should be written once the register and the narrative are
+              frozen, not before.
+            </p>
+
+            <div class="grid2">
+              <div class="card accent">
+                <h4>Marketing layer &mdash; after sign-off</h4>
+                <p>
+                  Each item is built commercially, not as a content calendar: target customer,
+                  customer problem, message, asset, distribution channel, business purpose, call to
+                  action, measurement and next step.
+                </p>
+                <p>
+                  Priority themes that follow from this master: the route-qualification
+                  conversation; what a cargo owner should check before assuming rail is cheaper;
+                  what a Gati Shakti Cargo Terminal actually changes for a Kachchh manufacturer; how
+                  container design affects a movement's economics; how a controlled trial is scoped.
+                </p>
+              </div>
+              <div class="card flag">
+                <h4>Investor layer &mdash; separately governed</h4>
+                <p>
+                  Historical performance, current status, management targets and long-term
+                  aspiration are kept in four separate registers. Locked FY26 figures (revenue
+                  &#8377;149.99 Cr, operating EBITDA &#8377;21.82 Cr, PAT &#8377;17.05 Cr, net worth
+                  &#8377;82.37 Cr, promoter holding 59.48% with nil pledge) belong here and nowhere
+                  else.
+                </p>
+                <p>
+                  No investment recommendation, no stock commentary, no conversion of aspiration
+                  into forecast. Never imply that assets under construction have generated revenue.
+                </p>
+              </div>
+            </div>
+
+            <h3>Sequence from here</h3>
+            <ol class="steps">
+              <li>
+                Approve the controlled fact register (Section 03) and close the P0 verification
+                items (Section 11).
+              </li>
+              <li>Approve the master narrative and boilerplates (Section 05).</li>
+              <li>
+                Publish the six website pages from Section 06, holding any page whose milestone is
+                unconfirmed.
+              </li>
+              <li>
+                Produce the corporate brochure from Section 07; derive the project, GCT, container
+                and wagon brochures from the same blocks.
+              </li>
+              <li>Write marketing content once the published facts are stable.</li>
+              <li>Write the investor presentation last, against audited and statutory sources.</li>
+            </ol>
+
+            <div class="callout good">
+              <p>
+                <strong>The test to apply to every draft from here on.</strong> Would an experienced
+                business executive say this? Can the claim be supported? Is it current? Is a target
+                labelled as a target? Is an inference being presented as fact? Could 20% of the
+                words be removed without losing meaning? If any answer is wrong, the draft is not
+                finished.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="grid2">
+          <div>
+            <h4>Kalyani Cast Tech Limited &mdash; Master Content Document</h4>
+            <p>
+              Website &amp; Brochure Edition, V1.0. Prepared as the common content source for
+              website, brochure, presentation, proposal and corporate communication. Working
+              document, not a statutory filing.
+            </p>
+          </div>
+          <div>
+            <h4>Document control</h4>
+            <p class="mono">
+              Hierarchy: 01 Production Revision V2 &rarr; website source of truth &middot; 02
+              Management Review V2 &rarr; change and approval record &middot; 03 Final Closure &amp;
+              Technical Controls &rarr; implementation, QA and publication gate &middot; 04 This
+              master &rarr; consolidated content across channels.
+            </p>
+          </div>
+        </div>
+        <hr class="rule" style="margin: 1.6rem 0; border-color: rgba(255, 255, 255, 0.2)" />
+        <p class="mono">
+          Every figure in this document carries a status label. Nothing marked as a target, a source
+          statement or pending verification may be presented as an achieved fact.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

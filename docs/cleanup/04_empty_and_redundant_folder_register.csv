@@ -1,0 +1,5 @@
+Empty Folder Path,Classification,Reason,Proposed Action
+"02_Products_Containers\20HC SS Spl Container","Type 2 — Intentionally reserved","Designated container variant folder for stainless steel salt prototype","Retain for incoming engineering drawings"
+"06_Approved_Visual_Assets_Dropzone","Type 2 — Intentionally reserved","Designated intake dropzone for incoming photographer assets","Retain with internal documentation"
+"Website_Codebase\docs\cleanup","Type 1 — Genuinely unnecessary","Contains no files or subdirectories","Propose for Deletion after Review"
+"Website_Codebase\public\documents\investors\statutory-disclosures","Type 1 — Genuinely unnecessary","Contains no files or subdirectories","Propose for Deletion after Review"

@@ -1,0 +1,1199 @@
+{
+  "totalRefs": 263,
+  "uniqueAssets": 83,
+  "missing": [],
+  "existing": [
+    {
+      "path": "/assets/containers/ISO Container.png",
+      "files": [
+        "src/components/site/ContainerCatalog.tsx"
+      ],
+      "size": 2320908
+    },
+    {
+      "path": "/assets/containers/40_spl_steel_drawing_cross_section.png",
+      "files": [
+        "src/components/site/ContainerCatalog.tsx"
+      ],
+      "size": 147488
+    },
+    {
+      "path": "/assets/containers/40_spl_steel_drawing_elevation.png",
+      "files": [
+        "src/components/site/ContainerCatalog.tsx",
+        "src/components/site/EngineeringStandardsSection.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 206178
+    },
+    {
+      "path": "/assets/manufacturing/Steel Fabrication Hall in Action.png",
+      "files": [
+        "src/components/site/EngineeringStandardsSection.tsx",
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx"
+      ],
+      "size": 895521
+    },
+    {
+      "path": "/assets/manufacturing/Industrial Container Fabrication Workshop.png",
+      "files": [
+        "src/components/site/EngineeringStandardsSection.tsx",
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/engineering-quality.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/investor-relations.tsx"
+      ],
+      "size": 899446
+    },
+    {
+      "path": "/assets/containers/20' ISO Container on rake.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/test/homepage-hero.test.tsx"
+      ],
+      "size": 2320908
+    },
+    {
+      "path": "/assets/containers/DSC_1608.JPG.jpeg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts"
+      ],
+      "size": 166149
+    },
+    {
+      "path": "/assets/containers/container-2.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 94299
+    },
+    {
+      "path": "/assets/containers/Relink Logistics Cotton Loading Showcase.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 658896
+    },
+    {
+      "path": "/assets/containers/Dwarf Container.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 205669
+    },
+    {
+      "path": "/assets/containers/Spl Cont Salt n Steel cargoHD.jpeg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 190462
+    },
+    {
+      "path": "/assets/containers/model-07-hc-open-top-coiltainer.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx"
+      ],
+      "size": 601898
+    },
+    {
+      "path": "/assets/containers/Salt  n multipurpose Containers.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/about-us.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 757911
+    },
+    {
+      "path": "/assets/containers/model-09-universal-openable-top.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts"
+      ],
+      "size": 1032189
+    },
+    {
+      "path": "/assets/containers/model-10-42ft-hc-open-coiltainer-8-5w.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts"
+      ],
+      "size": 2092548
+    },
+    {
+      "path": "/assets/containers/40' Dwarf Container Wooden log.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 705835
+    },
+    {
+      "path": "/assets/containers/CJ DARCL42 feet contr.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 468371
+    },
+    {
+      "path": "/assets/containers/model-13-42ft-hc-coil-tmt.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 2157096
+    },
+    {
+      "path": "/assets/containers/model-14-20ft-tank-container.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 885398
+    },
+    {
+      "path": "/assets/containers/model-15-20ft-hopper-container.jpg",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 929143
+    },
+    {
+      "path": "/assets/containers/Three-Tier Motorcycle Transport Container.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 633121
+    },
+    {
+      "path": "/assets/wagons/Car Carrier 9 Car.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx"
+      ],
+      "size": 2459589
+    },
+    {
+      "path": "/assets/wagons/New Container Wagon.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 2528143
+    },
+    {
+      "path": "/assets/wagons/Next-Generation Container Wagon Design.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx"
+      ],
+      "size": 2551168
+    },
+    {
+      "path": "/assets/wagons/RORO Wagon Container.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 2101290
+    },
+    {
+      "path": "/assets/wagons/Special Wagon Design3.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 470582
+    },
+    {
+      "path": "/assets/rail/Double-Stacked Eco Freight at Sunset.png",
+      "files": [
+        "src/components/site/HomeHeroCarousel.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 716765
+    },
+    {
+      "path": "/assets/manufacturing/Rewari Kalyani Casttech.png",
+      "files": [
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx",
+        "src/routes/manufacturing.index.tsx",
+        "src/test/facilities-page.test.tsx"
+      ],
+      "size": 728386
+    },
+    {
+      "path": "/assets/shivlakha/gct-shivlakha-rake-handling-ops.jpg",
+      "files": [
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx",
+        "src/routes/our-journey.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 352707
+    },
+    {
+      "path": "/assets/containers/Dwarf Container.jpeg",
+      "files": [
+        "src/components/site/HomePage.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx"
+      ],
+      "size": 205669
+    },
+    {
+      "path": "/assets/castings/corner-castings-for-containers.png",
+      "files": [
+        "src/components/site/HomePage.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/about-us.tsx",
+        "src/routes/engineering-quality.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/manufacturing.index.tsx",
+        "src/routes/products-applications.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 89841
+    },
+    {
+      "path": "/assets/shivlakha/gct-shivlakha-rail-terminal-siding.jpg",
+      "files": [
+        "src/components/site/HomePage.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 620478
+    },
+    {
+      "path": "/assets/manufacturing/Rewari Factory.jpg",
+      "files": [
+        "src/components/site/ImageSlot.tsx",
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/contact.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 319552
+    },
+    {
+      "path": "/assets/shivlakha/Shivlakha GCT Rail Terminal.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 697847
+    },
+    {
+      "path": "/assets/shivlakha/Shivlakha GCT Rail Terminal1.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 664218
+    },
+    {
+      "path": "/assets/shivlakha/Ktech Rail Siding Siding n Plant access via rail.jpg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/facilities.tsx"
+      ],
+      "size": 263873
+    },
+    {
+      "path": "/assets/shivlakha/Special Wagon Design3.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/components/site/ShivlakhaStatus.tsx"
+      ],
+      "size": 470582
+    },
+    {
+      "path": "/assets/shivlakha/Shivlakha GCT Rail Terminal2.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 746856
+    },
+    {
+      "path": "/assets/shivlakha/Steel Fabrication Hall in Action.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 895521
+    },
+    {
+      "path": "/assets/shivlakha/Admin Shivlakha.png",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 544829
+    },
+    {
+      "path": "/assets/shivlakha/IMG20260922112714.jpg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 206157
+    },
+    {
+      "path": "/assets/shivlakha/admin.jpeg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 195702
+    },
+    {
+      "path": "/assets/manufacturing/Container Welding Process after Boxing.jpg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/engineering-quality.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 305721
+    },
+    {
+      "path": "/assets/shivlakha/Ktech GCT2.jpg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 256601
+    },
+    {
+      "path": "/assets/rail/Double-Stacked Freight at Sunset.jpeg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+      ],
+      "size": 334424
+    },
+    {
+      "path": "/assets/shivlakha/shivlakha-isometric-masterplan.jpg",
+      "files": [
+        "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+        "src/routes/facilities.tsx"
+      ],
+      "size": 595559
+    },
+    {
+      "path": "/assets/shivlakha/Industrial Container Fabrication Workshop.jpeg",
+      "files": [
+        "src/components/site/ShivlakhaStatus.tsx"
+      ],
+      "size": 306364
+    },
+    {
+      "path": "/assets/shivlakha/Shivlakha GCT Rail Terminal.jpeg",
+      "files": [
+        "src/components/site/ShivlakhaStatus.tsx"
+      ],
+      "size": 263873
+    },
+    {
+      "path": "/assets/shivlakha/Detailed Diagram of KTech Shivlakha Project.jpeg",
+      "files": [
+        "src/components/site/ShivlakhaStatus.tsx",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 327381
+    },
+    {
+      "path": "/assets/company/Kalyani Cast Tech Logo.jpeg",
+      "files": [
+        "src/components/site/SiteFooter.tsx",
+        "src/components/site/SiteHeader.tsx"
+      ],
+      "size": 29562
+    },
+    {
+      "path": "/assets/wagons/Efficient Car Carrier Wagon Infographic.png",
+      "files": [
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 2357319
+    },
+    {
+      "path": "/assets/wagons/RoRo Wagon 1.png",
+      "files": [
+        "src/components/site/WagonCatalog.tsx",
+        "src/content/route-assets.ts"
+      ],
+      "size": 195913
+    },
+    {
+      "path": "/assets/company/2016-Indian-Railways-Plan-to-Introduce-Dwarf-ContainersDesigned-and-Developed-by-Shri-Naresh-Kumar-Director-Kalyani-Cast-Tech.jpg",
+      "files": [
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx",
+        "src/routes/innovation.tsx",
+        "src/routes/innovation.tsx"
+      ],
+      "size": 99136
+    },
+    {
+      "path": "/assets/manufacturing/Industrial Container Boxing Process.png",
+      "files": [
+        "src/content/route-assets.ts",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 834742
+    },
+    {
+      "path": "/assets/manufacturing/Container Painting Process Infographic.png",
+      "files": [
+        "src/content/route-assets.ts"
+      ],
+      "size": 676077
+    },
+    {
+      "path": "/assets/leadership/naresh-kumar-railway-minister.jpg",
+      "files": [
+        "src/content/route-assets.ts"
+      ],
+      "size": 395355
+    },
+    {
+      "path": "/assets/company/Kalyani Team.JPG",
+      "files": [
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/content/route-assets.ts",
+        "src/routes/about-us.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 399705
+    },
+    {
+      "path": "/assets/containers/40HC Bike Carrying Container.jpeg",
+      "files": [
+        "src/content/route-assets.ts"
+      ],
+      "size": 290159
+    },
+    {
+      "path": "/assets/manufacturing/Container Boxing Process.jpg",
+      "files": [
+        "src/content/route-assets.ts",
+        "src/routes/engineering-quality.tsx"
+      ],
+      "size": 353317
+    },
+    {
+      "path": "/assets/manufacturing/Precision Metal Fabrication Machines.png",
+      "files": [
+        "src/content/route-assets.ts",
+        "src/routes/engineering-quality.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 641751
+    },
+    {
+      "path": "/assets/manufacturing/hero_facade_kct.png",
+      "files": [
+        "src/routes/about-us.tsx"
+      ],
+      "size": 728386
+    },
+    {
+      "path": "/assets/containers/Next-Generation Container Wagon Design.png",
+      "files": [
+        "src/routes/about-us.tsx",
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 471484
+    },
+    {
+      "path": "/assets/manufacturing/Contrs Coming Out from Paint Booth.jpg",
+      "files": [
+        "src/routes/engineering-quality.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 305078
+    },
+    {
+      "path": "/assets/manufacturing/hero_facade_kct.jpeg",
+      "files": [
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx"
+      ],
+      "size": 319552
+    },
+    {
+      "path": "/assets/manufacturing/Industrial Container Fabrication Workshop.jpeg",
+      "files": [
+        "src/routes/facilities.tsx"
+      ],
+      "size": 306364
+    },
+    {
+      "path": "/assets/manufacturing/Industrial Container Boxing Process.jpeg",
+      "files": [
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx"
+      ],
+      "size": 353317
+    },
+    {
+      "path": "/assets/castings/adapter-for-WDG4-loco.png",
+      "files": [
+        "src/routes/facilities.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 85008
+    },
+    {
+      "path": "/assets/manufacturing/Precision Metal Fabrication Machines.jpeg",
+      "files": [
+        "src/routes/facilities.tsx",
+        "src/routes/facilities.tsx"
+      ],
+      "size": 289511
+    },
+    {
+      "path": "/assets/shivlakha/Admin Shivlakha.jpeg",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 195702
+    },
+    {
+      "path": "/assets/company/NK & Rly Minister.jpg",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/gallery.tsx",
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 395355
+    },
+    {
+      "path": "/assets/rail/Central-launch-Dwarf-container-1.jpeg",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 247881
+    },
+    {
+      "path": "/assets/castings/bearing-housing-for-electrical-loco.png",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 85607
+    },
+    {
+      "path": "/assets/castings/CI-brake-blocks.png",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 82890
+    },
+    {
+      "path": "/assets/castings/end-covers-for-electrical-locos.png",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 81531
+    },
+    {
+      "path": "/assets/shivlakha/Industrial Container Fabrication Workshop.png",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 899446
+    },
+    {
+      "path": "/assets/shivlakha/gct-shivlakha-rake-handling-aerial.jpg",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 878686
+    },
+    {
+      "path": "/assets/shivlakha/gct-shivlakha-yard-operations.jpg",
+      "files": [
+        "src/routes/gallery.tsx",
+        "src/routes/shivlakha-rail-logistics.index.tsx"
+      ],
+      "size": 250073
+    },
+    {
+      "path": "/assets/company/Naresh Sir.jpeg",
+      "files": [
+        "src/routes/gallery.tsx"
+      ],
+      "size": 104577
+    },
+    {
+      "path": "/assets/containers/SS Steel  Container.png",
+      "files": [
+        "src/routes/innovation.tsx"
+      ],
+      "size": 668131
+    },
+    {
+      "path": "/assets/containers/RORO Wagon Container.png",
+      "files": [
+        "src/routes/innovation.tsx"
+      ],
+      "size": 512503
+    },
+    {
+      "path": "/assets/manufacturing/Steel Fabrication Hall in Action.jpeg",
+      "files": [
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 305721
+    },
+    {
+      "path": "/assets/rail/Double-Stacked Eco Freight at Sunset.jpeg",
+      "files": [
+        "src/routes/our-journey.tsx"
+      ],
+      "size": 334424
+    },
+    {
+      "path": "/assets/containers/20 HC SuperHigh Volume Container.png",
+      "files": [
+        "src/routes/products-applications.tsx"
+      ],
+      "size": 1707523
+    }
+  ],
+  "grouped": {
+    "/assets/containers/ISO Container.png": [
+      "src/components/site/ContainerCatalog.tsx"
+    ],
+    "/assets/containers/40_spl_steel_drawing_cross_section.png": [
+      "src/components/site/ContainerCatalog.tsx"
+    ],
+    "/assets/containers/40_spl_steel_drawing_elevation.png": [
+      "src/components/site/ContainerCatalog.tsx",
+      "src/components/site/EngineeringStandardsSection.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/manufacturing/Steel Fabrication Hall in Action.png": [
+      "src/components/site/EngineeringStandardsSection.tsx",
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx"
+    ],
+    "/assets/manufacturing/Industrial Container Fabrication Workshop.png": [
+      "src/components/site/EngineeringStandardsSection.tsx",
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/engineering-quality.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/investor-relations.tsx"
+    ],
+    "/assets/containers/20' ISO Container on rake.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/test/homepage-hero.test.tsx"
+    ],
+    "/assets/containers/DSC_1608.JPG.jpeg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/container-2.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/Relink Logistics Cotton Loading Showcase.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/containers/Dwarf Container.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/containers/Spl Cont Salt n Steel cargoHD.jpeg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/containers/model-07-hc-open-top-coiltainer.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/containers/Salt  n multipurpose Containers.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/about-us.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/containers/model-09-universal-openable-top.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/model-10-42ft-hc-open-coiltainer-8-5w.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/40' Dwarf Container Wooden log.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/containers/CJ DARCL42 feet contr.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/containers/model-13-42ft-hc-coil-tmt.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/model-14-20ft-tank-container.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/model-15-20ft-hopper-container.jpg": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/containers/Three-Tier Motorcycle Transport Container.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/wagons/Car Carrier 9 Car.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/wagons/New Container Wagon.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/wagons/Next-Generation Container Wagon Design.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/wagons/RORO Wagon Container.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/wagons/Special Wagon Design3.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/rail/Double-Stacked Eco Freight at Sunset.png": [
+      "src/components/site/HomeHeroCarousel.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/manufacturing/Rewari Kalyani Casttech.png": [
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx",
+      "src/routes/manufacturing.index.tsx",
+      "src/test/facilities-page.test.tsx"
+    ],
+    "/assets/shivlakha/gct-shivlakha-rake-handling-ops.jpg": [
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx",
+      "src/routes/our-journey.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/containers/Dwarf Container.jpeg": [
+      "src/components/site/HomePage.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx"
+    ],
+    "/assets/castings/corner-castings-for-containers.png": [
+      "src/components/site/HomePage.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/about-us.tsx",
+      "src/routes/engineering-quality.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/manufacturing.index.tsx",
+      "src/routes/products-applications.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/shivlakha/gct-shivlakha-rail-terminal-siding.jpg": [
+      "src/components/site/HomePage.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/manufacturing/Rewari Factory.jpg": [
+      "src/components/site/ImageSlot.tsx",
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/contact.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/shivlakha/Shivlakha GCT Rail Terminal.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/Shivlakha GCT Rail Terminal1.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/Ktech Rail Siding Siding n Plant access via rail.jpg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/facilities.tsx"
+    ],
+    "/assets/shivlakha/Special Wagon Design3.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/components/site/ShivlakhaStatus.tsx"
+    ],
+    "/assets/shivlakha/Shivlakha GCT Rail Terminal2.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/Steel Fabrication Hall in Action.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/Admin Shivlakha.png": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/shivlakha/IMG20260922112714.jpg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/admin.jpeg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/manufacturing/Container Welding Process after Boxing.jpg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/engineering-quality.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/shivlakha/Ktech GCT2.jpg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/rail/Double-Stacked Freight at Sunset.jpeg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx"
+    ],
+    "/assets/shivlakha/shivlakha-isometric-masterplan.jpg": [
+      "src/components/site/ShivlakhaInteractiveMasterplan.tsx",
+      "src/routes/facilities.tsx"
+    ],
+    "/assets/shivlakha/Industrial Container Fabrication Workshop.jpeg": [
+      "src/components/site/ShivlakhaStatus.tsx"
+    ],
+    "/assets/shivlakha/Shivlakha GCT Rail Terminal.jpeg": [
+      "src/components/site/ShivlakhaStatus.tsx"
+    ],
+    "/assets/shivlakha/Detailed Diagram of KTech Shivlakha Project.jpeg": [
+      "src/components/site/ShivlakhaStatus.tsx",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/company/Kalyani Cast Tech Logo.jpeg": [
+      "src/components/site/SiteFooter.tsx",
+      "src/components/site/SiteHeader.tsx"
+    ],
+    "/assets/wagons/Efficient Car Carrier Wagon Infographic.png": [
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/wagons/RoRo Wagon 1.png": [
+      "src/components/site/WagonCatalog.tsx",
+      "src/content/route-assets.ts"
+    ],
+    "/assets/company/2016-Indian-Railways-Plan-to-Introduce-Dwarf-ContainersDesigned-and-Developed-by-Shri-Naresh-Kumar-Director-Kalyani-Cast-Tech.jpg": [
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx",
+      "src/routes/innovation.tsx",
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/manufacturing/Industrial Container Boxing Process.png": [
+      "src/content/route-assets.ts",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/manufacturing/Container Painting Process Infographic.png": [
+      "src/content/route-assets.ts"
+    ],
+    "/assets/leadership/naresh-kumar-railway-minister.jpg": [
+      "src/content/route-assets.ts"
+    ],
+    "/assets/company/Kalyani Team.JPG": [
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/content/route-assets.ts",
+      "src/routes/about-us.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/containers/40HC Bike Carrying Container.jpeg": [
+      "src/content/route-assets.ts"
+    ],
+    "/assets/manufacturing/Container Boxing Process.jpg": [
+      "src/content/route-assets.ts",
+      "src/routes/engineering-quality.tsx"
+    ],
+    "/assets/manufacturing/Precision Metal Fabrication Machines.png": [
+      "src/content/route-assets.ts",
+      "src/routes/engineering-quality.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/manufacturing/hero_facade_kct.png": [
+      "src/routes/about-us.tsx"
+    ],
+    "/assets/containers/Next-Generation Container Wagon Design.png": [
+      "src/routes/about-us.tsx",
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/manufacturing/Contrs Coming Out from Paint Booth.jpg": [
+      "src/routes/engineering-quality.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/manufacturing/hero_facade_kct.jpeg": [
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/manufacturing/Industrial Container Fabrication Workshop.jpeg": [
+      "src/routes/facilities.tsx"
+    ],
+    "/assets/manufacturing/Industrial Container Boxing Process.jpeg": [
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx"
+    ],
+    "/assets/castings/adapter-for-WDG4-loco.png": [
+      "src/routes/facilities.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/manufacturing/Precision Metal Fabrication Machines.jpeg": [
+      "src/routes/facilities.tsx",
+      "src/routes/facilities.tsx"
+    ],
+    "/assets/shivlakha/Admin Shivlakha.jpeg": [
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/company/NK & Rly Minister.jpg": [
+      "src/routes/gallery.tsx",
+      "src/routes/gallery.tsx",
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/rail/Central-launch-Dwarf-container-1.jpeg": [
+      "src/routes/gallery.tsx",
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/castings/bearing-housing-for-electrical-loco.png": [
+      "src/routes/gallery.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/castings/CI-brake-blocks.png": [
+      "src/routes/gallery.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/castings/end-covers-for-electrical-locos.png": [
+      "src/routes/gallery.tsx",
+      "src/routes/products-applications.tsx"
+    ],
+    "/assets/shivlakha/Industrial Container Fabrication Workshop.png": [
+      "src/routes/gallery.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/shivlakha/gct-shivlakha-rake-handling-aerial.jpg": [
+      "src/routes/gallery.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/shivlakha/gct-shivlakha-yard-operations.jpg": [
+      "src/routes/gallery.tsx",
+      "src/routes/shivlakha-rail-logistics.index.tsx"
+    ],
+    "/assets/company/Naresh Sir.jpeg": [
+      "src/routes/gallery.tsx"
+    ],
+    "/assets/containers/SS Steel  Container.png": [
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/containers/RORO Wagon Container.png": [
+      "src/routes/innovation.tsx"
+    ],
+    "/assets/manufacturing/Steel Fabrication Hall in Action.jpeg": [
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/rail/Double-Stacked Eco Freight at Sunset.jpeg": [
+      "src/routes/our-journey.tsx"
+    ],
+    "/assets/containers/20 HC SuperHigh Volume Container.png": [
+      "src/routes/products-applications.tsx"
+    ]
+  }
+}

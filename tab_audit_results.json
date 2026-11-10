@@ -1,0 +1,362 @@
+{
+  "totalClicks": 51,
+  "testsPassed": 58,
+  "testsFailed": 0,
+  "consoleErrors": [],
+  "pageErrors": [],
+  "unhandledRejections": [],
+  "sections": {
+    "sec1": {
+      "name": "Global Navigation & Mobile Drawer",
+      "items": [
+        {
+          "name": "Desktop Nav Dropdown: Company",
+          "status": "PASS",
+          "details": [
+            "/about-us",
+            "/leadership",
+            "/facilities"
+          ]
+        },
+        {
+          "name": "Desktop Nav Dropdown: Containers & Castings",
+          "status": "PASS",
+          "details": [
+            "/products-applications",
+            "/products-applications#standard-iso",
+            "/products-applications#dwarf",
+            "/products-applications#coiltainers",
+            "/products-applications#tank-hopper",
+            "/products-applications#cuboid",
+            "/products-applications#castings"
+          ]
+        },
+        {
+          "name": "Desktop Nav Dropdown: Manufacturing & Quality",
+          "status": "PASS",
+          "details": [
+            "/manufacturing",
+            "/engineering-quality"
+          ]
+        },
+        {
+          "name": "Desktop Nav Dropdown: Shivlakha Platform",
+          "status": "PASS",
+          "details": [
+            "/shivlakha-rail-logistics",
+            "/shivlakha-rail-logistics#status",
+            "/shivlakha-rail-logistics#cargo-evaluation"
+          ]
+        },
+        {
+          "name": "Desktop Nav Dropdown: Resources",
+          "status": "PASS",
+          "details": [
+            "/resources"
+          ]
+        },
+        {
+          "name": "Desktop Nav Dropdown: Investor Relations",
+          "status": "PASS",
+          "details": [
+            "/investor-relations"
+          ]
+        },
+        {
+          "name": "Direct Desktop Links",
+          "status": "PASS",
+          "details": [
+            {
+              "text": "Contact",
+              "href": "/contact"
+            }
+          ]
+        },
+        {
+          "name": "Mobile Drawer Open",
+          "status": "PASS"
+        }
+      ]
+    },
+    "sec2": {
+      "name": "Products & Applications",
+      "items": [
+        {
+          "name": "Category Pill: Standard ISO",
+          "status": "PASS"
+        },
+        {
+          "name": "Category Pill: Dwarf Containers",
+          "status": "PASS"
+        },
+        {
+          "name": "Category Pill: Coiltainers & Heavy",
+          "status": "PASS"
+        },
+        {
+          "name": "Category Pill: Tank & Hopper",
+          "status": "PASS"
+        },
+        {
+          "name": "Category Pill: CUBOID Rail Boxes",
+          "status": "PASS"
+        },
+        {
+          "name": "Category Pill: All 16 Models",
+          "status": "PASS"
+        },
+        {
+          "name": "Model 1 Drawer (20 Feet GP Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 2 Drawer (20 Feet HC Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 3 Drawer (20 Feet HC Side Access Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 4 Drawer (40 Feet HC Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 5 Drawer (40 Feet Side Access Dwarf Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 6 Drawer (40 Feet Open Top Coiltainer)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 7 Drawer (40 Feet HC Open Top Coiltainer)",
+          "status": "PASS",
+          "cad": true
+        },
+        {
+          "name": "Model 8 Drawer (40 Feet Dwarf Open Top Coiltainer)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 9 Drawer (40 Feet Universal Container, Openable Top)",
+          "status": "PASS",
+          "cad": true
+        },
+        {
+          "name": "Model 10 Drawer (42 Feet HC Open Coiltainer (8.5' Wide))",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 11 Drawer (42 Feet Dwarf Open Top Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 12 Drawer (42 Feet HC Open Top Coiltainer (8' Wide))",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 13 Drawer (42 Feet HC for Coil and TMT Bars)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 14 Drawer (20 Feet Tank Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 15 Drawer (20 Feet Hopper Container)",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "Model 16 Drawer (CUBOID Container (Parcel, Two-Wheeler & Three-Wheeler Box))",
+          "status": "PASS",
+          "cad": false
+        },
+        {
+          "name": "CUBOID Spec Drawer Button",
+          "status": "PASS"
+        }
+      ]
+    },
+    "sec3": {
+      "name": "Shivlakha 3D Master Plan",
+      "items": [
+        {
+          "name": "Zone 01 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 02 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 03 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 04 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 05 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 06 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 07 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 08 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 09 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 10 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 11 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zone 12 Inspector Sync",
+          "status": "PASS",
+          "hasPhoto": true
+        },
+        {
+          "name": "Zoom In Button",
+          "status": "PASS"
+        },
+        {
+          "name": "Zoom Out Button",
+          "status": "PASS"
+        }
+      ]
+    },
+    "sec4": {
+      "name": "Engineering & Quality",
+      "items": [
+        {
+          "name": "3 Inspection Pillar Cards Rendered",
+          "status": "PASS"
+        },
+        {
+          "name": "Certificate /documents/approvals/7.1.jpg",
+          "status": "PASS",
+          "httpStatus": 200
+        },
+        {
+          "name": "Certificate /documents/approvals/Foundry-Approval-from-LR.pdf",
+          "status": "PASS",
+          "httpStatus": 200
+        },
+        {
+          "name": "Certificate /documents/approvals/Certificate-of-Capacity.pdf",
+          "status": "PASS",
+          "httpStatus": 200
+        },
+        {
+          "name": "Certificate /documents/approvals/Competent-Manufacturer.pdf",
+          "status": "PASS",
+          "httpStatus": 200
+        },
+        {
+          "name": "Certificate /documents/approvals/Picture1.jpg",
+          "status": "PASS",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "sec5": {
+      "name": "Investor Relations Statutory",
+      "items": [
+        {
+          "name": "8 LODR Document Categories Rendered",
+          "status": "PASS",
+          "categories": [
+            "Financial Results",
+            "Annual Reports & Returns",
+            "Board Meetings & Publications",
+            "Shareholding & Capital Audit",
+            "Meetings & Corporate Actions",
+            "Investor Meets & Presentations",
+            "Offer Documents & Corporate Charter",
+            "Governance Policies"
+          ]
+        },
+        {
+          "name": "5 Board Committee Tables",
+          "status": "PASS",
+          "details": {
+            "c1": true,
+            "c2": true,
+            "c3": true,
+            "c4": true,
+            "c5": true
+          }
+        }
+      ]
+    },
+    "sec6": {
+      "name": "Business Enquiry Form",
+      "items": [
+        {
+          "name": "Dropdown: Container Purchase / Custom Build",
+          "status": "PASS",
+          "field7Required": false
+        },
+        {
+          "name": "Dropdown: Technical Data Sheet / Certificate Request",
+          "status": "PASS",
+          "field7Required": false
+        },
+        {
+          "name": "Dropdown: Shivlakha Cargo Movement Evaluation",
+          "status": "PASS",
+          "field7Required": true
+        },
+        {
+          "name": "Dropdown: Foundry & Railway Castings",
+          "status": "PASS",
+          "field7Required": false
+        },
+        {
+          "name": "Dropdown: Vendor / General Enquiry",
+          "status": "PASS",
+          "field7Required": false
+        }
+      ]
+    }
+  }
+}

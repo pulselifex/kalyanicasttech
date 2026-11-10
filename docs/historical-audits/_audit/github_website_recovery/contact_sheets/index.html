@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kalyani Cast Tech - Visual Asset Contact Sheet & Inventory</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #0f172a;
+        color: #f8fafc;
+        margin: 0;
+        padding: 2rem;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #f8fafc;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+      .card {
+        background: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 8px;
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .preview {
+        background: #0b1329;
+        border: 1px dashed #475569;
+        border-radius: 4px;
+        min-height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      .preview img {
+        max-width: 100%;
+        max-height: 160px;
+        object-contain: contain;
+      }
+      .badge {
+        display: inline-block;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+      .badge-genuine {
+        background: #059669;
+        color: #ecfdf5;
+      }
+      .badge-pointer {
+        background: #0284c7;
+        color: #f0f9ff;
+      }
+      .badge-brief {
+        background: #d97706;
+        color: #fffbeb;
+      }
+      .title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0 0 0.5rem 0;
+      }
+      .meta {
+        font-size: 0.85rem;
+        color: #94a3b8;
+        line-height: 1.5;
+      }
+      .brief-text {
+        font-size: 0.85rem;
+        color: #cbd5e1;
+        background: #0f172a;
+        border-left: 3px solid #d97706;
+        padding: 0.75rem;
+        border-radius: 2px;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kalyani Cast Tech Limited — Visual Asset Contact Sheet</h1>
+    <p>
+      Forensic inventory of physical binaries, CDN asset pointers, and visual art-direction briefs
+      extracted from <code>pixel-perfect-painter-750</code>.
+    </p>
+
+    <h2>1. Physical & Remote Brand Assets</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="badge badge-genuine">Primary Brand Logo (Remote CDN Binary)</span>
+        <div class="preview">
+          <img src="kalyani-cast-tech-logo.jpeg" alt="Kalyani Cast Tech Logo" />
+        </div>
+        <div class="title">kalyani-cast-tech-logo.jpeg</div>
+        <div class="meta">
+          <strong>Source:</strong> Application Template R2 CDN (Downloaded to contact sheet)<br />
+          <strong>Dimensions:</strong> 500x500 px<br />
+          <strong>Size:</strong> 29,562 bytes<br />
+          <strong>Format:</strong> JPEG<br />
+          <strong>Usage:</strong> SiteHeader.tsx, SiteFooter.tsx
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="badge badge-genuine">Favicon Binary</span>
+        <div class="preview">
+          <img
+            src="favicon.png"
+            alt="Favicon"
+            style="image-rendering: pixelated; width: 64px; height: 64px"
+          />
+        </div>
+        <div class="title">favicon.png</div>
+        <div class="meta">
+          <strong>Source:</strong> public/favicon.png<br />
+          <strong>Dimensions:</strong> 64x64 px<br />
+          <strong>Size:</strong> 4,779 bytes<br />
+          <strong>Format:</strong> PNG<br />
+          <strong>Usage:</strong> Browser tab icon (src/routes/__root.tsx)
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="badge badge-pointer">Asset Pointer JSON</span>
+        <div
+          class="preview"
+          style="
+            flex-direction: column;
+            text-align: left;
+            align-items: flex-start;
+            font-family: monospace;
+            font-size: 0.75rem;
+            color: #38bdf8;
+          "
+        >
+          <div>{</div>
+          <div>&nbsp;&nbsp;"asset_id": "64145cd6...",</div>
+          <div>&nbsp;&nbsp;"url": "/__l5e/assets-v1/.../logo.jpeg",</div>
+          <div>&nbsp;&nbsp;"size": 29562</div>
+          <div>}</div>
+        </div>
+        <div class="title">kalyani-cast-tech-logo.jpeg.asset.json</div>
+        <div class="meta">
+          <strong>Source:</strong> src/assets/kalyani-cast-tech-logo.jpeg.asset.json<br />
+          <strong>Size:</strong> 499 bytes<br />
+          <strong>Type:</strong> Application Template R2 Asset Pointer JSON<br />
+          <strong>Status:</strong> Successfully resolved and archived locally
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem">2. Image Slot Requirements & Visual Briefs (34 Pages)</h2>
+    <p>
+      The repository contains <strong>zero</strong> committed raster photographs of containers,
+      factories, or logistics hubs. Each page employs an <code>ImageSlot</code> component with an
+      art-direction brief requiring client photography.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #01</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Home</span
+          >
+        </div>
+        <div class="title">Home</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/</code><br />
+          <strong>Area:</strong> Core pages
+        </div>
+        <div class="brief-text">
+          "Hero image of a finished container or container shell under fabrication. Use an approved
+          company photograph only; do not use an illustrative image where an unbuilt facility is
+          implied."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #02</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Company overview</span
+          >
+        </div>
+        <div class="title">Company overview</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/company</code><br />
+          <strong>Area:</strong> Core pages
+        </div>
+        <div class="brief-text">
+          "Corporate profile graphic showing Rewari and Shivlakha as two distinct locations with
+          their different roles. No claim of operational status for facilities under development."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #03</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Business enquiry</span
+          >
+        </div>
+        <div class="title">Business enquiry</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/business-enquiry</code><br />
+          <strong>Area:</strong> Core pages
+        </div>
+        <div class="brief-text">
+          "Two-column form layout separating container requirements from cargo movement details."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #04</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Contact</span
+          >
+        </div>
+        <div class="title">Contact</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/contact</code><br />
+          <strong>Area:</strong> Core pages
+        </div>
+        <div class="brief-text">
+          "Location and contact block. Registered office address must be the verified statutory
+          address only."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #05</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Our journey</span
+          >
+        </div>
+        <div class="title">Our journey</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/company/our-journey</code><br />
+          <strong>Area:</strong> Company
+        </div>
+        <div class="brief-text">
+          "A dated milestone strip, published only once each entry is supported by a company source.
+          Leave the strip empty rather than filling it speculatively."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #06</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Our business and capabilities</span
+          >
+        </div>
+        <div class="title">Our business and capabilities</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/company/our-business</code><br />
+          <strong>Area:</strong> Company
+        </div>
+        <div class="brief-text">
+          "Three-part capability diagram: manufacturing, applications, platform. Show status labels
+          on the platform element."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #07</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Containers & cargo solutions</span
+          >
+        </div>
+        <div class="title">Containers & cargo solutions</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions</code><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Product cards grouped by application, each carrying a status label (current /
+          developmental / confirm) so visitors are not misled about availability."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #08</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Standard freight containers</span
+          >
+        </div>
+        <div class="title">Standard freight containers</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions/standard-containers</code><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Specification table template with columns for model, dimensions, tare, payload, gross
+          weight and status. Populate only from approved data sheets."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #09</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Specialised containers</span
+          >
+        </div>
+        <div class="title">Specialised containers</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions/specialised-containers</code><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Photograph of a specialised configuration with an application caption. Use approved
+          imagery only."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #10</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Rail, parcel and vehicle cargo applications</span
+          >
+        </div>
+        <div class="title">Rail, parcel and vehicle cargo applications</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions/rail-parcel-vehicle-cargo</code><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Application diagram showing loading access and restraint arrangement. Label as
+          illustrative of the application, not of an approved product."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #11</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Application-specific container designs</span
+          >
+        </div>
+        <div class="title">Application-specific container designs</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions/application-specific-designs</code
+          ><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Process strip: requirement → technical review → feasibility → agreed scope. No promise of
+          a build."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #12</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Technical data sheets</span
+          >
+        </div>
+        <div class="title">Technical data sheets</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/containers-solutions/technical-data-sheets</code><br />
+          <strong>Area:</strong> Containers & Solutions
+        </div>
+        <div class="brief-text">
+          "Document card showing title, model, revision, issue date and approval status."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #13</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Manufacturing overview</span
+          >
+        </div>
+        <div class="title">Manufacturing overview</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/manufacturing</code><br />
+          <strong>Area:</strong> Manufacturing
+        </div>
+        <div class="brief-text">
+          "Manufacturing process photograph. Confirm the process shown is current before
+          publication."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #14</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Container manufacturing</span
+          >
+        </div>
+        <div class="title">Container manufacturing</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/manufacturing/container-manufacturing</code><br />
+          <strong>Area:</strong> Manufacturing
+        </div>
+        <div class="brief-text">
+          "Container shell or underframe under fabrication. Approved company photography only."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #15</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Design and engineering</span
+          >
+        </div>
+        <div class="title">Design and engineering</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/manufacturing/design-engineering</code><br />
+          <strong>Area:</strong> Manufacturing
+        </div>
+        <div class="brief-text">
+          "Engineering review diagram: requirement inputs feeding a configuration review, with open
+          questions flagged separately from confirmed data."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #16</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Testing and quality</span
+          >
+        </div>
+        <div class="title">Testing and quality</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/manufacturing/testing-quality</code><br />
+          <strong>Area:</strong> Manufacturing
+        </div>
+        <div class="brief-text">
+          "Testing or inspection photograph with a caption stating the test, the product scope and
+          the date."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #17</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Facilities and locations</span
+          >
+        </div>
+        <div class="title">Facilities and locations</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/manufacturing/facilities-locations</code><br />
+          <strong>Area:</strong> Manufacturing
+        </div>
+        <div class="brief-text">
+          "Two-panel location graphic with role labels, not operational-status labels, for each
+          site."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #18</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Shivlakha Rail & Logistics</span
+          >
+        </div>
+        <div class="title">Shivlakha Rail & Logistics</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/shivlakha-rail-logistics</code><br />
+          <strong>Area:</strong> Shivlakha Rail & Logistics
+        </div>
+        <div class="brief-text">
+          "Platform schematic showing the components with a status label on each. The diagram must
+          not imply a single operational end-to-end service."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #19</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Gati Shakti Cargo Terminal</span
+          >
+        </div>
+        <div class="title">Gati Shakti Cargo Terminal</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/shivlakha-rail-logistics/gati-shakti-cargo-terminal</code
+          ><br />
+          <strong>Area:</strong> Shivlakha Rail & Logistics
+        </div>
+        <div class="brief-text">
+          "Terminal-side photograph or schematic showing the rail interface. Confirm operating
+          status wording alongside any visual of the terminal."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #20</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >ICD development</span
+          >
+        </div>
+        <div class="title">ICD development</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/shivlakha-rail-logistics/inland-container-depot</code><br />
+          <strong>Area:</strong> Shivlakha Rail & Logistics
+        </div>
+        <div class="brief-text">
+          "Development status panel. No map or render that implies an operational facility."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #21</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Cargo opportunities and route evaluation</span
+          >
+        </div>
+        <div class="title">Cargo opportunities and route evaluation</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/shivlakha-rail-logistics/cargo-opportunities</code><br />
+          <strong>Area:</strong> Shivlakha Rail & Logistics
+        </div>
+        <div class="brief-text">
+          "Comparison framework diagram showing the cost and service elements of both the existing
+          and the proposed movement. No pre-filled figures."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #22</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Resources</span
+          >
+        </div>
+        <div class="title">Resources</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/resources</code><br />
+          <strong>Area:</strong> Resources
+        </div>
+        <div class="brief-text">
+          "Document library grid with document type, issue date and status on each card."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #23</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Corporate profile and brochures</span
+          >
+        </div>
+        <div class="title">Corporate profile and brochures</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/resources/corporate-profile-brochures</code><br />
+          <strong>Area:</strong> Resources
+        </div>
+        <div class="brief-text">"Cover thumbnails of approved brochures with issue dates."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #24</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Product data sheets</span
+          >
+        </div>
+        <div class="title">Product data sheets</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/resources/product-data-sheets</code><br />
+          <strong>Area:</strong> Resources
+        </div>
+        <div class="brief-text">"Table listing model, revision, issue date and download link."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #25</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Quality and certifications</span
+          >
+        </div>
+        <div class="title">Quality and certifications</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/resources/quality-certifications</code><br />
+          <strong>Area:</strong> Resources
+        </div>
+        <div class="brief-text">
+          "Certificate register table with issuer, scope and validity columns."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #26</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >News and media</span
+          >
+        </div>
+        <div class="title">News and media</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/resources/news-media</code><br />
+          <strong>Area:</strong> Resources
+        </div>
+        <div class="brief-text">"Dated update list. No undated entries."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #27</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Investor Relations</span
+          >
+        </div>
+        <div class="title">Investor Relations</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">
+          "Section index of document categories with update dates. Neutral, document-led
+          presentation."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #28</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Financial information</span
+          >
+        </div>
+        <div class="title">Financial information</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/financial-information</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">"Table of documents with period, date and source columns."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #29</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Stock exchange disclosures</span
+          >
+        </div>
+        <div class="title">Stock exchange disclosures</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/stock-exchange-disclosures</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">
+          "Filing list with date, category and link to the official document."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #30</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Corporate governance</span
+          >
+        </div>
+        <div class="title">Corporate governance</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/corporate-governance</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">
+          "Policy register with title, approval date and current status columns."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #31</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Shareholder information</span
+          >
+        </div>
+        <div class="title">Shareholder information</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/shareholder-information</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">"Contact block with clearly labelled official channels only."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #32</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >IPO and corporate actions</span
+          >
+        </div>
+        <div class="title">IPO and corporate actions</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/ipo-corporate-actions</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">
+          "Corporate action register with date, action type and document link."
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #33</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Investor grievance contact</span
+          >
+        </div>
+        <div class="title">Investor grievance contact</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/investor-grievance-contact</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">"None. This page is contact and process information only."</div>
+      </div>
+      <div class="card">
+        <span class="badge badge-brief">Photo Brief · Slot #34</span>
+        <div class="preview" style="color: #64748b; font-size: 0.9rem; text-align: center">
+          📷 Approved photograph required<br /><span style="font-size: 0.75rem; color: #94a3b8"
+            >Investor meetings and presentations</span
+          >
+        </div>
+        <div class="title">Investor meetings and presentations</div>
+        <div class="meta" style="margin-bottom: 0.75rem">
+          <strong>URL:</strong> <code>/investors/meetings-presentations</code><br />
+          <strong>Area:</strong> Investor Relations
+        </div>
+        <div class="brief-text">"Presentation archive list with date and period columns."</div>
+      </div>
+    </div>
+  </body>
+</html>

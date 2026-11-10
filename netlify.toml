@@ -1,0 +1,96 @@
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+[build.environment]
+  DEPLOY_TARGET = "netlify"
+  NODE_VERSION = "24.18.0"
+  VITE_SITE_URL = "https://kalyanicasttech.netlify.app"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[context.deploy-preview.headers]
+  for = "/*"
+  [context.deploy-preview.headers.values]
+    X-Robots-Tag = "nofollow, noarchive"
+
+[context.branch-deploy.headers]
+  for = "/*"
+  [context.branch-deploy.headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/company"
+  to = "/about-us"
+  status = 301
+
+[[redirects]]
+  from = "/company/leadership"
+  to = "/leadership"
+  status = 301
+
+[[redirects]]
+  from = "/manufacturing/facilities-locations"
+  to = "/facilities"
+  status = 301
+
+[[redirects]]
+  from = "/containers-solutions"
+  to = "/products-applications"
+  status = 301
+
+[[redirects]]
+  from = "/manufacturing/testing-quality"
+  to = "/engineering-quality"
+  status = 301
+
+[[redirects]]
+  from = "/investors"
+  to = "/investor-relations"
+  status = 301
+
+[[redirects]]
+  from = "/business-enquiry"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/business-enquiry/"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/shivlakha-rail-logistics/gati-shakti-cargo-terminal"
+  to = "/shivlakha-rail-logistics/gati-shakti-terminal"
+  status = 301
+
+[[redirects]]
+  from = "/shivlakha-rail-logistics/gati-shakti-cargo-terminal/"
+  to = "/shivlakha-rail-logistics/gati-shakti-terminal"
+  status = 301
+
+[[redirects]]
+  from = "/shivlakha-rail-logistics/inland-container-depot"
+  to = "/shivlakha-rail-logistics/inland-container-terminal"
+  status = 301
+
+[[redirects]]
+  from = "/shivlakha-rail-logistics/inland-container-depot/"
+  to = "/shivlakha-rail-logistics/inland-container-terminal"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

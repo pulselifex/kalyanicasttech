@@ -1,0 +1,836 @@
+{
+  "timestamp": "2026-11-06T15:46:07.946Z",
+  "termMatches": [
+    {
+      "file": "src/components/site/InvestorDocumentLibrary.tsx",
+      "line": 272,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "title: \"Draft Red Herring Prospectus (DRHP) — BSE SME Initial Public Offering\","
+    },
+    {
+      "file": "src/components/site/InvestorDocumentLibrary.tsx",
+      "line": 280,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "desc: \"Draft Red Herring Prospectus filed with BSE Limited for the initial public offer of equity shares on the BSE SME platform.\","
+    },
+    {
+      "file": "src/components/site/WagonCatalog.tsx",
+      "line": 61,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "coupler: \"Non-transition tight-lock Centre Buffer Coupler (CBC) with high-capacity draft gear\","
+    },
+    {
+      "file": "src/components/site/WagonCatalog.tsx",
+      "line": 172,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "coupler: \"High-tensile AAR Grade E Centre Buffer Coupler with high-capacity elastomeric draft gear\","
+    },
+    {
+      "file": "src/content/pages.json",
+      "line": 2055,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "\"p\": \"📄 IPO Offer Document — Draft Red Herring Prospectus (DRHP): [Download PDF](/documents/investors/DRHP_Kalyani.pdf) (12,875 KB)\""
+    },
+    {
+      "file": "src/content/route-assets.ts",
+      "line": 726,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "title: \"Draft Red Herring Prospectus (DRHP) — Initial Public Offering\","
+    },
+    {
+      "file": "src/content/route-assets.ts",
+      "line": 730,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "type: \"Draft Offer Document\","
+    },
+    {
+      "file": "src/content/route-assets.ts",
+      "line": 731,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "scope: \"Draft offer document filed with BSE SME platform.\","
+    },
+    {
+      "file": "src/lib/legacy-redirects.ts",
+      "line": 137,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "// Retired / Draft Stubs -> Home"
+    },
+    {
+      "file": "src/routes/investor-relations.tsx",
+      "line": 191,
+      "term": "draft",
+      "severity": "CHECK (Verify no internal drafts exposed)",
+      "isTest": false,
+      "lineSnippet": "docs: \"Draft Red Herring Prospectus (DRHP), Red Herring Prospectus (RHP), final Prospectus for BSE SME listing, and Articles of Association (AOA) & MOA.\","
+    }
+  ],
+  "titleMetaAudit": [
+    {
+      "url": "/",
+      "title": "",
+      "seoTitle": "Kalyani Cast Tech Limited | Freight Containers & Precision Castings",
+      "titleLen": 67,
+      "titleFlag": "LONG",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/company",
+      "title": "",
+      "seoTitle": "About Kalyani Cast Tech | Container Manufacturing",
+      "titleLen": 49,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/business-enquiry",
+      "title": "",
+      "seoTitle": "Business Enquiry: Containers & Cargo | Kalyani Cast Tech",
+      "titleLen": 56,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/contact",
+      "title": "",
+      "seoTitle": "Contact & Commercial Enquiry | Kalyani Cast Tech Limited",
+      "titleLen": 56,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/company/our-journey",
+      "title": "",
+      "seoTitle": "Our Journey: Container Manufacturing to Rail Logistics",
+      "titleLen": 54,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/company/leadership",
+      "title": "",
+      "seoTitle": "Board of Directors & Leadership | Kalyani Cast Tech Limited",
+      "titleLen": 59,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/company/our-business",
+      "title": "",
+      "seoTitle": "Our Business: Containers, Engineering & Rail Logistics",
+      "titleLen": 54,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions",
+      "title": "",
+      "seoTitle": "Container Types & Cargo Applications | Kalyani Cast Tech",
+      "titleLen": 56,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions/standard-containers",
+      "title": "",
+      "seoTitle": "Standard Freight Containers | Specifications on Request",
+      "titleLen": 55,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions/specialised-containers",
+      "title": "",
+      "seoTitle": "Specialised Containers for Specific Cargo | Kalyani Cast Tech",
+      "titleLen": 61,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions/rail-parcel-vehicle-cargo",
+      "title": "",
+      "seoTitle": "Containers for Parcel & Vehicle Cargo | Kalyani Cast Tech",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions/application-specific-designs",
+      "title": "",
+      "seoTitle": "Application-Specific Container Design | Kalyani Cast Tech",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/containers-solutions/technical-data-sheets",
+      "title": "",
+      "seoTitle": "Container Model Technical Data Sheets",
+      "titleLen": 37,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/manufacturing",
+      "title": "",
+      "seoTitle": "Manufacturing Division | Kalyani Cast Tech Limited",
+      "titleLen": 50,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/manufacturing/container-manufacturing",
+      "title": "",
+      "seoTitle": "Freight Container Manufacturing | Kalyani Cast Tech",
+      "titleLen": 51,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/manufacturing/design-engineering",
+      "title": "",
+      "seoTitle": "Container Design & Engineering | Kalyani Cast Tech",
+      "titleLen": 50,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/manufacturing/testing-quality",
+      "title": "",
+      "seoTitle": "Container Testing & Quality Documentation",
+      "titleLen": 41,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/manufacturing/facilities-locations",
+      "title": "",
+      "seoTitle": "Rewari & Shivlakha Manufacturing Locations",
+      "titleLen": 42,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/shivlakha-rail-logistics",
+      "title": "",
+      "seoTitle": "Shivlakha Multimodal Platform | Kalyani Cast Tech Limited",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/shivlakha-rail-logistics/gati-shakti-terminal",
+      "title": "",
+      "seoTitle": "Gati Shakti Terminal | Kalyani Cast Tech Limited",
+      "titleLen": 48,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/shivlakha-rail-logistics/inland-container-terminal",
+      "title": "",
+      "seoTitle": "Inland Container Terminal | Kalyani Cast Tech Limited",
+      "titleLen": 53,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/shivlakha-rail-logistics/cargo-opportunities",
+      "title": "",
+      "seoTitle": "Rail Route & Cargo Evaluation | Kalyani Cast Tech Limited",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/resources",
+      "title": "",
+      "seoTitle": "Resources & Technical Library | Kalyani Cast Tech Limited",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/resources/corporate-profile-brochures",
+      "title": "",
+      "seoTitle": "Corporate Profile & Brochures | Kalyani Cast Tech Limited",
+      "titleLen": 57,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/resources/product-data-sheets",
+      "title": "",
+      "seoTitle": "Product Data Sheet Library | Kalyani Cast Tech",
+      "titleLen": 46,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/resources/quality-certifications",
+      "title": "",
+      "seoTitle": "Quality Documents & Certificates | Kalyani Cast Tech Limited",
+      "titleLen": 60,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/resources/news-media",
+      "title": "",
+      "seoTitle": "News, Railway Trials & Media | Kalyani Cast Tech Limited",
+      "titleLen": 56,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors",
+      "title": "",
+      "seoTitle": "Investor Relations | Kalyani Cast Tech Limited",
+      "titleLen": 46,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/financial-information",
+      "title": "",
+      "seoTitle": "Financial Information & Audited Results | Kalyani Cast Tech Limited",
+      "titleLen": 67,
+      "titleFlag": "LONG",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/stock-exchange-disclosures",
+      "title": "",
+      "seoTitle": "Stock Exchange Disclosures (SEBI LODR) | Kalyani Cast Tech Limited",
+      "titleLen": 66,
+      "titleFlag": "LONG",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/corporate-governance",
+      "title": "",
+      "seoTitle": "Corporate Governance & Policies | Kalyani Cast Tech Limited",
+      "titleLen": 59,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/shareholder-information",
+      "title": "",
+      "seoTitle": "Shareholder Information & RTA Services | Kalyani Cast Tech Limited",
+      "titleLen": 66,
+      "titleFlag": "LONG",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/ipo-corporate-actions",
+      "title": "",
+      "seoTitle": "IPO Prospectus & Corporate Actions | Kalyani Cast Tech Limited",
+      "titleLen": 62,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/investor-grievance-contact",
+      "title": "",
+      "seoTitle": "Investor Grievance & Compliance Officer | Kalyani Cast Tech Limited",
+      "titleLen": 67,
+      "titleFlag": "LONG",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investors/meetings-presentations",
+      "title": "",
+      "seoTitle": "Investor Meetings & Presentations | Kalyani Cast Tech Limited",
+      "titleLen": 61,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/about-us",
+      "title": "",
+      "seoTitle": "About Kalyani Cast Tech Limited | Corporate Profile",
+      "titleLen": 51,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/leadership",
+      "title": "",
+      "seoTitle": "Board & Management | Kalyani Cast Tech Limited",
+      "titleLen": 46,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/facilities",
+      "title": "",
+      "seoTitle": "Manufacturing Facilities | Kalyani Cast Tech Limited",
+      "titleLen": 52,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/products-applications",
+      "title": "",
+      "seoTitle": "Products & Applications | Kalyani Cast Tech Limited",
+      "titleLen": 51,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/engineering-quality",
+      "title": "",
+      "seoTitle": "Engineering & Quality | Kalyani Cast Tech Limited",
+      "titleLen": 49,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/investor-relations",
+      "title": "",
+      "seoTitle": "Investor Relations | Kalyani Cast Tech Limited (BSE SME: 544023)",
+      "titleLen": 64,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/our-journey",
+      "title": "",
+      "seoTitle": "Our Journey | Kalyani Cast Tech Limited",
+      "titleLen": 39,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/innovation",
+      "title": "",
+      "seoTitle": "Innovation & Specialised Concepts | Kalyani Cast Tech Limited",
+      "titleLen": 61,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    },
+    {
+      "url": "/gallery",
+      "title": "",
+      "seoTitle": "Visual Gallery: Plants & Operations | Kalyani Cast Tech Limited",
+      "titleLen": 63,
+      "titleFlag": "OK",
+      "metaDesc": "",
+      "descLen": 0,
+      "descFlag": "SHORT"
+    }
+  ],
+  "docAuditResults": [
+    {
+      "url": "/documents/approvals/Competent-Manufacturer.pdf",
+      "diskPath": "public/documents/approvals/Competent-Manufacturer.pdf",
+      "exists": true,
+      "sizeBytes": 266757,
+      "sizeKb": "260.5"
+    },
+    {
+      "url": "/documents/approvals/IRS-Certificate-of-Capacity-DLH21X014.pdf",
+      "diskPath": "public/documents/approvals/IRS-Certificate-of-Capacity-DLH21X014.pdf",
+      "exists": true,
+      "sizeBytes": 277468,
+      "sizeKb": "271.0"
+    },
+    {
+      "url": "/documents/approvals/ISO-14001-Certificate.pdf",
+      "diskPath": "public/documents/approvals/ISO-14001-Certificate.pdf",
+      "exists": true,
+      "sizeBytes": 1270074,
+      "sizeKb": "1240.3"
+    },
+    {
+      "url": "/documents/approvals/ISO-9001-and-45001-Certificates.pdf",
+      "diskPath": "public/documents/approvals/ISO-9001-and-45001-Certificates.pdf",
+      "exists": true,
+      "sizeBytes": 641333,
+      "sizeKb": "626.3"
+    },
+    {
+      "url": "/documents/approvals/LRS-Foundry-Approval-2024-2027.pdf",
+      "diskPath": "public/documents/approvals/LRS-Foundry-Approval-2024-2027.pdf",
+      "exists": true,
+      "sizeBytes": 795461,
+      "sizeKb": "776.8"
+    },
+    {
+      "url": "/documents/approvals/RDSO-Class-A-Foundry-Approval-IS-12117.jpg",
+      "diskPath": "public/documents/approvals/RDSO-Class-A-Foundry-Approval-IS-12117.jpg",
+      "exists": true,
+      "sizeBytes": 119712,
+      "sizeKb": "116.9"
+    },
+    {
+      "url": "/documents/corporate/Kalyani cast Brochure1.pdf",
+      "diskPath": "public/documents/corporate/Kalyani cast Brochure1.pdf",
+      "exists": true,
+      "sizeBytes": 1499405,
+      "sizeKb": "1464.3"
+    },
+    {
+      "url": "/documents/corporate/Kalyani cast Brochure2.pdf",
+      "diskPath": "public/documents/corporate/Kalyani cast Brochure2.pdf",
+      "exists": true,
+      "sizeBytes": 3391238,
+      "sizeKb": "3311.8"
+    },
+    {
+      "url": "/documents/investors/12th-Annual-Report_FY-2023-2024.pdf",
+      "diskPath": "public/documents/investors/12th-Annual-Report_FY-2023-2024.pdf",
+      "exists": true,
+      "sizeBytes": 18363297,
+      "sizeKb": "17932.9"
+    },
+    {
+      "url": "/documents/investors/13th-Annual-Report_FY-2024-2025.pdf",
+      "diskPath": "public/documents/investors/13th-Annual-Report_FY-2024-2025.pdf",
+      "exists": true,
+      "sizeBytes": 2919943,
+      "sizeKb": "2851.5"
+    },
+    {
+      "url": "/documents/investors/Annual-Report_FY_2025-26.pdf",
+      "diskPath": "public/documents/investors/Annual-Report_FY_2025-26.pdf",
+      "exists": true,
+      "sizeBytes": 3769621,
+      "sizeKb": "3681.3"
+    },
+    {
+      "url": "/documents/investors/Financial-Results_31.03.2024.pdf",
+      "diskPath": "public/documents/investors/Financial-Results_31.03.2024.pdf",
+      "exists": true,
+      "sizeBytes": 6079130,
+      "sizeKb": "5936.7"
+    },
+    {
+      "url": "/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pdf",
+      "diskPath": "public/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pdf",
+      "exists": true,
+      "sizeBytes": 13701281,
+      "sizeKb": "13380.2"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Financial-Results_30.09.2023.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2023.pdf",
+      "exists": true,
+      "sizeBytes": 1341789,
+      "sizeKb": "1310.3"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Financial-Results_30.09.2024.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2024.pdf",
+      "exists": true,
+      "sizeBytes": 8658714,
+      "sizeKb": "8455.8"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Financial-Results_30.09.2025.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2025.pdf",
+      "exists": true,
+      "sizeBytes": 18025283,
+      "sizeKb": "17602.8"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Financial-Results_31.03.2025.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Financial-Results_31.03.2025.pdf",
+      "exists": true,
+      "sizeBytes": 1996866,
+      "sizeKb": "1950.1"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Statement-of-Deviation_30.09.2024.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Statement-of-Deviation_30.09.2024.pdf",
+      "exists": true,
+      "sizeBytes": 17195358,
+      "sizeKb": "16792.3"
+    },
+    {
+      "url": "/documents/investors/annual-statements/Statement-of-Deviation_31.03.2025.pdf",
+      "diskPath": "public/documents/investors/annual-statements/Statement-of-Deviation_31.03.2025.pdf",
+      "exists": true,
+      "sizeBytes": 3628536,
+      "sizeKb": "3543.5"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/A.-Code-of-Conduct-for-Directors-and-Senior-Officials.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/A.-Code-of-Conduct-for-Directors-and-Senior-Officials.pdf",
+      "exists": true,
+      "sizeBytes": 1048781,
+      "sizeKb": "1024.2"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/B.-Board-of-Directors-Policies.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/B.-Board-of-Directors-Policies.pdf",
+      "exists": true,
+      "sizeBytes": 995752,
+      "sizeKb": "972.4"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.pdf",
+      "exists": true,
+      "sizeBytes": 912022,
+      "sizeKb": "890.6"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/D.-Policy-on-Whistle-Blower-and-Vigil-Mechanism.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/D.-Policy-on-Whistle-Blower-and-Vigil-Mechanism.pdf",
+      "exists": true,
+      "sizeBytes": 1018497,
+      "sizeKb": "994.6"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/E.-Policy-on-RPTrelated-party-transaction.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/E.-Policy-on-RPTrelated-party-transaction.pdf",
+      "exists": true,
+      "sizeBytes": 1129860,
+      "sizeKb": "1103.4"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/F.-Policy-On-Preservation-of-Documents.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/F.-Policy-On-Preservation-of-Documents.pdf",
+      "exists": true,
+      "sizeBytes": 1056451,
+      "sizeKb": "1031.7"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/G.-Anti-Sexual-Harassment-Policy.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/G.-Anti-Sexual-Harassment-Policy.pdf",
+      "exists": true,
+      "sizeBytes": 1267474,
+      "sizeKb": "1237.8"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/H.-Policy-On-Determining-Materiality.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/H.-Policy-On-Determining-Materiality.pdf",
+      "exists": true,
+      "sizeBytes": 1125106,
+      "sizeKb": "1098.7"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/I.-Code-For-Independent-Directors.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/I.-Code-For-Independent-Directors.pdf",
+      "exists": true,
+      "sizeBytes": 951550,
+      "sizeKb": "929.2"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/J.-Policy-On-Familiarisation-of-Independent-Directors.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/J.-Policy-On-Familiarisation-of-Independent-Directors.pdf",
+      "exists": true,
+      "sizeBytes": 622879,
+      "sizeKb": "608.3"
+    },
+    {
+      "url": "/documents/investors/code-of-conduct/K.-CSR-policy.pdf",
+      "diskPath": "public/documents/investors/code-of-conduct/K.-CSR-policy.pdf",
+      "exists": true,
+      "sizeBytes": 1101099,
+      "sizeKb": "1075.3"
+    },
+    {
+      "url": "/documents/investors/corporate/Revised-AOA.pdf",
+      "diskPath": "public/documents/investors/corporate/Revised-AOA.pdf",
+      "exists": true,
+      "sizeBytes": 1246115,
+      "sizeKb": "1216.9"
+    },
+    {
+      "url": "/documents/investors/drhp-prospectus/DRHP_Kalyani.pdf",
+      "diskPath": "public/documents/investors/drhp-prospectus/DRHP_Kalyani.pdf",
+      "exists": true,
+      "sizeBytes": 4950004,
+      "sizeKb": "4834.0"
+    },
+    {
+      "url": "/documents/investors/drhp-prospectus/Policy-for-Insider-Trading.pdf",
+      "diskPath": "public/documents/investors/drhp-prospectus/Policy-for-Insider-Trading.pdf",
+      "exists": true,
+      "sizeBytes": 402230,
+      "sizeKb": "392.8"
+    },
+    {
+      "url": "/documents/investors/drhp-prospectus/Prospectus_Kalyani.pdf",
+      "diskPath": "public/documents/investors/drhp-prospectus/Prospectus_Kalyani.pdf",
+      "exists": true,
+      "sizeBytes": 6569848,
+      "sizeKb": "6415.9"
+    },
+    {
+      "url": "/documents/investors/drhp-prospectus/RHP_Kalyani.pdf",
+      "diskPath": "public/documents/investors/drhp-prospectus/RHP_Kalyani.pdf",
+      "exists": true,
+      "sizeBytes": 6558205,
+      "sizeKb": "6404.5"
+    }
+  ],
+  "primaryRoutes": [
+    "/",
+    "/about-us",
+    "/our-journey",
+    "/leadership",
+    "/manufacturing",
+    "/facilities",
+    "/products-applications",
+    "/innovation",
+    "/engineering-quality",
+    "/investor-relations",
+    "/gallery",
+    "/contact",
+    "/resources",
+    "/shivlakha-rail-logistics",
+    "/shivlakha-rail-logistics/gati-shakti-terminal",
+    "/shivlakha-rail-logistics/inland-container-terminal",
+    "/shivlakha-rail-logistics/cargo-opportunities",
+    "/resources/quality-certifications",
+    "/resources/corporate-profile-brochures",
+    "/resources/news-media",
+    "/investors/financial-information",
+    "/investors/stock-exchange-disclosures",
+    "/investors/corporate-governance",
+    "/investors/shareholder-information",
+    "/investors/ipo-corporate-actions",
+    "/investors/investor-grievance-contact",
+    "/investors/meetings-presentations"
+  ],
+  "sitemapUrls": [
+    "https://kalyanicasttech.com/",
+    "https://kalyanicasttech.com/about-us",
+    "https://kalyanicasttech.com/our-journey",
+    "https://kalyanicasttech.com/leadership",
+    "https://kalyanicasttech.com/manufacturing",
+    "https://kalyanicasttech.com/facilities",
+    "https://kalyanicasttech.com/products-applications",
+    "https://kalyanicasttech.com/innovation",
+    "https://kalyanicasttech.com/engineering-quality",
+    "https://kalyanicasttech.com/investor-relations",
+    "https://kalyanicasttech.com/gallery",
+    "https://kalyanicasttech.com/contact",
+    "https://kalyanicasttech.com/resources",
+    "https://kalyanicasttech.com/shivlakha-rail-logistics",
+    "https://kalyanicasttech.com/shivlakha-rail-logistics/gati-shakti-terminal",
+    "https://kalyanicasttech.com/shivlakha-rail-logistics/inland-container-terminal",
+    "https://kalyanicasttech.com/shivlakha-rail-logistics/cargo-opportunities",
+    "https://kalyanicasttech.com/resources/quality-certifications",
+    "https://kalyanicasttech.com/resources/corporate-profile-brochures",
+    "https://kalyanicasttech.com/resources/news-media",
+    "https://kalyanicasttech.com/investors/financial-information",
+    "https://kalyanicasttech.com/investors/stock-exchange-disclosures",
+    "https://kalyanicasttech.com/investors/corporate-governance",
+    "https://kalyanicasttech.com/investors/shareholder-information",
+    "https://kalyanicasttech.com/investors/ipo-corporate-actions",
+    "https://kalyanicasttech.com/investors/investor-grievance-contact",
+    "https://kalyanicasttech.com/investors/meetings-presentations"
+  ],
+  "missingInSitemap": [],
+  "extraInSitemap": [],
+  "hasDeployPreviewHeader": true,
+  "hasBranchDeployHeader": true
+}

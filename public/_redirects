@@ -1,0 +1,137 @@
+# Netlify / Cloudflare Pages Edge Redirect & Purge Rules
+# Generated for Kalyani Cast Tech Limited Website Migration to 11 Canonical Slugs
+
+# 1. Purge Historical Malicious Injected Spam (HTTP 410 Gone)
+/innovations/online-casino/*  /410.html  410!
+/online-casino/*              /410.html  410!
+/innovations/online-casino-cz/  /410.html  410!
+/innovations/online-casino-ru/  /410.html  410!
+/innovations/online-casino-hu/  /410.html  410!
+/innovations/online-casino-pl/  /410.html  410!
+
+# 2. Canonical Trailing Slashes are automatically normalized by Netlify Pretty URLs
+
+# 3. Legacy Slug Redirects to 11 Canonical Routes (HTTP 301)
+/company                                                               /about-us 301!
+/company/                                                              /about-us 301!
+/company/leadership                                                    /leadership 301!
+/company/leadership/                                                   /leadership 301!
+/manufacturing/facilities-locations                                    /facilities 301!
+/manufacturing/facilities-locations/                                   /facilities 301!
+/containers-solutions                                                 /products-applications 301!
+/containers-solutions/                                                /products-applications 301!
+/containers-solutions/standard-containers                              /products-applications 301!
+/containers-solutions/standard-containers/                             /products-applications 301!
+/containers-solutions/specialised-containers                           /products-applications 301!
+/containers-solutions/specialised-containers/                          /products-applications 301!
+/manufacturing/testing-quality                                         /engineering-quality 301!
+/manufacturing/testing-quality/                                        /engineering-quality 301!
+/investors                                                             /investor-relations 301!
+/investors/                                                            /investor-relations 301!
+/business-enquiry                                                      /contact 301!
+/business-enquiry/                                                     /contact 301!
+/shivlakha-rail-logistics/gati-shakti-cargo-terminal                   /shivlakha-rail-logistics/gati-shakti-terminal 301!
+/shivlakha-rail-logistics/gati-shakti-cargo-terminal/                  /shivlakha-rail-logistics/gati-shakti-terminal 301!
+/shivlakha-rail-logistics/inland-container-depot                       /shivlakha-rail-logistics/inland-container-terminal 301!
+/shivlakha-rail-logistics/inland-container-depot/                      /shivlakha-rail-logistics/inland-container-terminal 301!
+
+# 4. Legacy Corporate & Profile Redirects
+/about-2                                                               /about-us 301!
+/about-2/                                                              /about-us 301!
+/about                                                                 /about-us 301!
+/about/                                                                /about-us 301!
+/company/our-journey                                                   /our-journey 301!
+/company/our-journey/                                                  /our-journey 301!
+/mr-naresh-kumar                                                       /leadership 301!
+/mr-naresh-kumar/                                                      /leadership 301!
+/mr-devender-kumar                                                     /leadership 301!
+/mr-devender-kumar/                                                    /leadership 301!
+/mr-ratnesh-mahajan                                                    /leadership 301!
+/mr-ratnesh-mahajan/                                                   /leadership 301!
+/mr-javed-aslam                                                        /leadership 301!
+/mr-javed-aslam/                                                       /leadership 301!
+/manufacturing-facilities                                              /manufacturing 301!
+/manufacturing-facilities/                                             /manufacturing 301!
+/manufacturing-facilities-2                                            /facilities 301!
+/manufacturing-facilities-2/                                           /facilities 301!
+
+# 5. Legacy Product & Category Redirects
+/products                                                              /products-applications 301!
+/products/                                                             /products-applications 301!
+/20-feet-hc-container                                                  /products-applications 301!
+/20-feet-hc-container/                                                 /products-applications 301!
+/40-feet-hc-container-2                                                /products-applications 301!
+/40-feet-hc-container-2/                                               /products-applications 301!
+/40-feet-side-access-dwarf-container-2                                 /products-applications 301!
+/40-feet-side-access-dwarf-container-2/                                /products-applications 301!
+/40-feet-open-top-coiltainer                                           /products-applications 301!
+/40-feet-open-top-coiltainer/                                          /products-applications 301!
+/40-feet-hc-open-top-coiltainer-40x8x9-5                               /products-applications 301!
+/40-feet-hc-open-top-coiltainer-40x8x9-5/                              /products-applications 301!
+/40-feet-universal-container-openable-top-40x8x9-5                     /products-applications 301!
+/40-feet-universal-container-openable-top-40x8x9-5/                    /products-applications 301!
+/42-feet-hc-open-top-coiltainer                                        /products-applications 301!
+/42-feet-hc-open-top-coiltainer/                                       /products-applications 301!
+/42-feet-dwarf-open-top-container                                      /products-applications 301!
+/42-feet-dwarf-open-top-container/                                     /products-applications 301!
+/42-feet-hc-open-top-coiltainer-3                                      /products-applications 301!
+/42-feet-hc-open-top-coiltainer-3/                                     /products-applications 301!
+/20-feet-tank-containers                                               /products-applications 301!
+/20-feet-tank-containers/                                              /products-applications 301!
+/hopper-container                                                      /products-applications 301!
+/hopper-container/                                                     /products-applications 301!
+/media-gallery                                                         /gallery 301!
+/media-gallery/                                                        /gallery 301!
+/indian-railways-new-dwarf-containers-have-67-more-volume-could-be-a-game-changer-in-capturing-high-end-traffic /products-applications 301!
+/indian-railways-new-dwarf-containers-have-67-more-volume-could-be-a-game-changer-in-capturing-high-end-traffic/ /products-applications 301!
+/how-smaller-containers-could-mean-big-business-for-indian-railways    /products-applications 301!
+/how-smaller-containers-could-mean-big-business-for-indian-railways/   /products-applications 301!
+/indian-railways-zone-operates-its-1st-double-stack-dwarf-container-train-on-these-routes-check-details /products-applications 301!
+/indian-railways-zone-operates-its-1st-double-stack-dwarf-container-train-on-these-routes-check-details/ /products-applications 301!
+/indian-railways-introduces-dwarf-container-service                    /products-applications 301!
+/indian-railways-introduces-dwarf-container-service/                   /products-applications 301!
+/tracks-cleared-for-dwarf-container-movement-between-gujarat-and-maharashtra /products-applications 301!
+/tracks-cleared-for-dwarf-container-movement-between-gujarat-and-maharashtra/ /products-applications 301!
+/out-of-the-box-idea-dwarf-containers-that-can-bring-railways-bulk-revenues /products-applications 301!
+/out-of-the-box-idea-dwarf-containers-that-can-bring-railways-bulk-revenues/ /products-applications 301!
+/railways-cube-containers-on-track-to-slash-supply-chain-cost-by-20-25 /products-applications 301!
+/railways-cube-containers-on-track-to-slash-supply-chain-cost-by-20-25/ /products-applications 301!
+/investor-test                                                         / 301!
+/investor-test/                                                        / 301!
+/innovations                                                           /innovation 301!
+/innovations/                                                          /innovation 301!
+/products-old                                                          / 301!
+/products-old/                                                         / 301!
+/products-old-original                                                 / 301!
+/products-old-original/                                                / 301!
+/product-new-old                                                       / 301!
+/product-new-old/                                                      / 301!
+/faq                                                                   / 301!
+/faq/                                                                  / 301!
+/testimonials                                                          / 301!
+/testimonials/                                                         / 301!
+/the-food-project                                                      / 301!
+/the-food-project/                                                     / 301!
+/sample-page                                                           / 301!
+/sample-page/                                                          / 301!
+/7412-2                                                                / 301!
+/7412-2/                                                               / 301!
+/20-feet-hc-side-access                                                /products-applications 301!
+/20-feet-hc-side-access/                                               /products-applications 301!
+/40-feet-dwarf-open-top-coiltaner-40x8-5x6-3                           /products-applications 301!
+/40-feet-dwarf-open-top-coiltaner-40x8-5x6-3/                          /products-applications 301!
+/42-feet-hc-for-coil-and-tmt-bars                                      /products-applications 301!
+/42-feet-hc-for-coil-and-tmt-bars/                                     /products-applications 301!
+/dwarf-boxes-to-move-additional-2-mt-of-annual-cargo-for-railways      /products-applications 301!
+/dwarf-boxes-to-move-additional-2-mt-of-annual-cargo-for-railways/     /products-applications 301!
+/freight-on-the-front-foot                                             / 301!
+/freight-on-the-front-foot/                                            / 301!
+
+# 6. Netlify SPA Rewrite Rule for Direct Deep-Linking & Refresh
+/*                                                                     /index.html 200
+
+/documents/investors/Statment-of-Deviation_31.09.2024.pdf /documents/investors/Statement-of-Deviation_30.09.2024.pdf 301!
+/documents/investors/Statment-of-Deviation_31.03.2025.pdf /documents/investors/Statement-of-Deviation_31.03.2025.pdf 301!
+/documents/investors/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI-1.pdf /documents/investors/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.pdf 301!
+/documents/investors/FAMILIARISATION_PROGRAMME_FOR_INDEPENDENT_DIRECTORS-1.pdf /documents/investors/FAMILIARISATION_PROGRAMME_FOR_INDEPENDENT_DIRECTORS.pdf 301!
+/documents/investors/RELATED-PARTY-TRANSACTION-1.pdf /documents/investors/E.-Policy-on-RPTrelated-party-transaction.pdf 301!

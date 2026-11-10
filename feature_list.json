@@ -1,0 +1,92 @@
+{
+  "project": "Kalyani Cast Tech Limited Corporate Website",
+  "features": [
+    {
+      "id": "f1",
+      "name": "Core Workspace Harness Initialization",
+      "status": "completed",
+      "acceptance_criteria": [
+        "AGENTS.md, feature_list.json, and progress logs are initialized"
+      ]
+    },
+    {
+      "id": "f2",
+      "name": "Contact Form & Security Remediation (Workstream A)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "Form uses explicit method=POST and action=/api/enquiries",
+        "Strict client/server email and telephone format validation",
+        "Simulated success eliminated from catch block",
+        "Clear error state with direct contacts: info@kalyanicasttech.com, +91 11 28084541, +91 1274 256789",
+        "Automated sensor verification in enquiry-handler.test.ts passes"
+      ]
+    },
+    {
+      "id": "f3",
+      "name": "Statutory Certificates & Approvals Remediation (Workstream B)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "Expired Lloyd's Register PDF replaced with active 2024-2027 approval scan (LR2489004WA)",
+        "Picture1.jpg purged from BIS IS 12117 listing",
+        "7.1.jpg purged from ISO 9001:2015 listing",
+        "Neutral 'Under Document Update' fallback card displayed with document enquiry link"
+      ]
+    },
+    {
+      "id": "f4",
+      "name": "Statutory Investor Relations & BSE Codes Reconciliation (Workstream C)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "ISIN reconciled to official BSE SME code INE0N6U01018",
+        "CIN verified as L26990DL2012PLC242760 and Scrip Code 544023",
+        "19 Governance Policies table action links route cleanly to /investors/corporate-governance",
+        "156 statutory PDFs verified on disk in public/documents/investors/"
+      ]
+    },
+    {
+      "id": "f5",
+      "name": "Corporate Leadership & Facilities Corrections (Workstream D)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "Leadership monogram initials isolated with aria-hidden=true and company suffix concatenation removed",
+        "Facilities breadcrumb updated to Home / Company / Facilities & Locations",
+        "Rewari Works and Shivlakha Platform dual-entity attributions verified"
+      ]
+    },
+    {
+      "id": "f6",
+      "name": "Manufacturing Capacity & Container Specifications Reconciliation (Workstream E & F)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "Annual capacity qualified as 'Up to 6,000 / Yr (IRS DLH21X014 baseline >=1,000/yr)'",
+        "16 core approved models preserved; Model 17 classified as specialized variant under evaluation",
+        "7,260 kg floor strength and 36 MT Lift-On / 71 MT Chassis ratings preserved",
+        "Model 04 (76.09 m3 ISO / 84.00 m3 cotton) and Model 06 (12,192 x 2,438 x 2,591 mm, 61.03 m3) locked",
+        "Shivlakha GCT Operational status strictly maintained"
+      ]
+    },
+    {
+      "id": "f7",
+      "name": "Technical SEO, Canonical Tags & Sitemap Regeneration (Workstream G)",
+      "status": "completed",
+      "acceptance_criteria": [
+        "Canonical tags resolve using current origin on Netlify staging, eliminating cross-domain warnings",
+        "public/sitemap.xml regenerated with 25 active canonical routes",
+        "VITE_SITE_URL configured in netlify.toml"
+      ]
+    },
+    {
+      "id": "f8",
+      "name": "Audit Remediation Deliverable Documentation Suite",
+      "status": "completed",
+      "acceptance_criteria": [
+        "docs/website-v2-remediation-matrix.md authored",
+        "docs/website-v2-change-log.md authored",
+        "docs/website-open-items-and-approvals.md authored",
+        "docs/website-functional-qa-report.md authored",
+        "docs/website-content-and-claim-audit.md authored",
+        "docs/website-final-implementation-report.md authored"
+      ]
+    }
+  ]
+}

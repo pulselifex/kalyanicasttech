@@ -1,0 +1,8 @@
+import { createFileRoute, redirect } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/investors/")({
+  beforeLoad: () => {
+    throw redirect({ to: "/investor-relations", statusCode: 301 });
+  },
+  component: () => null,
+});

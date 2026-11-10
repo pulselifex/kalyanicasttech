@@ -1,0 +1,317 @@
+[
+  {
+    "url": "/documents/corporate/Kalyani cast Brochure1.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/corporate/Kalyani cast Brochure1.pdf",
+    "exists": true,
+    "sizeBytes": 1499405,
+    "sizeKb": "1464.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/corporate/Kalyani cast Brochure2.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/corporate/Kalyani cast Brochure2.pdf",
+    "exists": true,
+    "sizeBytes": 3391238,
+    "sizeKb": "3311.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/LRS-Foundry-Approval-2024-2027.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/LRS-Foundry-Approval-2024-2027.pdf",
+    "exists": true,
+    "sizeBytes": 795461,
+    "sizeKb": "776.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/ISO-9001-and-45001-Certificates.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/ISO-9001-and-45001-Certificates.pdf",
+    "exists": true,
+    "sizeBytes": 641333,
+    "sizeKb": "626.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/ISO-14001-Certificate.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/ISO-14001-Certificate.pdf",
+    "exists": true,
+    "sizeBytes": 1270074,
+    "sizeKb": "1240.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/IRS-Certificate-of-Capacity-DLH21X014.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/IRS-Certificate-of-Capacity-DLH21X014.pdf",
+    "exists": true,
+    "sizeBytes": 277468,
+    "sizeKb": "271.0",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/Competent-Manufacturer.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/Competent-Manufacturer.pdf",
+    "exists": true,
+    "sizeBytes": 266757,
+    "sizeKb": "260.5",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/approvals/RDSO-Class-A-Foundry-Approval-IS-12117.jpg",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/approvals/RDSO-Class-A-Foundry-Approval-IS-12117.jpg",
+    "exists": true,
+    "sizeBytes": 119712,
+    "sizeKb": "116.9",
+    "ext": ".jpg"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Financial-Results_30.09.2025.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2025.pdf",
+    "exists": true,
+    "sizeBytes": 18025283,
+    "sizeKb": "17602.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Financial-Results_31.03.2025.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Financial-Results_31.03.2025.pdf",
+    "exists": true,
+    "sizeBytes": 1996866,
+    "sizeKb": "1950.1",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Financial-Results_30.09.2024.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2024.pdf",
+    "exists": true,
+    "sizeBytes": 8658714,
+    "sizeKb": "8455.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/Financial-Results_31.03.2024.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/Financial-Results_31.03.2024.pdf",
+    "exists": true,
+    "sizeBytes": 6079130,
+    "sizeKb": "5936.7",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Financial-Results_30.09.2023.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Financial-Results_30.09.2023.pdf",
+    "exists": true,
+    "sizeBytes": 1341789,
+    "sizeKb": "1310.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/Annual-Report_FY_2025-26.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/Annual-Report_FY_2025-26.pdf",
+    "exists": true,
+    "sizeBytes": 3769621,
+    "sizeKb": "3681.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/13th-Annual-Report_FY-2024-2025.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/13th-Annual-Report_FY-2024-2025.pdf",
+    "exists": true,
+    "sizeBytes": 2919943,
+    "sizeKb": "2851.5",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/12th-Annual-Report_FY-2023-2024.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/12th-Annual-Report_FY-2023-2024.pdf",
+    "exists": true,
+    "sizeBytes": 18363297,
+    "sizeKb": "17932.9",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Statement-of-Deviation_30.09.2024.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Statement-of-Deviation_30.09.2024.pdf",
+    "exists": true,
+    "sizeBytes": 17195358,
+    "sizeKb": "16792.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/annual-statements/Statement-of-Deviation_31.03.2025.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/annual-statements/Statement-of-Deviation_31.03.2025.pdf",
+    "exists": true,
+    "sizeBytes": 3628536,
+    "sizeKb": "3543.5",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/A.-Code-of-Conduct-for-Directors-and-Senior-Officials.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/A.-Code-of-Conduct-for-Directors-and-Senior-Officials.pdf",
+    "exists": true,
+    "sizeBytes": 1048781,
+    "sizeKb": "1024.2",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/B.-Board-of-Directors-Policies.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/B.-Board-of-Directors-Policies.pdf",
+    "exists": true,
+    "sizeBytes": 995752,
+    "sizeKb": "972.4",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/C.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.pdf",
+    "exists": true,
+    "sizeBytes": 912022,
+    "sizeKb": "890.6",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/D.-Policy-on-Whistle-Blower-and-Vigil-Mechanism.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/D.-Policy-on-Whistle-Blower-and-Vigil-Mechanism.pdf",
+    "exists": true,
+    "sizeBytes": 1018497,
+    "sizeKb": "994.6",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/E.-Policy-on-RPTrelated-party-transaction.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/E.-Policy-on-RPTrelated-party-transaction.pdf",
+    "exists": true,
+    "sizeBytes": 1129860,
+    "sizeKb": "1103.4",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/F.-Policy-On-Preservation-of-Documents.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/F.-Policy-On-Preservation-of-Documents.pdf",
+    "exists": true,
+    "sizeBytes": 1056451,
+    "sizeKb": "1031.7",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/G.-Anti-Sexual-Harassment-Policy.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/G.-Anti-Sexual-Harassment-Policy.pdf",
+    "exists": true,
+    "sizeBytes": 1267474,
+    "sizeKb": "1237.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/H.-Policy-On-Determining-Materiality.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/H.-Policy-On-Determining-Materiality.pdf",
+    "exists": true,
+    "sizeBytes": 1125106,
+    "sizeKb": "1098.7",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/I.-Code-For-Independent-Directors.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/I.-Code-For-Independent-Directors.pdf",
+    "exists": true,
+    "sizeBytes": 951550,
+    "sizeKb": "929.2",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/J.-Policy-On-Familiarisation-of-Independent-Directors.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/J.-Policy-On-Familiarisation-of-Independent-Directors.pdf",
+    "exists": true,
+    "sizeBytes": 622879,
+    "sizeKb": "608.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/code-of-conduct/K.-CSR-policy.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/code-of-conduct/K.-CSR-policy.pdf",
+    "exists": true,
+    "sizeBytes": 1101099,
+    "sizeKb": "1075.3",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/corporate/Revised-AOA.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/corporate/Revised-AOA.pdf",
+    "exists": true,
+    "sizeBytes": 1246115,
+    "sizeKb": "1216.9",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/drhp-prospectus/Prospectus_Kalyani.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/drhp-prospectus/Prospectus_Kalyani.pdf",
+    "exists": true,
+    "sizeBytes": 6569848,
+    "sizeKb": "6415.9",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/drhp-prospectus/RHP_Kalyani.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/drhp-prospectus/RHP_Kalyani.pdf",
+    "exists": true,
+    "sizeBytes": 6558205,
+    "sizeKb": "6404.5",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/drhp-prospectus/DRHP_Kalyani.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/drhp-prospectus/DRHP_Kalyani.pdf",
+    "exists": true,
+    "sizeBytes": 4950004,
+    "sizeKb": "4834.0",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/drhp-prospectus/Policy-for-Insider-Trading.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/drhp-prospectus/Policy-for-Insider-Trading.pdf",
+    "exists": true,
+    "sizeBytes": 402230,
+    "sizeKb": "392.8",
+    "ext": ".pdf"
+  },
+  {
+    "url": "/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pdf",
+    "sources": "route-assets.ts",
+    "diskPath": "public/documents/investors/Kalyani-Cast-Tech-Investor-Presentation.pdf",
+    "exists": true,
+    "sizeBytes": 13701281,
+    "sizeKb": "13380.2",
+    "ext": ".pdf"
+  }
+]

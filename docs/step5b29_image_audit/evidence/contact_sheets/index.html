@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master Visual Contact Sheet Index | Kalyani Cast Tech Asset Audit</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-gold: #fbbf24;
+      --badge-img: #0284c7;
+      --badge-doc: #7c3aed;
+      --match: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 24px; line-height: 1.5; }
+    header { max-width: 1400px; margin: 0 auto 24px auto; border-bottom: 1px solid var(--border); padding-bottom: 16px; }
+    h1 { font-size: 24px; color: var(--accent); margin-bottom: 6px; }
+    .subtitle { color: var(--text-muted); font-size: 14px; }
+    nav { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+    nav a { color: var(--text-muted); text-decoration: none; font-size: 13px; padding: 4px 10px; border-radius: 4px; border: 1px solid var(--border); background: #1e293b; }
+    nav a:hover, nav a.active { color: #fff; background: var(--accent); border-color: var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; max-width: 1400px; margin: 0 auto; }
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+    .thumb-wrap { width: 100%; height: 220px; background: #000; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+    .thumb-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .doc-placeholder { color: var(--accent-gold); font-size: 48px; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
+    .doc-placeholder span { font-size: 12px; color: var(--text-muted); margin-top: 8px; font-weight: bold; }
+    .card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+    .asset-id { font-size: 11px; font-weight: bold; letter-spacing: 0.05em; color: var(--accent); }
+    .filename { font-size: 14px; font-weight: 600; word-break: break-all; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; }
+    .badge { padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 500; }
+    .badge-img { background: var(--badge-img); color: #fff; }
+    .badge-doc { background: var(--badge-doc); color: #fff; }
+    .badge-res { background: #334155; color: #cbd5e1; }
+    .badge-match { background: var(--match); color: #022c22; font-weight: bold; }
+    .hash { font-family: monospace; font-size: 10px; color: var(--text-muted); word-break: break-all; background: #0f172a; padding: 4px; border-radius: 4px; border: 1px solid #1e293b; }
+    .matched-list { font-size: 11px; color: #a7f3d0; background: #064e3b; padding: 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Master Visual Contact Sheet Index</h1>
+    <p class="subtitle">Kalyani Cast Tech Limited — Corporate Asset Forensic Catalog (WP-5B.29)</p>
+    <nav>
+      <a href="index.html">Master Overview</a>
+      <a href="cs1_shivlakha_rail_yard.html" class="">F1: Shivlakha</a>
+      <a href="cs2_container_manufacturing.html" class="">F2: Container</a>
+      <a href="cs3_shivlakha_logistics_parent.html" class="">F3: Shivlakha</a>
+      <a href="cs4_rewari_manufacturing.html" class="">F4: Rewari</a>
+      <a href="cs5_company_team.html" class="">F5: Company</a>
+      <a href="cs6_corporate_documents.html" class="">F6: Corporate</a>
+      <a href="cs7_certificates.html" class="">F7: Statutory</a>
+      <a href="cs8_products_containers.html" class="">F_PROD: Products</a>
+    </nav>
+  </header>
+  <main>
+    
+  <section style="max-width: 1400px; margin: 0 auto;">
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
+      <h2 style="font-size: 18px; color: var(--accent); margin-bottom: 12px;">Executive Forensic Asset Audit Summary</h2>
+      <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">
+        Comprehensive visual evidence sheets compiled from 8 authoritative corporate dropzones containing <strong>93 total assets</strong> (64 photographic/render assets and 29 statutory corporate filings).
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        <div style="background: #0f172a; padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+          <div style="font-size: 12px; color: var(--text-muted);">Total Catalogued Assets</div>
+          <div style="font-size: 24px; font-weight: bold; color: var(--accent);">93</div>
+        </div>
+        <div style="background: #0f172a; padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+          <div style="font-size: 12px; color: var(--text-muted);">Photographic / Render Assets</div>
+          <div style="font-size: 24px; font-weight: bold; color: var(--badge-img);">64</div>
+        </div>
+        <div style="background: #0f172a; padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+          <div style="font-size: 12px; color: var(--text-muted);">Corporate Documents (PDF)</div>
+          <div style="font-size: 24px; font-weight: bold; color: var(--badge-doc);">29</div>
+        </div>
+        <div style="background: #0f172a; padding: 12px; border-radius: 6px; border: 1px solid var(--border);">
+          <div style="font-size: 12px; color: var(--text-muted);">Exact SHA-256 Public Matches</div>
+          <div style="font-size: 24px; font-weight: bold; color: var(--match);">15</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px;">
+      
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F1</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs1_shivlakha_rail_yard.html" style="color: var(--accent); text-decoration: none;">Shivlakha Rail & Yard Operations</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>03_Shivlakha_Logistics/Rail n Yard Operations</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">8 Images</span>
+            
+            
+          </div>
+          <a href="cs1_shivlakha_rail_yard.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F2</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs2_container_manufacturing.html" style="color: var(--accent); text-decoration: none;">Container Manufacturing (Shivlakha)</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>03_Shivlakha_Logistics/Container Manufacturing</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">19 Images</span>
+            
+            
+          </div>
+          <a href="cs2_container_manufacturing.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F3</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs3_shivlakha_logistics_parent.html" style="color: var(--accent); text-decoration: none;">Shivlakha Logistics Facility & Diagrams</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>03_Shivlakha_Logistics</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">2 Images</span>
+            
+            <span class="badge badge-match">1 Matched in Web</span>
+          </div>
+          <a href="cs3_shivlakha_logistics_parent.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F4</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs4_rewari_manufacturing.html" style="color: var(--accent); text-decoration: none;">Rewari Manufacturing Works (Foundry & Plant)</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>01_Rewari</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">3 Images</span>
+            
+            
+          </div>
+          <a href="cs4_rewari_manufacturing.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F5</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs5_company_team.html" style="color: var(--accent); text-decoration: none;">Company and Management Team</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>04_Company_Team</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">5 Images</span>
+            
+            <span class="badge badge-match">2 Matched in Web</span>
+          </div>
+          <a href="cs5_company_team.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F6</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs6_corporate_documents.html" style="color: var(--accent); text-decoration: none;">Corporate Documents (Annual Reports, Policies, DRHP)</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>05_Documents</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">0 Images</span>
+            <span class="badge badge-doc">24 Documents</span>
+            
+          </div>
+          <a href="cs6_corporate_documents.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F7</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs7_certificates.html" style="color: var(--accent); text-decoration: none;">Statutory Certificates & Approvals</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>07_Certificates</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">4 Images</span>
+            <span class="badge badge-doc">5 Documents</span>
+            <span class="badge badge-match">1 Matched in Web</span>
+          </div>
+          <a href="cs7_certificates.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+
+        <div class="card" style="padding: 20px;">
+          <div class="asset-id" style="font-size: 13px;">F_PROD</div>
+          <h3 style="font-size: 16px; margin: 6px 0 10px 0;"><a href="cs8_products_containers.html" style="color: var(--accent); text-decoration: none;">Products & Rolling Stock (Containers & Wagons)</a></h3>
+          <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Path: <code>02_Products_Containers</code></div>
+          <div class="meta-row" style="margin-bottom: 16px;">
+            <span class="badge badge-img">23 Images</span>
+            
+            <span class="badge badge-match">11 Matched in Web</span>
+          </div>
+          <a href="cs8_products_containers.html" style="display: inline-block; text-align: center; background: #0284c7; color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; font-size: 13px; font-weight: 600;">Open Visual Contact Sheet &rarr;</a>
+        </div>
+        
+    </div>
+  </section>
+  
+  </main>
+</body>
+</html>
